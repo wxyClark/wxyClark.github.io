@@ -1,0 +1,31 @@
+# _data/menus/main.yaml
+- identifier: IT技术
+  name: 工作  # 导航栏显示名称
+  url: /Work/    # 对应 content/work 目录
+  weight: 1     # 导航项排序权重（越小越靠左）
+  # 自动生成子菜单（关键：通过目录路径关联）
+  children:
+    - identifier: level1
+      name: 架构
+      url: /Work/Architect/  # 对应 content/Work/Architect 目录
+      weight: 1
+      children:
+        - identifier: level2
+          name: ERP
+          url: /Work/Architect/ERP/
+          weight: 1
+
+    - identifier: IT
+      name: IT
+      url: /Work/IT/  # 对应 content/docs/level1 目录
+      weight: 2
+      children:
+        - identifier: NoSQL
+          name: NoSQL
+          url: /Work/IT/NoSQL/
+          weight: 1
+
+        - identifier: MQ
+          name: MQ
+          url: /Work/IT/MQ/
+          weight: 2

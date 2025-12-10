@@ -5,7 +5,7 @@ sort: 1
 # 西游记
 
 
-{% include list.liquid all=true %}
+
 
 <hr />
 

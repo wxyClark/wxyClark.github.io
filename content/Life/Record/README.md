@@ -10,4 +10,3 @@ sort: 9
 以人为镜可以知得失
 ```
 
-{% include list.liquid all=true %}

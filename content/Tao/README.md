@@ -20,6 +20,6 @@ sort: 4
 
 * 没有思路时，休息一下 —— 切换任务 或 冥想10分钟
 
-{% include list.liquid all=true %}
+
 
 <hr />

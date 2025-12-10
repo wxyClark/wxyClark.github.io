@@ -18,4 +18,3 @@ sort: 3
 ## 爱好
 
 
-{% include list.liquid all=true %}

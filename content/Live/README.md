@@ -21,4 +21,3 @@ sort: 1
 
 ## 交
 
-{% include list.liquid all=true %}
