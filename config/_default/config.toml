@@ -2,7 +2,7 @@
 baseurl = "https://wxyClark.github.io"
 languageCode = "zh-cn"
 title = "wxyClark's Knowledge Base"
-theme = "stack"
+theme = "hugo-theme-stack" 
 [author]
   name = "wxyClark"
   email = "Cxxxxxxxxx@outlook.com"
@@ -10,16 +10,84 @@ theme = "stack"
   GitHub = "wxyClark"
   Zhihu = "王谢堂主"
 
+
 [[menu.main]]
-  identifier = "posts"
-  name = "文章"
-  url = "/posts/"
+  identifier = "Home"
+  name = "Home"
+  url = "/"
   weight = 1  # 控制排序，值越小越靠前
 [[menu.main]]
-  identifier = "tags"
-  name = "标签"
-  url = "/tags/"
-  weight = 2
+  identifier = "post"
+  name = "文章"
+  url = "/post/"
+  weight = 10  # 控制排序，值越小越靠前
+[[menu.main]]
+  identifier = "Tao"
+  name = "道法"
+  url = "/Tao/"
+  weight = 20
+[[menu.main]]
+  identifier = "IT"
+  name = "工作"
+  url = "/Work/"
+  weight = 30
+[[menu.main]]
+  identifier = "Live"
+  name = "生存"
+  url = "/Live/"
+  weight = 40
+[[menu.main]]
+  identifier = "Life"
+  name = "生活"
+  url = "/Life/"
+  weight = 50
+
+  # 二级子菜单
+  [[menu.main]]
+    parent = "IT"
+    identifier = "技术"
+    name = "技术"
+    url = "/Work/IT/"
+    weight = 31
+
+    # 三级子菜单
+    [[menu.main]]
+      parent = "技术"
+      identifier = "NoSQL"
+      name = "数据库"
+      url = "/Work/IT/NoSQL/"
+      weight = 10
+
+    # 三级子菜单
+    [[menu.main]]
+      parent = "技术"
+      identifier = "MQ"
+      name = "MQ消息队列"
+      url = "/Work/IT/MQ/"
+      weight = 20
+
+  # 二级子菜单
+  [[menu.main]]
+    parent = "Architect"
+    identifier = "架构"
+    name = "架构"
+    url = "/Work/Architect/"
+    weight = 32
+
+    # 三级子菜单
+    [[menu.main]]
+      parent = "Architect"
+      identifier = "NoSQL"
+      name = "数据库"
+      url = "/Work/Architect/ERP/"
+      weight = 10
+
+[[menu.main]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://wxyClark.github.io"
+  weight = 40
+  params = { icon = "brand-github" }
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
