@@ -1,5 +1,3 @@
-module github.com/CaiJimmy/hugo-theme-stack-starter
+module github.com/McShelby/hugo-theme-relearn
 
-go 1.17
-
-require github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0 // indirect
+go 1.18
