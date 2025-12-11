@@ -1,0 +1,8 @@
+{{ if .Params.toc | default .Site.Params.article.toc }}
+  <div class="article-toc mobile-toc">
+    <details open>
+      <summary>文章目录</summary>
+      {{ .TableOfContents }}
+    </details>
+  </div>
+{{ end }}

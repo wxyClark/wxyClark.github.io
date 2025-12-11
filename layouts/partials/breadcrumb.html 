@@ -1,0 +1,18 @@
+<nav class="breadcrumb">
+  <ol>
+    <li><a href="{{ .Site.Home.RelPermalink }}">首页</a></li>
+    {{ if .Params.categories }}
+      {{ $categories := split (index .Params.categories 0) "/" }}
+      {{ $path := "" }}
+      {{ range $index, $cat := $categories }}
+        {{ $path = printf "%s/%s" $path ($cat | urlize) }}
+        <li>
+          <a href="{{ $path | relURL }}">
+            {{ $cat }}
+          </a>
+        </li>
+      {{ end }}
+    {{ end }}
+    <li class="active">{{ .Title }}</li>
+  </ol>
+</nav>

@@ -1,3 +1,36 @@
 /*
     You can add your own custom styles here.
 */
+
+@media (max-width: 1200px) {
+  .mobile-toc {
+    display: block !important;
+    margin: 1rem 0;
+    border-left: 3px solid var(--accent-color);
+    padding-left: 1rem;
+  }
+}
+
+.breadcrumb {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  ol {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    li:not(:last-child)::after {
+      content: "/";
+      margin-left: 0.5rem;
+      color: var(--text-color-secondary);
+    }
+    .active {
+      color: var(--text-color-secondary);
+    }
+  }
+}
+
+.breadcrumb ol {
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}

@@ -1,0 +1,11 @@
+params:
+  article:
+    toc: true  # 显示目录
+markup:
+  tableOfContents:
+    startLevel: 2  # 从 h2 开始生成目录
+    endLevel: 4    # 最多包含 h4
+    ordered: false # 不使用有序列表
+
+permalinks:
+  categories: "/categories/:slug/"  # 将分类页 URL 改为 `/categories/分类名/`

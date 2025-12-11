@@ -28,8 +28,29 @@
 <img src="./img/wechatAvata.jpg" width = "300" alt="微信" align=center />
 
 ## 感谢支持
-<img src="./img/alipay.jpg" width = "300" alt="支付宝" align=center />
 
-<img src="./img/wechatPay.jpg" width = "300" alt="微信" align=center />
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 20px 0;">
+  <!-- 第1列：空白 -->
+  <div></div>
+  
+  <!-- 第2列：图片1 -->
+  <div style="text-align: center;">
+    <img src="./img/alipay.jpg" width = "300" alt="支付宝" >
+    <p style="font-size: 12px; color: #666;">图片1说明</p>
+  </div>
+  
+  <!-- 第3列：空白 -->
+  <div></div>
+  
+  <!-- 第4列：图片2 -->
+  <div style="text-align: center;">
+    <img src="./img/wechatPay.jpg" width = "300">
+    <p style="font-size: 12px; color: #666;">微信</p>
+  </div>
+  
+  <!-- 第5列：空白 -->
+  <div></div>
+</div>
+
 
 
