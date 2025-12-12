@@ -34,3 +34,144 @@
   overflow-x: auto;
   padding-bottom: 0.5rem;
 }
+
+.doc-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.75rem 1rem;
+  background: var(--card-background);
+  border: 1px solid var(--card-border-color);
+  border-radius: 6px;
+}
+
+.doc-meta__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  align-items: center;
+  font-weight: 600;
+}
+
+.doc-meta__section {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.6rem;
+  background: var(--accent-color-faded);
+  color: var(--accent-color);
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.doc-meta__title {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.doc-meta__crumbs {
+  font-size: 0.9rem;
+}
+
+.doc-breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.doc-breadcrumbs li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.doc-breadcrumbs li:not(:last-child)::after {
+  content: "/";
+  color: var(--text-color-secondary);
+}
+
+.doc-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.doc-layout--single {
+  grid-template-columns: 1fr;
+}
+
+.doc-layout__main {
+  min-width: 0;
+}
+
+.doc-layout__toc {
+  position: relative;
+}
+
+.doc-toc-panel {
+  position: sticky;
+  top: 6rem;
+  max-height: calc(100vh - 7rem);
+  overflow: auto;
+  padding: 1rem;
+  border: 1px solid var(--card-border-color);
+  border-radius: 6px;
+  background: var(--card-background);
+}
+
+.doc-toc-title {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.doc-toc-body nav.TableOfContents {
+  font-size: 0.95rem;
+}
+
+.doc-directory {
+  margin: 1.25rem 0;
+  padding: 1rem;
+  border: 1px solid var(--card-border-color);
+  border-radius: 6px;
+  background: var(--card-background);
+}
+
+.doc-directory__title {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.doc-directory__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.doc-directory__item a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.doc-directory__item a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1100px) {
+  .doc-layout {
+    grid-template-columns: 1fr;
+  }
+  .doc-layout__toc {
+    order: -1;
+  }
+  .doc-toc-panel {
+    position: relative;
+    top: auto;
+    max-height: none;
+  }
+}

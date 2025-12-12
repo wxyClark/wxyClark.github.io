@@ -3,10 +3,20 @@
   <header class="headline">
     {{- partial "content-header.html" . }}
   </header>
-{{ partial "heading-pre.html" . }}{{ partial "heading.html" . }}{{ partial "heading-post.html" . }}
-
-{{ partial "article-content.html" . }}
-  <footer class="footline">
-    {{- partial "content-footer.html" . }}
-  </footer>
+  {{- partial "heading-pre.html" . }}{{ partial "heading.html" . }}{{ partial "heading-post.html" . }}
+  {{- $toc := partial "doc/right-toc.html" . }}
+  {{- $hasToc := gt (len (trim ($toc | plainify) "\n\r\t ")) 0 }}
+  <div class="doc-layout{{ if not $hasToc }} doc-layout--single{{ end }}">
+    <div class="doc-layout__main">
+      {{- partial "article-content.html" . }}
+      <footer class="footline">
+        {{- partial "content-footer.html" . }}
+      </footer>
+    </div>
+    {{- if $hasToc }}
+    <aside class="doc-layout__toc">
+      {{- $toc | safeHTML }}
+    </aside>
+    {{- end }}
+  </div>
 </article>

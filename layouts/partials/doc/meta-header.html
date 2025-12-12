@@ -1,0 +1,35 @@
+{{- /* 顶部一级目录 + 面包屑 + 标签 */}}
+{{- $sectionName := "" }}
+{{- with .FirstSection }}
+  {{- $sectionName = partial "title.gotmpl" (dict "page" . "linkTitle" true) }}
+{{- end }}
+{{- if not $sectionName }}
+  {{- with .File }}
+    {{- $parts := split .Path "/" }}
+    {{- if ge (len $parts) 2 }}
+      {{- $sectionName = index $parts 0 }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- if and (not $sectionName) .Section }}
+  {{- $sectionName = .Section }}
+{{- end }}
+{{- if not $sectionName }}
+  {{- $sectionName = "首页" }}
+{{- end }}
+
+<div class="doc-meta">
+  <div class="doc-meta__row">
+    <span class="doc-meta__section">一级目录：{{ $sectionName }}</span>
+    <span class="doc-meta__title">{{ partial "title.gotmpl" (dict "page" . "linkTitle" true) }}</span>
+  </div>
+  <div class="doc-meta__crumbs">
+    <ol class="doc-breadcrumbs">
+      {{- partial "breadcrumbs.html" (dict "page" . "schema" false) }}
+    </ol>
+  </div>
+  <div class="doc-meta__tags">
+    {{- partial "tags.html" . }}
+  </div>
+</div>
+

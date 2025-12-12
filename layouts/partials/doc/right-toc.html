@@ -1,0 +1,15 @@
+{{- /* 右侧文档目录（TOC），返回渲染后的 HTML 片段 */}}
+{{- $tocContent := "" }}
+{{- if not (.Param "disableToc") }}
+  {{- $tocContent = partial "toc-class.html" . }}
+{{- end }}
+{{- $hasToc := gt (len (trim ($tocContent | plainify) "\n\r\t ")) 0 }}
+{{- if $hasToc }}
+<div class="doc-toc-panel">
+  <div class="doc-toc-title">文档目录</div>
+  <div class="doc-toc-body">
+    {{- $tocContent | safeHTML }}
+  </div>
+</div>
+{{- end }}
+
