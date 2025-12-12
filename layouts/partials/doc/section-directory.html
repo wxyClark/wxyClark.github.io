@@ -1,0 +1,34 @@
+{{- /* 在目录首页自动列出当前目录的子目录与文档 */}}
+{{- $isIndex := or .IsSection (and .File (eq .File.LogicalName "index.md")) }}
+{{- if $isIndex }}
+  {{- $sections := slice }}
+  {{- range .Sections.ByWeight }}
+    {{- if not (partialCached "_relearn/pageIsHidden.gotmpl" . .Path) }}
+      {{- $sections = $sections | append . }}
+    {{- end }}
+  {{- end }}
+  {{- $pages := slice }}
+  {{- range .RegularPages.ByWeight }}
+    {{- if not (partialCached "_relearn/pageIsHidden.gotmpl" . .Path) }}
+      {{- $pages = $pages | append . }}
+    {{- end }}
+  {{- end }}
+  {{- if or (gt (len $sections) 0) (gt (len $pages) 0) }}
+  <div class="doc-directory">
+    <div class="doc-directory__title">当前目录</div>
+    <ul class="doc-directory__list">
+      {{- range $sections }}
+        <li class="doc-directory__item doc-directory__item--section">
+          <a href="{{ .RelPermalink }}">{{ partial "title.gotmpl" (dict "page" . "linkTitle" true) }}</a>
+        </li>
+      {{- end }}
+      {{- range $pages }}
+        <li class="doc-directory__item doc-directory__item--page">
+          <a href="{{ .RelPermalink }}">{{ partial "title.gotmpl" (dict "page" . "linkTitle" true) }}</a>
+        </li>
+      {{- end }}
+    </ul>
+  </div>
+  {{- end }}
+{{- end }}
+

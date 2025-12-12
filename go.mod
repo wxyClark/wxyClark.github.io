@@ -1,3 +1,3 @@
-module github.com/McShelby/hugo-theme-relearn
+module wxyClark.github.io
 
 go 1.18

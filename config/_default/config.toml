@@ -2,7 +2,7 @@
 baseurl = "https://wxyClark.github.io"
 languageCode = "zh-cn"
 title = "wxyClark's Knowledge Base"
-theme = "hugo-theme-stack" 
+theme = "hugo-theme-relearn"
 [author]
   name = "wxyClark"
   email = "Cxxxxxxxxx@outlook.com"
@@ -98,7 +98,7 @@ defaultContentLanguage = "zh-cn"
 hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
-disqusShortname = "hugo-theme-stack"
+disqusShortname = "hugo-theme-relearn"
 
 [pagination]
 pagerSize = 6
