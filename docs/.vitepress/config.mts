@@ -44,7 +44,9 @@ export default withMermaid(defineConfig({
         {
           text: 'AI',
           items: [
-            { text: '目录', link: '/ai/' }
+            { text: '目录', link: '/ai/' },
+            { text: 'AI开发最佳实践', link: '/ai/AI开发最佳实践' },
+            { text: '软件开发AI效率提升最佳实践', link: '/ai/软件开发AI效率提升最佳实践' }
           ]
         }
       ],
@@ -82,7 +84,8 @@ export default withMermaid(defineConfig({
         {
           text: 'Demo',
           items: [
-            { text: 'Markdown 示例', link: '/demo/markdown-examples' }
+            { text: 'Markdown 示例', link: '/demo/markdown-examples' },
+            { text: '首页', link: '/demo/' }
           ]
         }
       ],
@@ -90,10 +93,11 @@ export default withMermaid(defineConfig({
         {
           text: 'Notes',
           items: [
-            { text: '首页', link: '/notes/' }
+            { text: '首页', link: '/notes/' },
+            { text: 'Home', link: '/notes/home' }
           ]
         }
-      ]
+      ],
     },
 
     // 开启右侧"本页目录" (大纲)
