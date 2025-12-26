@@ -20,10 +20,10 @@ export default withMermaid(defineConfig({
     // 顶部导航栏 - 根据docs下的一级目录创建
     nav: [
       { text: '首页', link: '/' },
-      { text: 'AI', link: '/AI/' },
-      { text: 'IT', link: '/IT/' },
-      { text: '生活', link: '/Life/' },
-      { text: '道', link: '/Tao/' },
+      { text: 'AI', link: '/ai/' },
+      { text: 'IT', link: '/it/' },
+      { text: '生活', link: '/life/' },
+      { text: '道', link: '/tao/' },
       { text: '待归档', link: '/notes/' }
     ],
     // 左侧边栏导航 - 根据docs下的一级目录创建
@@ -32,15 +32,15 @@ export default withMermaid(defineConfig({
         {
           text: 'AI',
           items: [
-            { text: '目录', link: '/AI/' }
+            { text: '目录', link: '/ai/' }
           ]
-        }
+        }ai
       ],
       '/IT/': [
         {
           text: 'IT',
           items: [
-            { text: '目录', link: '/IT/' }
+            { text: '目录', link: '/it/' }
           ]
         }
       ],
@@ -48,15 +48,15 @@ export default withMermaid(defineConfig({
         {
           text: 'Life',
           items: [
-            { text: '目录', link: '/Life/' }
+            { text: '目录', link: '/life/' }
           ]
-        }
+        }lift
       ],
       '/Tao/': [
         {
           text: 'Tao',
           items: [
-            { text: '目录', link: '/Tao/' }
+            { text: '目录', link: '/tao/' }
           ]
         }
       ],
