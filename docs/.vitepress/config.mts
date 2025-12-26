@@ -28,15 +28,15 @@ export default withMermaid(defineConfig({
     ],
     // 左侧边栏导航 - 根据docs下的一级目录创建
     sidebar: {
-      '/AI/': [
+      '/ai/': [
         {
           text: 'AI',
           items: [
             { text: '目录', link: '/ai/' }
           ]
-        }ai
+        }
       ],
-      '/IT/': [
+      '/it/': [
         {
           text: 'IT',
           items: [
@@ -44,15 +44,15 @@ export default withMermaid(defineConfig({
           ]
         }
       ],
-      '/Life/': [
+      '/life/': [
         {
           text: 'Life',
           items: [
             { text: '目录', link: '/life/' }
           ]
-        }lift
+        }
       ],
-      '/Tao/': [
+      '/tao/': [
         {
           text: 'Tao',
           items: [
