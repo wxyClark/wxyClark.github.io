@@ -7,8 +7,8 @@ hero:
   tagline: 基于 Obsidian 和 VitePress 构建的知识库 <br/>拉近非软件开发人员与AI的距离
   actions:
     - theme: brand
-      text: 开始探索
-      link: /notes/
+      text: 随机文章
+      link: /random-article
     - theme: alt
       text: 关于我们
       link: /about
