@@ -7,7 +7,7 @@ tags: [index, 导航]
 mermaid: true
 ---
 
-# IT
+# Architecture
 index
 
 

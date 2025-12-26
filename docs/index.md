@@ -34,10 +34,10 @@ features:
     details: 待归档笔记和临时记录
     icon: 📝
     link: /notes/
-  - title: API 示例
-    details: VitePress API 使用示例
+  - title: 示例
+    details: VitePress + Markdown 使用示例
     icon: 🔧
-    link: /api-examples/
+    link: /Demo/
 ---
 
 <!-- 额外内容可以在这里添加 -->
