@@ -38,7 +38,7 @@ export default withMermaid(defineConfig({
       { text: '待归档', link: '/notes/' },
       { text: '试试手气', link: '/random-article' }
     ],
-    // 左侧边栏导航 - 自动展开当前层级
+    // 左侧边栏导航 - 自动展开当前层级并显示同级目录
     sidebar: {
       '/ai/': [
         {
