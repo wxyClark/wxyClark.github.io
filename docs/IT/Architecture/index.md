@@ -10,17 +10,5 @@ mermaid: true
 # IT
 index
 
-## Base
 
-## Frontend
-
-## Backend
-
-## Database
-
-## MiddlewareA
-
-## Algorithm
-
-## Architecture
-架构A
+架构

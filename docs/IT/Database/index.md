@@ -7,20 +7,7 @@ tags: [index, 导航]
 mermaid: true
 ---
 
-# IT
+# Database
 index
 
-## Base
-
-## Frontend
-
-## Backend
-
-## Database
-
-## MiddlewareA
-
-## Algorithm
-
-## Architecture
-架构A
+数据库 NoSQL

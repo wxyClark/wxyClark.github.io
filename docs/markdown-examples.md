@@ -87,7 +87,8 @@ Check out the documentation for the [full list of markdown extensions](https://v
 
 
 ## 图片
- <img src="../images/mandala-type4.jpg" width="200" alt="微信" />
+<!-- <img src="../images/mandala-type4.jpg" width="200" alt="微信" /> -->
+<!-- 注释掉不存在的图片引用 -->
 
 ## 图形
 

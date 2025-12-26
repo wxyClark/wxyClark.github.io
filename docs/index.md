@@ -1,27 +1,65 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: wxyClark 知识库
+  text: 分享——交流
+  tagline: 基于 Obsidian 和 VitePress 构建的知识库 <br/>拉近非软件开发人员与AI的距离
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始探索
+      link: /notes/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 关于我们
+      link: /about
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: AI
+    details: AI相关知识、Chat导航、IDE工具、工作流及最佳实践
+    icon: 🤖
+    link: /AI/
+  - title: IT
+    details: IT技术栈知识，包括基础技术、前端、后端、数据库、中间件、计算和设计
+    icon: 💻
+    link: /IT/
+  - title: Life
+    details: 生活管理，包括物品收纳、时间管理、亲子关系和衣食住行
+    icon: 🏡
+    link: /Life/
+  - title: Tao
+    details: 哲学思考，包括第一性原理、大道至简和思维方式
+    icon: 🧘
+    link: /Tao/
+  - title: Notes
+    details: 待归档笔记和临时记录
+    icon: 📝
+    link: /notes/
+  - title: API 示例
+    details: VitePress API 使用示例
+    icon: 🔧
+    link: /api-examples/
 ---
+
+<!-- 额外内容可以在这里添加 -->
+
+
+
+## 交个朋友
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <div style="text-align: center;">
+    <img src="../images/alipay.jpg" width="200" alt="支付宝" />
+    <p>支付宝</p>
+  </div>
+    <div style="text-align: center;">
+    <img src="../images/wechatAvata.png" width="200" alt="微信" />
+    <p>微信</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="../images/wechatPay.jpg" width="200" alt="微信支付" />
+    <p>微信支付</p>
+  </div>
+</div>
 
 ```danger
     写作是让我们知道自己的思考是多么草率的一种自然的方法
@@ -44,23 +82,4 @@ AI深度使用
 * 代码库、基础项目库
 * 深圳十峰
 * 硬盘文件精简至，只留精华，至少腾出40%的空间
-
-
-## 交个朋友
-
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <div style="text-align: center;">
-    <img src="../images/alipay.jpg" width="200" alt="支付宝" />
-    <p>支付宝</p>
-  </div>
-    <div style="text-align: center;">
-    <img src="../images/wechatAvata.png" width="200" alt="微信" />
-    <p>微信</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="../images/wechatPay.jpg" width="200" alt="微信支付" />
-    <p>微信支付</p>
-  </div>
-</div>
-
 

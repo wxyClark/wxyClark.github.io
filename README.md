@@ -23,16 +23,16 @@ AI深度使用
 
 ## 交个朋友
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <div style="text-align: center;">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+  <div style="text-align: center; flex: 1;">
     <img src="./images/alipay.jpg" width="200" alt="支付宝" />
     <p>支付宝</p>
   </div>
-    <div style="text-align: center;">
+  <div style="text-align: center; flex: 1;">
     <img src="./images/wechatAvata.png" width="200" alt="微信" />
     <p>微信</p>
   </div>
-  <div style="text-align: center;">
+  <div style="text-align: center; flex: 1;">
     <img src="./images/wechatPay.jpg" width="200" alt="微信支付" />
     <p>微信支付</p>
   </div>
