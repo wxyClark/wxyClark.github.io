@@ -50,15 +50,15 @@ AI深度使用
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <div style="text-align: center;">
-    <img src="../images/alipay.jpg" width="200" alt="支付宝" />
+    <img src="./images/alipay.jpg" width="200" alt="支付宝" />
     <p>支付宝</p>
   </div>
     <div style="text-align: center;">
-    <img src="../images/wechatAvata.png" width="200" alt="微信" />
+    <img src="./images/wechatAvata.png" width="200" alt="微信" />
     <p>微信</p>
   </div>
   <div style="text-align: center;">
-    <img src="../images/wechatPay.jpg" width="200" alt="微信支付" />
+    <img src="./images/wechatPay.jpg" width="200" alt="微信支付" />
     <p>微信支付</p>
   </div>
 </div>
