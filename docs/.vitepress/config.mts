@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress';
 import { withMermaid } from "vitepress-plugin-mermaid";
+import { resolve } from 'path';
 
 export default withMermaid(defineConfig({
   // 设置基础路径为你的GitHub仓库名，这样GitHub Pages可以正确访问
@@ -9,6 +10,15 @@ export default withMermaid(defineConfig({
   title: 'wxyClark 知识库', // 网站标题
   description: '基于 Obsidian 和 VitePress 构建的知识库, 缩短非软件开发人员与AI的距离', // 网站描述
   lang: 'zh-CN', // 语言
+  
+  // 响应式设计配置
+  appearance: 'auto', // 支持暗色/亮色模式自动切换
+  
+  // 移动端优化
+  head: [
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }], // 主题颜色
+  ],
   
   // 避免docs目录外的文件被访问
   cleanUrls: true,
@@ -28,7 +38,7 @@ export default withMermaid(defineConfig({
       { text: '待归档', link: '/notes/' },
       { text: '试试手气', link: '/random-article' }
     ],
-    // 左侧边栏导航 - 根据docs下的一级目录创建
+    // 左侧边栏导航 - 自动展开当前层级
     sidebar: {
       '/ai/': [
         {
@@ -42,7 +52,13 @@ export default withMermaid(defineConfig({
         {
           text: 'IT',
           items: [
-            { text: '目录', link: '/it/' }
+            { text: '基础', link: '/it/base/' },
+            { text: '前端', link: '/it/frontend/' },
+            { text: '后端', link: '/it/backend/' },
+            { text: '数据库', link: '/it/database/' },
+            { text: '中间件', link: '/it/middleware/' },
+            { text: '架构', link: '/it/architecture/' },
+            { text: '算法', link: '/it/algorithm/' }
           ]
         }
       ],
@@ -62,6 +78,14 @@ export default withMermaid(defineConfig({
           ]
         }
       ],
+      '/demo/': [
+        {
+          text: 'Demo',
+          items: [
+            { text: 'Markdown 示例', link: '/demo/markdown-examples' }
+          ]
+        }
+      ],
       '/notes/': [
         {
           text: 'Notes',
@@ -71,6 +95,7 @@ export default withMermaid(defineConfig({
         }
       ]
     },
+
     // 开启右侧"本页目录" (大纲)
     outline: {
       level: [2, 6], // 显示从 h2 到 h6 的标题

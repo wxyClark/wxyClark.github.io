@@ -1,0 +1,133 @@
+/* 桌面端主内容宽度优化 */
+@media (min-width: 960px) {
+  .VPContent {
+    max-width: none !important;
+  }
+  
+  .container {
+    max-width: none;
+  }
+  
+  .content-container {
+    max-width: 100%;
+    padding: 0 3rem;
+  }
+  
+  .VPDoc {
+    grid-template-columns: 1fr 248px !important; /* 减小右侧边栏 */
+  }
+  
+  .VPDoc .container {
+    grid-template-columns: 220px 1fr 180px !important; /* 调整三栏布局，增大主内容 */
+  }
+  
+  /* 进一步优化主内容宽度 */
+  .VPDocContent {
+    max-width: 100%;
+  }
+  
+  .VPDocContentContainer {
+    padding: 0 2rem;
+  }
+}
+
+/* 宽屏显示器优化 */
+@media (min-width: 1400px) {
+  .VPDoc .container {
+    grid-template-columns: 260px 2fr 200px !important; /* 在宽屏上进一步增大主内容 */
+  }
+  
+  .content-container {
+    padding: 0 5rem;
+  }
+}
+
+/* 响应式布局优化 */
+@media (max-width: 768px) {
+  /* 移动端导航栏优化 */
+  .nav-links {
+    padding: 0 1.5rem;
+  }
+  
+  /* 移动端侧边栏优化 */
+  .sidebar {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* 主内容区域优化 */
+  .container, .content-container {
+    padding: 0 1rem;
+  }
+  
+  /* 图片响应式 */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* 代码块响应式 */
+  pre, code {
+    font-size: 0.85em;
+    overflow-x: auto;
+  }
+  
+  /* 表格响应式 */
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  /* 首页hero部分响应式 */
+  .VPHomeHero {
+    padding: 4rem 1rem;
+  }
+  
+  .VPHomeHero .name {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  .VPHomeHero .text {
+    font-size: 1.5rem;
+  }
+  
+  .VPHomeHero .tagline {
+    font-size: 1rem;
+  }
+  
+  /* 特性卡片响应式 */
+  .VPFeatures .features {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
+
+/* 针对更小屏幕的优化 */
+@media (max-width: 480px) {
+  .VPHomeHero .name {
+    font-size: 2rem;
+  }
+  
+  .VPHomeHero .text {
+    font-size: 1.25rem;
+  }
+  
+  .VPHomeHero .tagline {
+    font-size: 0.85rem;
+  }
+  
+  /* 导航按钮响应式 */
+  .VPButton {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* 触摸设备优化 */
+@media (hover: none) and (pointer: coarse) {
+  /* 为触摸设备增加按钮和链接的点击区域 */
+  a, button {
+    touch-action: manipulation;
+  }
+}
