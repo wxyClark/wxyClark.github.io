@@ -25,6 +25,9 @@ export default withMermaid(defineConfig({
       { text: '生活', link: '/life/' },
       { text: '道', link: '/tao/' },
       { text: '待归档', link: '/notes/' }
+      { text: '试试手气', link: '/random-article' }
+
+      
     ],
     // 左侧边栏导航 - 根据docs下的一级目录创建
     sidebar: {
