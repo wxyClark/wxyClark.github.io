@@ -38,22 +38,13 @@ export default withMermaid(defineConfig({
       { text: '待归档', link: '/notes/' },
       { text: '试试手气', link: '/random-article' }
     ],
-    // 左侧边栏导航 - 自动展开当前层级并显示同级目录
+    // 左侧边栏导航 - 按路径动态生成
     sidebar: {
-      '/ai/': [
-        {
-          text: 'AI',
-          items: [
-            { text: '目录', link: '/ai/' },
-            { text: 'AI开发最佳实践', link: '/ai/AI开发最佳实践' },
-            { text: '软件开发AI效率提升最佳实践', link: '/ai/软件开发AI效率提升最佳实践' }
-          ]
-        }
-      ],
       '/it/': [
         {
           text: 'IT',
           items: [
+            { text: 'IT 目录', link: '/it/' },
             { text: '基础', link: '/it/base/' },
             { text: '前端', link: '/it/frontend/' },
             { text: '后端', link: '/it/backend/' },
@@ -61,6 +52,73 @@ export default withMermaid(defineConfig({
             { text: '中间件', link: '/it/middleware/' },
             { text: '架构', link: '/it/architecture/' },
             { text: '算法', link: '/it/algorithm/' }
+          ]
+        }
+      ],
+      '/it/base/': [
+        {
+          text: '基础',
+          items: [
+            { text: '基础 目录', link: '/it/base/' }
+          ]
+        }
+      ],
+      '/it/frontend/': [
+        {
+          text: '前端',
+          items: [
+            { text: '前端 目录', link: '/it/frontend/' }
+          ]
+        }
+      ],
+      '/it/backend/': [
+        {
+          text: '后端',
+          items: [
+            { text: '后端 目录', link: '/it/backend/' }
+          ]
+        }
+      ],
+      '/it/database/': [
+        {
+          text: '数据库',
+          items: [
+            { text: '数据库 目录', link: '/it/database/' }
+          ]
+        }
+      ],
+      '/it/middleware/': [
+        {
+          text: '中间件',
+          items: [
+            { text: '中间件 目录', link: '/it/middleware/' }
+          ]
+        }
+      ],
+      '/it/architecture/': [
+        {
+          text: '架构',
+          items: [
+            { text: '架构 目录', link: '/it/architecture/' }
+          ]
+        }
+      ],
+      '/it/algorithm/': [
+        {
+          text: '算法',
+          items: [
+            { text: '算法 目录', link: '/it/algorithm/' }
+          ]
+        }
+      ],
+      // 其他目录的侧边栏配置
+      '/ai/': [
+        {
+          text: 'AI',
+          items: [
+            { text: '目录', link: '/ai/' },
+            { text: 'AI开发最佳实践', link: '/ai/AI开发最佳实践' },
+            { text: '软件开发AI效率提升最佳实践', link: '/ai/软件开发AI效率提升最佳实践' }
           ]
         }
       ],
@@ -97,7 +155,7 @@ export default withMermaid(defineConfig({
             { text: 'Home', link: '/notes/home' }
           ]
         }
-      ],
+      ]
     },
 
     // 开启右侧"本页目录" (大纲)

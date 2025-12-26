@@ -10,15 +10,16 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import { useData } from 'vitepress'
+import { ref, watch } from 'vue'
+import { useData, useRoute } from 'vitepress'
 
 const { page } = useData()
+const route = useRoute()
 
 const breadcrumbs = ref([])
 
-onMounted(() => {
-  const path = window.location.pathname
+const updateBreadcrumbs = () => {
+  const path = route.path
   const pathSegments = path.split('/').filter(segment => segment !== '')
   
   breadcrumbs.value = []
@@ -78,6 +79,12 @@ onMounted(() => {
       case 'markdown-examples':
         text = 'Markdown 示例'
         break
+      case 'AI开发最佳实践':
+        text = 'AI开发最佳实践'
+        break
+      case '软件开发AI效率提升最佳实践':
+        text = '软件开发AI效率提升最佳实践'
+        break
       default:
         // 如果是小写开头的路径，转换为标题格式
         text = segment.charAt(0).toUpperCase() + segment.slice(1)
@@ -90,6 +97,14 @@ onMounted(() => {
       breadcrumbs.value.push({ text, link: currentPath + '/' })
     }
   }
+}
+
+// 初始化面包屑
+updateBreadcrumbs()
+
+// 监听路由变化，更新面包屑
+watch(() => route.path, () => {
+  updateBreadcrumbs()
 })
 </script>
 

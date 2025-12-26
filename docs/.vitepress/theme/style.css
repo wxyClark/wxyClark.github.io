@@ -9,8 +9,8 @@
   }
   
   .content-container {
-    max-width: 100%;
-    padding: 0 3rem;
+    max-width: none; /* 移除最大宽度限制 */
+    padding: 0 2rem; /* 减少水平内边距 */
   }
   
   .VPDoc {
@@ -23,11 +23,11 @@
   
   /* 进一步优化主内容宽度 */
   .VPDocContent {
-    max-width: 100%;
+    max-width: none;
   }
   
   .VPDocContentContainer {
-    padding: 0 2rem;
+    padding: 0 1.5rem; /* 减少内边距 */
   }
 }
 
@@ -38,7 +38,7 @@
   }
   
   .content-container {
-    padding: 0 5rem;
+    padding: 0 3rem; /* 减少宽屏上的内边距 */
   }
 }
 
@@ -129,5 +129,17 @@
   /* 为触摸设备增加按钮和链接的点击区域 */
   a, button {
     touch-action: manipulation;
+  }
+}
+
+/* 优化文档内容区域，减少边界留白 */
+.VPDoc .content {
+  padding: 0 1rem;
+}
+
+/* 针对桌面端进一步优化 */
+@media (min-width: 960px) {
+  .VPDoc .content {
+    padding: 0 1.5rem;
   }
 }
