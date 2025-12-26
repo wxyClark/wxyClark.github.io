@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "README"
             }
           }
         ]
@@ -182,6 +182,8 @@
   },
   "active": "df89d8b8b6894b3d",
   "lastOpenFiles": [
+    "docs/index.md",
+    "README.md",
     "images/NoSQL/queryWithIndex.png",
     "images/NoSQL/MySqlQueryOrder.jpg",
     "images/NoSQL/MysqlQuery1.jpg",
@@ -192,13 +194,11 @@
     "images/NoSQL/MySQL-pageStorage.png",
     "images/NoSQL/MySQL-page.png",
     "images/NoSQL/MyISAM-SecondaryKey.png",
-    "images/NoSQL/MyISAM-PrimaryKey.png",
     "images/NoSQL",
     "images/Humanity",
     "images/emoji",
     "images",
     "docs/api-examples.md",
-    "README.md",
     "hidden/index.md",
     "hidden/build.md",
     "docs/AI/index.md",
@@ -211,7 +211,6 @@
     "docs/images/Humanity",
     "docs/images/emoji",
     "docs/images",
-    "LICENSE",
-    "docs/index.md"
+    "LICENSE"
   ]
 }
