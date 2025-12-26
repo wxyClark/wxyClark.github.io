@@ -17,19 +17,19 @@ features:
   - title: AI
     details: AI相关知识、Chat导航、IDE工具、工作流及最佳实践
     icon: 🤖
-    link: /AI/
+    link: /ai/
   - title: IT
     details: IT技术栈知识，包括基础技术、前端、后端、数据库、中间件、计算和设计
     icon: 💻
-    link: /IT/
+    link: /it/
   - title: Life
     details: 生活管理，包括物品收纳、时间管理、亲子关系和衣食住行
     icon: 🏡
-    link: /Life/
+    link: /life/
   - title: Tao
     details: 哲学思考，包括第一性原理、大道至简和思维方式
     icon: 🧘
-    link: /Tao/
+    link: /tao/
   - title: Notes
     details: 待归档笔记和临时记录
     icon: 📝
@@ -37,7 +37,7 @@ features:
   - title: 示例
     details: VitePress + Markdown 使用示例
     icon: 🔧
-    link: /Demo/
+    link: /demo/
 ---
 
 <!-- 额外内容可以在这里添加 -->

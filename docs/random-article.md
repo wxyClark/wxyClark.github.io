@@ -6,10 +6,10 @@ title: 随机文章 试试手气
 import { onMounted } from 'vue'
 
 const articles = [
-  '/AI/',
-  '/IT/',
-  '/Life/',
-  '/Tao/',
+  '/ai/',
+  '/it/',
+  '/life/',
+  '/tao/',
   '/notes/'
 ]
 
