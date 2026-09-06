@@ -1,45 +1,85 @@
-[SSO-Logout.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的SSO-Logout.png)
+---
+title: AI-IT知识体系
+description: 从信息处理出发，构建智能系统
+---
 
-[SSO-with-jsonp.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的SSO-with-jsonp.png)
+# AI-IT 知识体系
 
-[mandala-type5.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的mandala-type5.jpg)
+> **第一性原理**：AI-IT是从信息处理出发，构建智能系统和信息技术解决方案的学科群。
 
-[伏羲先天八卦.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的伏羲先天八卦.jpg)
+---
 
-[TCP31.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的TCP31.png)
+## 📚 AI-IT的公理体系
 
-[wechatAvata.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的wechatAvata.png)
-[chromeExtensionsBackup.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的chromeExtensionsBackup.png)
-[B+Tree.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的B+Tree.png)
-[InnoDB-PrimaryKey.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的InnoDB-PrimaryKey.png)
-[MySQL-page.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的MySQL-page.png)
-[mysqlOptimize2.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的mysqlOptimize2.png)
-[InnoDB-SecondaryKey.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的InnoDB-SecondaryKey.png)
-[MysqlQuery1.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的MysqlQuery1.jpg)
-[MySQL-pageStorage.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的MySQL-pageStorage.png)
-[MySqlQueryOrder.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的MySqlQueryOrder.jpg)
-[mysqlOptimize.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的mysqlOptimize.png)
-[clusteringIndex.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的clusteringIndex.jpg)
-[MySQL-Structure.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的MySQL-Structure.png)
-[B+Tree.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的B+Tree.jpg)
-[MySQL-pageSummary.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的MySQL-pageSummary.png)
-[B-Tree.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的B-Tree.png)
-[queryWithIndex.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的queryWithIndex.png)
-[MyISAM-SecondaryKey.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的MyISAM-SecondaryKey.png)
-[MyISAM-PrimaryKey.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的MyISAM-PrimaryKey.png)
-[Organizationmanagement1.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的Organizationmanagement1.jpg)
-[emoji/sunday.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的emoji/sunday.png)
-[杜威分类速记.webp](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的杜威分类速记.webp)
-[threeWorld.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的threeWorld.jpg)
-[SSO-CAS.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的SSO-CAS.png)
-[杜威十进制图书分类法.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的杜威十进制图书分类法.jpg)
-[alipay.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的alipay.jpg)
-[LaravelAppLife.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的LaravelAppLife.png)
-[SSO-with-OpenID.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的SSO-with-OpenID.png)
-[fastCGI.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的fastCGI.png)
-[wechatPay.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的wechatPay.jpg)
-[mandala-type4.jpg](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的mandala-type4.jpg)
-[mandala.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的mandala.png)
-[SSO-with-cookie-OpenID.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的SSO-with-cookie-OpenID.png)
-[TCP32.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的TCP32.png)
-[SSO.png](/home/clark/www/wxyClark/wxyClark.github.io/content/资源的SSO.png)
+### 第一性原理：信息可处理性
+
+```
+AI-IT的基本信念：
+1. 信息可以被编码和传输
+2. 计算可以模拟智能
+3. 数据是智能的基础
+4. 系统由部件组成
+```
+
+---
+
+## 🔬 主要分支
+
+### AI核心知识
+[→ AI知识体系](AI核心知识/基础理论/index.md) - 从智能本质出发
+
+### 基础知识
+- 数学基础：线性代数、概率论、优化
+- 计算基础：数据结构、算法、复杂度
+- 软件基础：编程、设计模式、工程化
+- 数据基础：数据库、数据处理、可视化
+
+### 硬件基础
+- 计算机体系结构
+- GPU与并行计算
+- 芯片设计基础
+- 量子计算入门
+
+### AI应用
+- 计算机视觉
+- 自然语言处理
+- 智能系统
+- 推荐系统
+
+---
+
+## 💡 AI-IT思维方式
+
+### 计算思维
+> 将问题转化为可计算的形式。
+
+### 数据思维
+> 从数据中发现规律。
+
+### 系统思维
+> 理解组件之间的交互。
+
+### 迭代思维
+> 快速原型，持续改进。
+
+---
+
+## 📖 学习路径
+
+### 初学者路径
+```
+第1步：学习编程基础
+第2步：掌握数学基础
+第3步：理解计算机系统
+第4步：学习数据结构与算法
+第5步：入门机器学习
+```
+
+### 进阶路径
+```
+第6步：选择专业方向
+第7步：深入学习专业知识
+第8步：参与实际项目
+第9步：跟进前沿技术
+第10步：形成个人专长
+```
