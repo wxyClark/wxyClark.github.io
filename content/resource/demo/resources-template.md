@@ -1,9 +1,9 @@
 ---
 title: "清单标题"
-date: "YYYY-MM-DD"
+date: "2026-01-01"
 tags: [标签1, 标签2, 标签3]
 categories: "Resources"
-last_updated: "YYYY-MM-DD"
+last_updated: "2026-01-01"
 source: "来源"
 purpose: "用途"
 ---

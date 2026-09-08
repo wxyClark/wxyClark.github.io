@@ -14,23 +14,23 @@ description: 五子棋系统学习指南 — 8个主题，从入门到精通
 ```mermaid
 graph TB
     subgraph 入门阶段
-        I1[1_新手入门<br/>规则禁手]
-        I2[2_基础技巧<br/>攻防手法]
+        I1[01-beginner-guide<br/>规则禁手]
+        I2[02-basic-techniques<br/>攻防手法]
     end
     
     subgraph 基础阶段
-        B1[3_开局定式<br/>26种开局]
-        B2[5_禁手规则<br/>三三/四四/长连]
+        B1[03-opening-patterns<br/>26种开局]
+        B2[05-forbidden-rules<br/>三三/四四/长连]
     end
     
     subgraph 进阶阶段
-        A1[4_中盘战术<br/>VCF/VCT]
-        A2[6_实战经验<br/>经验总结]
+        A1[04-midgame-tactics<br/>VCF/VCT]
+        A2[06-practical-experience<br/>经验总结]
     end
     
     subgraph 高级阶段
-        H1[7_思维方式<br/>计算判断]
-        H2[8_学习方法<br/>科学规划]
+        H1[07-thinking-methods<br/>计算判断]
+        H2[08-learning-methods<br/>科学规划]
     end
     
     I1 & I2 --> B1 & B2
@@ -73,14 +73,14 @@ flowchart LR
 
 | 序号 | 主题 | 核心内容 | 文档 |
 |------|------|----------|------|
-| 1 | 新手入门 | 15路棋盘、规则、禁手概念 | [1_新手入门.md](1_新手入门.md) |
-| 2 | 基础技巧 | 活三冲四、四三胜、防守 | [2_基础技巧.md](2_基础技巧.md) |
-| 3 | 开局定式 | 26种开局、云月浦月详解 | [3_开局定式.md](3_开局定式.md) |
-| 4 | 中盘战术 | VCF/VCT、一子双杀 | [4_中盘战术.md](4_中盘战术.md) |
-| 5 | 禁手规则 | 三三/四四/长连禁手详解 | [5_禁手规则.md](5_禁手规则.md) |
-| 6 | 实战经验 | 开中收官经验、心态 | [6_实战经验.md](6_实战经验.md) |
-| 7 | 思维方式 | 计算、判断、攻防思维 | [7_思维方式.md](7_思维方式.md) |
-| 8 | 学习方法 | 分阶段学习路径规划 | [8_学习方法.md](8_学习方法.md) |
+| 1 | 新手入门 | 15路棋盘、规则、禁手概念 | [01-beginner-guide.md](01-beginner-guide.md) |
+| 2 | 基础技巧 | 活三冲四、四三胜、防守 | [02-basic-techniques.md](02-basic-techniques.md) |
+| 3 | 开局定式 | 26种开局、云月浦月详解 | [03-opening-patterns.md](03-opening-patterns.md) |
+| 4 | 中盘战术 | VCF/VCT、一子双杀 | [04-midgame-tactics.md](04-midgame-tactics.md) |
+| 5 | 禁手规则 | 三三/四四/长连禁手详解 | [05-forbidden-rules.md](05-forbidden-rules.md) |
+| 6 | 实战经验 | 开中收官经验、心态 | [06-practical-experience.md](06-practical-experience.md) |
+| 7 | 思维方式 | 计算、判断、攻防思维 | [07-thinking-methods.md](07-thinking-methods.md) |
+| 8 | 学习方法 | 分阶段学习路径规划 | [08-learning-methods.md](08-learning-methods.md) |
 
 ---
 
@@ -147,18 +147,18 @@ xychart
 ## 🔗 快速导航
 
 ### 按学习阶段
-- **入门期**：[1_新手入门](1_新手入门.md) → [2_基础技巧](2_基础技巧.md)
-- **基础期**：[3_开局定式](3_开局定式.md) → [5_禁手规则](5_禁手规则.md)
-- **进阶期**：[4_中盘战术](4_中盘战术.md) → [6_实战经验](6_实战经验.md)
-- **提高期**：[7_思维方式](7_思维方式.md) → [8_学习方法](8_学习方法.md)
+- **入门期**：[01-beginner-guide.md](01-beginner-guide.md) → [02-basic-techniques.md](02-basic-techniques.md)
+- **基础期**：[03-opening-patterns.md](03-opening-patterns.md) → [05-forbidden-rules.md](05-forbidden-rules.md)
+- **进阶期**：[04-midgame-tactics.md](04-midgame-tactics.md) → [06-practical-experience.md](06-practical-experience.md)
+- **提高期**：[07-thinking-methods.md](07-thinking-methods.md) → [08-learning-methods.md](08-learning-methods.md)
 
 ### 按技能类型
-- **规则知识**：[1_新手入门](1_新手入门.md)、[5_禁手规则](5_禁手规则.md)
-- **基础技巧**：[2_基础技巧](2_基础技巧.md)
-- **开局定式**：[3_开局定式](3_开局定式.md)
-- **战术组合**：[4_中盘战术](4_中盘战术.md)
-- **实战应用**：[6_实战经验](6_实战经验.md)
-- **思维方法**：[7_思维方式](7_思维方式.md)、[8_学习方法](8_学习方法.md)
+- **规则知识**：[01-beginner-guide.md](01-beginner-guide.md)、[05-forbidden-rules.md](05-forbidden-rules.md)
+- **基础技巧**：[02-basic-techniques.md](02-basic-techniques.md)
+- **开局定式**：[03-opening-patterns.md](03-opening-patterns.md)
+- **战术组合**：[04-midgame-tactics.md](04-midgame-tactics.md)
+- **实战应用**：[06-practical-experience.md](06-practical-experience.md)
+- **思维方法**：[07-thinking-methods.md](07-thinking-methods.md)、[08-learning-methods.md](08-learning-methods.md)
 
 ---
 

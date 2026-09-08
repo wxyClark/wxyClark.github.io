@@ -14,24 +14,24 @@ description: 围棋系统学习指南 — 9个主题，从入门到精通
 ```mermaid
 graph TB
     subgraph 入门阶段
-        I1[1_新手入门<br/>棋盘规则术语]
-        I2[2_基础技巧<br/>吃子连接]
+        I1[01-beginner-guide<br/>棋盘规则术语]
+        I2[02-basic-techniques<br/>吃子连接]
     end
     
     subgraph 基础阶段
-        B1[3_定式入门<br/>常见定式]
-        B2[5_死活题训练<br/>计算力]
+        B1[03-standard-patterns<br/>常见定式]
+        B2[05-life-death-training<br/>计算力]
     end
     
     subgraph 进阶阶段
-        A1[4_中盘战斗<br/>攻防技巧]
-        A2[6_官子技巧<br/>精进球后]
-        A3[7_实战经验<br/>经验总结]
+        A1[04-midgame-fighting<br/>攻防技巧]
+        A2[06-endgame-techniques<br/>精进球后]
+        A3[07-practical-experience<br/>经验总结]
     end
     
     subgraph 高级阶段
-        H1[8_思维方式<br/>全局思维]
-        H2[9_学习方法<br/>科学规划]
+        H1[08-thinking-methods<br/>全局思维]
+        H2[09-learning-methods<br/>科学规划]
     end
     
     I1 & I2 --> B1 & B2
@@ -87,15 +87,15 @@ flowchart LR
 
 | 序号 | 主题 | 核心内容 | 文档 |
 |------|------|----------|------|
-| 1 | 新手入门 | 棋盘、规则、术语、第一局棋 | [1_新手入门.md](1_新手入门.md) |
-| 2 | 基础技巧 | 5种吃子方法、4种连接技巧 | [2_基础技巧.md](2_基础技巧.md) |
-| 3 | 定式入门 | 3个必学定式、布局原则 | [3_定式入门.md](3_定式入门.md) |
-| 4 | 中盘战斗 | 攻击防守技巧、决策树 | [4_中盘战斗.md](4_中盘战斗.md) |
-| 5 | 死活题训练 | 基本眼形、经典题型 | [5_死活题训练.md](5_死活题训练.md) |
-| 6 | 官子技巧 | 官子计算、优先级 | [6_官子技巧.md](6_官子技巧.md) |
-| 7 | 实战经验 | 开中收官经验、心态管理 | [7_实战经验.md](7_实战经验.md) |
-| 8 | 思维方式 | 计算、判断、全局思维 | [8_思维方式.md](8_思维方式.md) |
-| 9 | 学习方法 | 分阶段学习路径规划 | [9_学习方法.md](9_学习方法.md) |
+| 1 | 新手入门 | 棋盘、规则、术语、第一局棋 | [01-beginner-guide.md](01-beginner-guide.md) |
+| 2 | 基础技巧 | 5种吃子方法、4种连接技巧 | [02-basic-techniques.md](02-basic-techniques.md) |
+| 3 | 定式入门 | 3个必学定式、布局原则 | [03-standard-patterns.md](03-standard-patterns.md) |
+| 4 | 中盘战斗 | 攻击防守技巧、决策树 | [04-midgame-fighting.md](04-midgame-fighting.md) |
+| 5 | 死活题训练 | 基本眼形、经典题型 | [05-life-death-training.md](05-life-death-training.md) |
+| 6 | 官子技巧 | 官子计算、优先级 | [06-endgame-techniques.md](06-endgame-techniques.md) |
+| 7 | 实战经验 | 开中收官经验、心态管理 | [07-practical-experience.md](07-practical-experience.md) |
+| 8 | 思维方式 | 计算、判断、全局思维 | [08-thinking-methods.md](08-thinking-methods.md) |
+| 9 | 学习方法 | 分阶段学习路径规划 | [09-learning-methods.md](09-learning-methods.md) |
 
 ---
 
@@ -163,18 +163,18 @@ xychart
 ## 🔗 快速导航
 
 ### 按学习阶段
-- **入门期**：[1_新手入门](1_新手入门.md) → [2_基础技巧](2_基础技巧.md)
-- **基础期**：[3_定式入门](3_定式入门.md) → [5_死活题训练](5_死活题训练.md)
-- **进阶期**：[4_中盘战斗](4_中盘战斗.md) → [6_官子技巧](6_官子技巧.md) → [7_实战经验](7_实战经验.md)
-- **提高期**：[8_思维方式](8_思维方式.md) → [9_学习方法](9_学习方法.md)
+- **入门期**：[01-beginner-guide.md](01-beginner-guide.md) → [02-basic-techniques.md](02-basic-techniques.md)
+- **基础期**：[03-standard-patterns.md](03-standard-patterns.md) → [05-life-death-training.md](05-life-death-training.md)
+- **进阶期**：[04-midgame-fighting.md](04-midgame-fighting.md) → [06-endgame-techniques.md](06-endgame-techniques.md) → [07-practical-experience.md](07-practical-experience.md)
+- **提高期**：[08-thinking-methods.md](08-thinking-methods.md) → [09-learning-methods.md](09-learning-methods.md)
 
 ### 按技能类型
-- **基础知识**：[1_新手入门](1_新手入门.md)、[2_基础技巧](2_基础技巧.md)
-- **定式战术**：[3_定式入门](3_定式入门.md)、[4_中盘战斗](4_中盘战斗.md)
-- **计算训练**：[5_死活题训练](5_死活题训练.md)
-- **收官技巧**：[6_官子技巧](6_官子技巧.md)
-- **经验思维**：[7_实战经验](7_实战经验.md)、[8_思维方式](8_思维方式.md)
-- **学习规划**：[9_学习方法](9_学习方法.md)
+- **基础知识**：[01-beginner-guide.md](01-beginner-guide.md)、[02-basic-techniques.md](02-basic-techniques.md)
+- **定式战术**：[03-standard-patterns.md](03-standard-patterns.md)、[04-midgame-fighting.md](04-midgame-fighting.md)
+- **计算训练**：[05-life-death-training.md](05-life-death-training.md)
+- **收官技巧**：[06-endgame-techniques.md](06-endgame-techniques.md)
+- **经验思维**：[07-practical-experience.md](07-practical-experience.md)、[08-thinking-methods.md](08-thinking-methods.md)
+- **学习规划**：[09-learning-methods.md](09-learning-methods.md)
 
 ---
 

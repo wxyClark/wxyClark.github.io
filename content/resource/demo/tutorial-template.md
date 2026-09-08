@@ -1,6 +1,6 @@
 ---
 title: "教程标题"
-date: "YYYY-MM-DD"
+date: "2026-01-01"
 tags: [标签1, 标签2, 标签3]
 categories: "Tutorial"
 difficulty: "Beginner"
