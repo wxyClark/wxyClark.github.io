@@ -25,6 +25,6 @@ description: 从辅助驾驶到全自动驾驶的完整技术栈
 | 主题 | 链接 |
 |------|------|
 | 智能系统概览 | [智能系统](../index.md) |
-| 计算机视觉 | [计算机视觉](../computer-vision/index.md) |
+| 计算机视觉 | [计算机视觉](../../computer-vision/index.md) |
 | 机器人 | [机器人](../robotics/index.md) |
-| 硬件基础 | [硬件基础](../hardware/index.md) |
+| 硬件基础 | [硬件基础](../../../hardware/index.md) |

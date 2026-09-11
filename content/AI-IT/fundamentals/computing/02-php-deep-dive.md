@@ -211,7 +211,5 @@ flowchart LR
 ---
 
 ## 延伸阅读
-
-- [php/01~10](./php/) — 现有PHP专题内容
-- [02 操作系统与进程模型](./02-操作系统与进程模型.md) — PHP-FPM进程模型
-- [16 Go语言与高并发](./16-Go语言与高并发.md) — PHP与Go对比
+- [02 操作系统与进程模型](../software/01-operating-systems.md) — PHP-FPM进程模型
+- [16 Go语言与高并发](./03-go-concurrency.md) — PHP与Go对比

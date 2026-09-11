@@ -177,6 +177,5 @@ L5: 磁盘/对象存储（秒级）
 
 ## 延伸阅读
 
-- [10 缓存系统设计](./10-缓存系统设计.md) — 缓存深入
-- [09 数据库设计](./09-数据库设计.md) — 数据库优化深入
-- [complex/11~20](./complex/) — 现有性能优化专题文章
+- [10 缓存系统设计](../../data-fundamentals/02-cache-system-design.md) — 缓存深入
+- [09 数据库设计](../../data-fundamentals/01-database-design.md) — 数据库优化深入

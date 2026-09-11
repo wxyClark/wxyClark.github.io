@@ -288,5 +288,4 @@ Pipeline::send($request)
 
 ## 延伸阅读
 
-- [05 架构设计原则](./05-架构设计原则.md) — 架构层面的设计原则
-- [oop/](../oop/) — 现有OOP专题内容（MVC、DI、服务容器等）
+- [05 架构设计原则](./03-architecture-design-principles.md) — 架构层面的设计原则

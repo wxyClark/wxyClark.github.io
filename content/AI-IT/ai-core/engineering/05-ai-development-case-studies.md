@@ -399,6 +399,6 @@ async def get_stats():
 
 ## 延伸阅读
 
-- [03 RAG检索增强生成系统](./03-RAG检索增强生成系统.md) — RAG系统架构详解
-- [04 Agent智能代理架构](./04-Agent智能代理架构.md) — Agent实现与协作
-- [06 AI工程化实践](./06-AI工程化实践.md) — 生产环境部署
+- [03 RAG检索增强生成系统](../practice/03-rag-retrieval-augmented-generation.md) — RAG系统架构详解
+- [04 Agent智能代理架构](../practice/04-agent-intelligent-agent-architecture.md) — Agent实现与协作
+- [06 AI工程化实践](./02-ai-engineering-practice.md) — 生产环境部署

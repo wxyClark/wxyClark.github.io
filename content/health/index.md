@@ -63,6 +63,28 @@ graph TB
 
 ---
 
+## 🗂️ 内容导航
+
+| 领域 | 说明 | 链接 |
+|------|------|------|
+| 🔬 基础医学 | 身体结构与疾病原理 | [进入](basic-medicine/index.md) |
+| 🏥 临床医学 | 诊断、治疗与手术 | [进入](clinical-medicine/index.md) |
+| 💊 药学 | 药物研发与应用 | [进入](pharmacy/index.md) |
+| 👩‍⚕️ 护理 | 照顾病人与护理技能 | [进入](nursing/index.md) |
+| 🌍 公共卫生 | 预防疾病、促进健康 | [进入](public-health/index.md) |
+| 🏃 康复 | 受伤后的功能恢复 | [进入](rehabilitation/index.md) |
+| 🩺 康复医学 | 功能障碍的评定与治疗 | [进入](rehabilitation-medicine/index.md) |
+| ⚕️ 医学 | 健康与疾病的知识体系 | [进入](medicine/index.md) |
+| 🏡 家庭健康 | 全家人的日常健康照护 | [进入](family-health/index.md) |
+| 🩸 慢性病管理 | 慢病长期健康管理 | [进入](chronic-disease/index.md) |
+| 🧠 心理健康 | 情绪、压力与内心健康 | [进入](mental-health/index.md) |
+| 🥗 营养学 | 科学的吃法 | [进入](nutrition/index.md) |
+| 🏥 健康医疗 | 健康管理与就医指南 | [进入](healthcare/index.md) |
+| 🏡 生活指南 | 衣食住行、亲子教育 | [进入](life/index.md) |
+| 🏃‍♂️ 体育科学 | 运动与棋类学习 | [进入](sports-science/index.md) |
+
+---
+
 ## 📚 每个积木块详解
 
 ### 🔬 基础医学（身体里面长什么样）

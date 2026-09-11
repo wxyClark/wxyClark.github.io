@@ -229,6 +229,4 @@ public function getHotProduct(int $id): Product
 ---
 
 ## 延伸阅读
-
-- [middleware/01~05](./middleware/) — 现有Redis专题内容
-- [08 性能优化方法论](./08-性能优化方法论.md) — 缓存优化深入
+- [08 性能优化方法论](../fundamentals/software/06-performance-optimization.md) — 缓存优化深入

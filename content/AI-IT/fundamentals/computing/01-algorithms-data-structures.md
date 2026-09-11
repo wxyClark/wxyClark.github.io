@@ -159,5 +159,5 @@ dp[i] = dp[i-1] + dp[i-2]
 
 ## 延伸阅读
 
-- [09 数据库设计](./09-数据库设计.md) — B+树索引的深入理解
-- [08 性能优化方法论](./08-性能优化方法论.md) — 算法对性能的影响
+- [09 数据库设计](../../data-fundamentals/01-database-design.md) — B+树索引的深入理解
+- [08 性能优化方法论](../software/06-performance-optimization.md) — 算法对性能的影响

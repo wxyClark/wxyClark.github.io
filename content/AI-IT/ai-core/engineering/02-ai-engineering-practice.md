@@ -415,5 +415,5 @@ class VectorCache:
 
 ## 延伸阅读
 
-- [07 AI辅助软件开发体系](./07-AI辅助软件开发体系.md) — AI在开发中的具体应用
-- [10 AI安全合规与伦理](./10-AI安全合规与伦理.md) — 生产环境的合规要求
+- [07 AI辅助软件开发体系](./03-ai-assisted-software-development.md) — AI在开发中的具体应用
+- [10 AI安全合规与伦理](./06-ai-safety-compliance.md) — 生产环境的合规要求

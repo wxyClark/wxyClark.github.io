@@ -367,6 +367,6 @@ flowchart LR
 
 ## 延伸阅读
 
-- [01 AI基础知识](./01-AI基础知识与概念.md) — 理解AI底层原理
-- [03 RAG检索增强生成系统](./03-RAG检索增强生成系统.md) — 提示词在RAG中的应用
-- [11 AI工具链与平台推荐](./11-AI工具链与平台推荐.md) — 查看可用模型和API
+- [01 AI基础知识](./01-ai-fundamentals.md) — 理解AI底层原理
+- [03 RAG检索增强生成系统](../practice/03-rag-retrieval-augmented-generation.md) — 提示词在RAG中的应用
+- [11 AI工具链与平台推荐](../engineering/07-ai-tools-platforms.md) — 查看可用模型和API

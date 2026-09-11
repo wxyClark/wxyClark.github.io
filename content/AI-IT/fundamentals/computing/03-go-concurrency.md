@@ -240,7 +240,5 @@ func main() {
 ---
 
 ## 延伸阅读
-
-- [go/01~06](./go/) — 现有Go专题内容
-- [02 操作系统与进程模型](./02-操作系统与进程模型.md) — Go协程原理
-- [15 PHP深度解析](./15-PHP深度解析.md) — PHP与Go对比
+- [02 操作系统与进程模型](../software/01-operating-systems.md) — Go协程原理
+- [15 PHP深度解析](./02-php-deep-dive.md) — PHP与Go对比

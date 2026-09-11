@@ -58,6 +58,20 @@ graph TB
 
 ---
 
+## 🗂️ 内容导航
+
+| 领域 | 说明 | 链接 |
+|------|------|------|
+| 🧠 AI核心知识 | 理论、实战与工程应用 | [进入](ai-core/index.md) |
+| 📐 基础知识 | 数学、编程与软件基础 | [进入](fundamentals/index.md) |
+| 💾 数据基础 | 数据库、缓存与消息队列 | [进入](data-fundamentals/index.md) |
+| 🌐 网络基础 | HTTP 与系统安全设计 | [进入](network-fundamentals/index.md) |
+| 💻 硬件基础 | 处理器、显卡与芯片 | [进入](hardware/index.md) |
+| 🎯 AI应用 | 视觉、语言、机器学习与智能系统 | [进入](applications/index.md) |
+| ⚖️ AI伦理 | 公平、安全、隐私与可解释性 | [进入](ai-ethics/index.md) |
+
+---
+
 ## 📚 每个积木块详解
 
 ### 🧠 AI核心知识（电脑是怎么学会的）

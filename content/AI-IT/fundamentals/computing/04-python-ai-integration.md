@@ -219,7 +219,5 @@ async def analyze(request: dict):
 ---
 
 ## 延伸阅读
-
-- [python3/01~08](./python3/) — 现有Python专题内容
-- [16 Go语言与高并发](./16-Go语言与高并发.md) — Go与Python对比
-- [18 系统安全设计](./18-系统安全设计.md) — AI系统的安全考虑
+- [16 Go语言与高并发](./03-go-concurrency.md) — Go与Python对比
+- [18 系统安全设计](../../network-fundamentals/02-system-security-design.md) — AI系统的安全考虑

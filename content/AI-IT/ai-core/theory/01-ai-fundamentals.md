@@ -304,6 +304,6 @@ flowchart LR
 
 ## 延伸阅读
 
-- [02 LLM与提示词工程](./02-LLM与提示词工程.md) — 深入理解如何与AI有效交互
-- [03 RAG检索增强生成系统](./03-RAG检索增强生成系统.md) — AI系统的核心记忆机制
-- [12 AI术语表](./12-AI术语表.md) — 快速查阅专业术语
+- [02 LLM与提示词工程](./02-llm-prompt-engineering.md) — 深入理解如何与AI有效交互
+- [03 RAG检索增强生成系统](../practice/03-rag-retrieval-augmented-generation.md) — AI系统的核心记忆机制
+- [12 AI术语表](./03-ai-glossary.md) — 快速查阅专业术语

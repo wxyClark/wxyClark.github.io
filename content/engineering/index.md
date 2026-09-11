@@ -5,6 +5,19 @@ description: 用科学知识造出有用的东西——从房子到火箭
 
 # 工程技术
 
+## 🗂️ 内容导航
+
+| 名称 | 说明 | 链接 |
+|------|------|------|
+| 化学工程 | 理解化学工艺与工程设计的核心知识 | [进入](chemical-engineering/index.md) |
+| 土木工程 | 理解土木工程设计与施工的核心知识 | [进入](civil-engineering/index.md) |
+| 计算机工程 | 理解计算机系统设计与实现的核心知识 | [进入](computer-engineering/index.md) |
+| 电气工程 | 理解电气系统与电力电子的核心知识 | [进入](electrical-engineering/index.md) |
+| 机械工程 | 理解机械设计与制造的核心知识 | [进入](mechanical-engineering/index.md) |
+
+---
+
+
 > **费曼学习法**：工程技术就是用科学知识"造东西"的学问！
 
 ---

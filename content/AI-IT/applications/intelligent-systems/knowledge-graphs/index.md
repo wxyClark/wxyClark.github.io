@@ -25,5 +25,5 @@ description: 结构化知识表示、抽取与推理
 | 主题 | 链接 |
 |------|------|
 | 智能系统概览 | [智能系统](../index.md) |
-| 自然语言处理 | [自然语言处理](../nlp/index.md) |
-| 机器学习 | [机器学习](../machine-learning/index.md) |
+| 自然语言处理 | [自然语言处理](../../nlp/index.md) |
+| 机器学习 | [机器学习](../../machine-learning/index.md) |

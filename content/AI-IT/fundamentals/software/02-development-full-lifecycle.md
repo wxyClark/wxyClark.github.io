@@ -228,5 +228,5 @@ flowchart LR
 
 ## 延伸阅读
 
-- [01 HTTP与网络基础](./01-HTTP与网络基础.md) — 理解HTTP请求在流程中的位置
-- [07 代码规范与风格](./07-代码规范与风格.md) — 编码阶段的具体规范
+- [01 HTTP与网络基础](../../network-fundamentals/01-http-basics.md) — 理解HTTP请求在流程中的位置
+- [07 代码规范与风格](./05-code-standards.md) — 编码阶段的具体规范

@@ -5,6 +5,18 @@ description: 理解职场发展与管理的核心知识
 
 # 职场管理
 
+## 🗂️ 内容导航
+
+| 名称 | 说明 | 链接 |
+|------|------|------|
+| managing up practice |  | [进入](01-managing-up-practice.md) |
+| 跨部门协作 — 无职权影响力的实战方法 |  | [进入](02-cross-department-collaboration.md) |
+| 职场案例复盘 — 成功与失败的规律 |  | [进入](03-workplace-case-studies.md) |
+| 职场管理 — 从执行者到领导者的跃迁 |  | [进入](03-workplace-management.md) |
+
+---
+
+
 > **核心观点**：职场是个人发展的重要平台，理解职场规则和管理技巧是职业成功的关键。
 
 ---

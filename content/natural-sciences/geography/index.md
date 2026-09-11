@@ -28,4 +28,4 @@ description: 理解地球表层系统与人地关系
 | 物理学 | [物理学](../physics/index.md) |
 | 化学 | [化学](../chemistry/index.md) |
 | 生物学 | [生物学](../biology/index.md) |
-| 环境科学 | [公共卫生/环境卫生](../health/public-health/index.md) |
+| 环境科学 | [健康科学/公共卫生](../../health/public-health/index.md) |

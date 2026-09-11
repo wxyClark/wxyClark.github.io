@@ -459,6 +459,6 @@ mindmap
 
 ## 延伸阅读
 
-- [03 RAG检索增强生成系统](./03-RAG检索增强生成系统.md) — Agent的知识来源
-- [05 AI工作流搭建](./05-AI工作流搭建.md) — 多Agent协作的工作流编排
-- [07 AI辅助软件开发体系](./07-AI辅助软件开发体系.md) — Agent在实际开发中的应用
+- [03 RAG检索增强生成系统](./03-rag-retrieval-augmented-generation.md) — Agent的知识来源
+- [05 AI工作流搭建](./05-ai-workflow-construction.md) — 多Agent协作的工作流编排
+- [07 AI辅助软件开发体系](../engineering/03-ai-assisted-software-development.md) — Agent在实际开发中的应用

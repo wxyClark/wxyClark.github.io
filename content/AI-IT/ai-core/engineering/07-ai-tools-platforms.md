@@ -262,5 +262,5 @@ flowchart TB
 
 ## 延伸阅读
 
-- [02 LLM与提示词工程](./02-LLM与提示词工程.md) — 模型选择策略
-- [06 AI工程化实践](./06-AI工程化实践.md) — 生产环境工具部署
+- [02 LLM与提示词工程](../theory/02-llm-prompt-engineering.md) — 模型选择策略
+- [06 AI工程化实践](./02-ai-engineering-practice.md) — 生产环境工具部署

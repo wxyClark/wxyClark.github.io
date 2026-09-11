@@ -25,6 +25,6 @@ description: 智能体的物理载体：感知、决策、控制
 | 主题 | 链接 |
 |------|------|
 | 智能系统概览 | [智能系统](../index.md) |
-| 计算机视觉 | [计算机视觉](../computer-vision/index.md) |
-| 强化学习 | [强化学习](../machine-learning/reinforcement/index.md) |
-| 硬件基础 | [硬件基础](../hardware/index.md) |
+| 计算机视觉 | [计算机视觉](../../computer-vision/index.md) |
+| 强化学习 | [强化学习](../../machine-learning/reinforcement/index.md) |
+| 硬件基础 | [硬件基础](../../../hardware/index.md) |

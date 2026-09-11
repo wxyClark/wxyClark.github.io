@@ -465,5 +465,5 @@ mindmap
 
 ## 延伸阅读
 
-- [06 AI工程化实践](./06-AI工程化实践.md) — 工作流的部署与运维
-- [07 AI辅助软件开发体系](./07-AI辅助软件开发体系.md) — 工作流在开发中的实际应用
+- [06 AI工程化实践](../engineering/02-ai-engineering-practice.md) — 工作流的部署与运维
+- [07 AI辅助软件开发体系](../engineering/03-ai-assisted-software-development.md) — 工作流在开发中的实际应用

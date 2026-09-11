@@ -226,5 +226,5 @@ flowchart TB
 
 ## 延伸阅读
 
-- [02 操作系统与进程模型](./02-操作系统与进程模型.md) — 理解PHP-FPM进程模型
-- [14 后端工程化](./14-后端工程化.md) — HTTP请求的完整生命周期
+- [02 操作系统与进程模型](../fundamentals/software/01-operating-systems.md) — 理解PHP-FPM进程模型
+- [14 后端工程化](../fundamentals/software/09-backend-engineering.md) — HTTP请求的完整生命周期

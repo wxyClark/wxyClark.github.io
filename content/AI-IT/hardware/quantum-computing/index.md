@@ -26,4 +26,4 @@ description: 利用量子力学原理进行计算的新范式
 |------|------|
 | 硬件基础概览 | [硬件基础](../index.md) |
 | 计算机体系结构 | [计算机体系结构](../computer-architecture/index.md) |
-| AI核心理论 | [AI核心知识体系](../ai-core/theory/index.md) |
+| AI核心理论 | [AI核心知识体系](../../ai-core/theory/index.md) |

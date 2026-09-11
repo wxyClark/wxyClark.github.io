@@ -183,5 +183,5 @@ quadrantChart
 
 ## 延伸阅读
 
-- [06 面向对象与设计模式](./06-面向对象与设计模式.md) — 设计模式是架构的实现手段
-- [14 后端工程化](./14-后端工程化.md) — Laravel中的DDD实践
+- [06 面向对象与设计模式](./04-oop-design-patterns.md) — 设计模式是架构的实现手段
+- [14 后端工程化](./09-backend-engineering.md) — Laravel中的DDD实践

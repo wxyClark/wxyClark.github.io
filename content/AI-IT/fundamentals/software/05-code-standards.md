@@ -280,5 +280,4 @@ paths:
 
 ## 延伸阅读
 
-- [05 架构设计原则](./05-架构设计原则.md) — 架构层面的规范
-- [web-dev/standards/](../ai/web-dev/standards/) — Laravel项目级代码标准
+- [05 架构设计原则](./03-architecture-design-principles.md) — 架构层面的规范

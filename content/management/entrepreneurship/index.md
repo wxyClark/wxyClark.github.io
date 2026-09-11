@@ -5,6 +5,19 @@ description: 理解创业过程与商业运营的核心知识
 
 # 商业创业
 
+## 🗂️ 内容导航
+
+| 名称 | 说明 | 链接 |
+|------|------|------|
+| demand validation practice |  | [进入](01-demand-validation-practice.md) |
+| business model design |  | [进入](02-business-model-design.md) |
+| 商业创业 — 行业内幕与核心认知 |  | [进入](02-entrepreneurship.md) |
+| 增长引擎搭建 — 低成本获客的实战方法 |  | [进入](03-growth-engine.md) |
+| 创业案例复盘 — 成功与失败的规律 |  | [进入](04-entrepreneurship-case-studies.md) |
+
+---
+
+
 > **核心观点**：创业是识别机会、整合资源、创造价值的过程，是推动经济发展的重要力量。
 
 ---

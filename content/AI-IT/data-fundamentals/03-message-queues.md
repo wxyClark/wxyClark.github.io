@@ -199,6 +199,4 @@ public function handleOrder(string $businessId, array $data): void
 ---
 
 ## 延伸阅读
-
-- [middleware/06~10](./middleware/) — 现有MQ专题内容
-- [10 缓存系统设计](./10-缓存系统设计.md) — 缓存与MQ的配合使用
+- [10 缓存系统设计](./02-cache-system-design.md) — 缓存与MQ的配合使用

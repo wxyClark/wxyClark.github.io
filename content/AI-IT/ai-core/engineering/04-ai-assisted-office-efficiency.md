@@ -386,5 +386,5 @@ flowchart LR
 
 ## 延伸阅读
 
-- [07 AI辅助软件开发体系](./07-AI辅助软件开发体系.md) — AI在开发领域的深度应用
-- [11 AI工具链与平台推荐](./11-AI工具链与平台推荐.md) — 办公AI工具推荐
+- [07 AI辅助软件开发体系](./03-ai-assisted-software-development.md) — AI在开发领域的深度应用
+- [11 AI工具链与平台推荐](./07-ai-tools-platforms.md) — 办公AI工具推荐

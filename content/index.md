@@ -19,7 +19,7 @@ description: 像搭积木一样，从最简单的开始，一步步搭建完整�
 
 ```mermaid
 graph TB
-    ROOT[知识体系] --> NS[自然科�ite]
+    ROOT[知识体系] --> NS[自然科学]
     ROOT --> SS[社会科学]
     ROOT --> HUM[人文科学]
     ROOT --> ENG[工程技术]

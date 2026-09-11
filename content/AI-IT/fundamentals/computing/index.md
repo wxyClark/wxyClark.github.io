@@ -25,7 +25,7 @@ description: 算法、编程语言与计算理论
 
 | 主题 | 链接 |
 |------|------|
-| AI核心理论 | [AI核心知识体系](../ai-core/theory/index.md) |
+| AI核心理论 | [AI核心知识体系](../../ai-core/theory/index.md) |
 | 软件工程 | [软件工程](../software/index.md) |
-| 硬件基础 | [硬件基础](../hardware/index.md) |
+| 硬件基础 | [硬件基础](../../hardware/index.md) |
 | 数学基础 | [数学基础](../math/index.md) |

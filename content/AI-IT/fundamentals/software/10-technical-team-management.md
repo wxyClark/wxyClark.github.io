@@ -227,7 +227,5 @@ Situation（情境）→ Behavior（行为）→ Impact（影响）
 ---
 
 ## 延伸阅读
-
-- [leader/01~08](./leader/) — 现有团队管理专题内容
-- [20 持续学习与成长](./20-持续学习与成长.md) — 个人成长
-- [05 架构设计原则](./05-架构设计原则.md) — 技术决策能力
+- [20 持续学习与成长](./11-continuous-learning.md) — 个人成长
+- [05 架构设计原则](./03-architecture-design-principles.md) — 技术决策能力

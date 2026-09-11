@@ -25,6 +25,5 @@ description: 理解投资原理与理财实战方法
 | 主题 | 链接 |
 |------|------|
 | 经济学概览 | [经济学](../index.md) |
-| 金融学 | [金融学](../finance/index.md) |
-| 会计学 | [管理学/会计](../../management/accounting/index.md) |
-| 行为金融 | [心理学/行为经济学](../../psychology/behavioral-economics/index.md) |
+| 会计与财务 | [管理学/会计](../../../management/accounting/index.md) |
+| 经济心理学 | [社会科学/心理学](../../../social-sciences/psychology/index.md) |

@@ -246,6 +246,6 @@ flowchart LR
 
 ## 延伸阅读
 
-- [01 HTTP与网络基础](./01-HTTP与网络基础.md) — HTTP请求在进程模型中的生命周期
-- [15 PHP深度解析](./15-PHP深度解析.md) — PHP-FPM进程模型深入
-- [16 Go语言与高并发](./16-Go语言与高并发.md) — Goroutine深入
+- [01 HTTP与网络基础](../../network-fundamentals/01-http-basics.md) — HTTP请求在进程模型中的生命周期
+- [15 PHP深度解析](../computing/02-php-deep-dive.md) — PHP-FPM进程模型深入
+- [16 Go语言与高并发](../computing/03-go-concurrency.md) — Goroutine深入

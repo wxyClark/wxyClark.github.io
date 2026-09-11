@@ -26,5 +26,5 @@ description: 使用神经网络学习数据的多层抽象表示
 |------|------|
 | 机器学习概览 | [机器学习](../index.md) |
 | 监督学习 | [监督学习](../supervised/index.md) |
-| 计算机视觉 | [计算机视觉](../computer-vision/index.md) |
-| 自然语言处理 | [自然语言处理](../nlp/index.md) |
+| 计算机视觉 | [计算机视觉](../../computer-vision/index.md) |
+| 自然语言处理 | [自然语言处理](../../nlp/index.md) |

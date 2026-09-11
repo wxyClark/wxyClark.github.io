@@ -354,5 +354,5 @@ flowchart TD
 
 ## 延伸阅读
 
-- [06 AI工程化实践](./06-AI工程化实践.md) — 生产环境的安全部署
-- [11 AI工具链与平台推荐](./11-AI工具链与平台推荐.md) — 安全工具推荐
+- [06 AI工程化实践](./02-ai-engineering-practice.md) — 生产环境的安全部署
+- [11 AI工具链与平台推荐](./07-ai-tools-platforms.md) — 安全工具推荐

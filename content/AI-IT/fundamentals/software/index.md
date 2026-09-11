@@ -32,7 +32,7 @@ description: 软件开发全流程、架构设计与工程化实践
 | 主题 | 链接 |
 |------|------|
 | 计算基础 | [计算基础](../computing/index.md) |
-| AI核心理论 | [AI核心知识体系](../ai-core/theory/index.md) |
-| 数据基础 | [数据基础](../data-fundamentals/index.md) |
-| 网络基础 | [网络基础](../network-fundamentals/index.md) |
-| 硬件基础 | [硬件基础](../hardware/index.md) |
+| AI核心理论 | [AI核心知识体系](../../ai-core/theory/index.md) |
+| 数据基础 | [数据基础](../../data-fundamentals/index.md) |
+| 网络基础 | [网络基础](../../network-fundamentals/index.md) |
+| 硬件基础 | [硬件基础](../../hardware/index.md) |

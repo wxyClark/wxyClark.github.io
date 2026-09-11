@@ -226,6 +226,4 @@ EXPLAIN SELECT * FROM orders WHERE user_id = 123;
 ---
 
 ## 延伸阅读
-
-- [nosql/01~05](./nosql/) — 现有数据库专题内容
-- [08 性能优化方法论](./08-性能优化方法论.md) — 数据库性能优化深入
+- [08 性能优化方法论](../fundamentals/software/06-performance-optimization.md) — 数据库性能优化深入

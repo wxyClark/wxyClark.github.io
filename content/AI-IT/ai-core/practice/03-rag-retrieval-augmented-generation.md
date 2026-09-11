@@ -616,6 +616,6 @@ flowchart LR
 
 ## 延伸阅读
 
-- [04 Agent智能代理架构](./04-Agent智能代理架构.md) — RAG如何与Agent结合
-- [05 AI工作流搭建](./05-AI工作流搭建.md) — RAG系统的自动化编排
-- [06 AI工程化实践](./06-AI工程化实践.md) — 生产环境部署与监控
+- [04 Agent智能代理架构](./04-agent-intelligent-agent-architecture.md) — RAG如何与Agent结合
+- [05 AI工作流搭建](./05-ai-workflow-construction.md) — RAG系统的自动化编排
+- [06 AI工程化实践](../engineering/02-ai-engineering-practice.md) — 生产环境部署与监控

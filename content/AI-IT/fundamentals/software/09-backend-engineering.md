@@ -246,7 +246,4 @@ class OrderController {
 ---
 
 ## 延伸阅读
-
-- [backend/](./backend/) — 现有后端专题
-- [oop/01~05](../oop/) — Laravel框架设计模式
-- [05 架构设计原则](./05-架构设计原则.md) — 架构层面指导
+- [05 架构设计原则](./03-architecture-design-principles.md) — 架构层面指导

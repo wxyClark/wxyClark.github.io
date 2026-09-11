@@ -263,7 +263,5 @@ server {
 ---
 
 ## 延伸阅读
-
-- [complex/21~30](./complex/) — 现有安全专题文章
-- [09 DevOps与运维实践](./09-DevOps与运维实践.md) — 部署安全
-- [19 技术团队管理](./19-技术团队管理.md) — 安全文化建设
+- [09 DevOps与运维实践](../fundamentals/software/07-containerization-cicd.md) — 部署安全
+- [19 技术团队管理](../fundamentals/software/10-technical-team-management.md) — 安全文化建设

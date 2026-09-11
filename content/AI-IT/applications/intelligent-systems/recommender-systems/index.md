@@ -25,5 +25,5 @@ description: 为用户提供个性化内容推荐
 | 主题 | 链接 |
 |------|------|
 | 智能系统概览 | [智能系统](../index.md) |
-| 机器学习 | [机器学习](../machine-learning/index.md) |
-| 数据基础 | [数据基础](../../data-fundamentals/index.md) |
+| 机器学习 | [机器学习](../../machine-learning/index.md) |
+| 数据基础 | [数据基础](../../../data-fundamentals/index.md) |

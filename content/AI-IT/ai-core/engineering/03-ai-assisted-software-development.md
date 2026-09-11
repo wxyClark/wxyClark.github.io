@@ -355,5 +355,5 @@ graph TB
 
 ## 延伸阅读
 
-- [09 AI开发实战案例](./09-AI开发实战案例.md) — Python实战与代码分析
-- [11 AI工具链与平台推荐](./11-AI工具链与平台推荐.md) — 查看推荐开发工具
+- [09 AI开发实战案例](./05-ai-development-case-studies.md) — Python实战与代码分析
+- [11 AI工具链与平台推荐](./07-ai-tools-platforms.md) — 查看推荐开发工具
