@@ -25,19 +25,19 @@ description: 理解信息度量与编码的核心知识
 ```mermaid
 graph TB
     subgraph 信息度量
-        I1[信息熵<br/>不确定性]
-        I2[条件熵<br/>条件信息]
-        I3[互信息<br/>相关性]
+        I1["信息熵<br/>不确定性"]
+        I2["条件熵<br/>条件信息"]
+        I3["互信息<br/>相关性"]
     end    
     subgraph 编码理论
-        C1[信源编码<br/>数据压缩]
-        C2[信道编码<br/>错误纠正]
-        C3[率失真<br/>有损压缩]
+        C1["信源编码<br/>数据压缩"]
+        C2["信道编码<br/>错误纠正"]
+        C3["率失真<br/>有损压缩"]
     end    
     subgraph 机器学习
-        M1[交叉熵<br/>损失函数]
-        M2[KL散度<br/>分布差异]
-        M3[信息瓶颈<br/>表示学习]
+        M1["交叉熵<br/>损失函数"]
+        M2["KL散度<br/>分布差异"]
+        M3["信息瓶颈<br/>表示学习"]
     end
     
     I1 & I2 & I3 --> C1 & C2 & C3
@@ -71,9 +71,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 熵的性质
-        A1[非负性<br/>H(X) ≥ 0]
-        A2[最大熵<br/>均匀分布最大]
-        A3[条件减少熵<br/>H(X|Y) ≤ H(X)]
+        A1["非负性<br/>H(X) ≥ 0"]
+        A2["最大熵<br/>均匀分布最大"]
+        A3["条件减少熵<br/>H(X|Y) ≤ H(X)"]
     end    
     A1 & A2 & A3
     
@@ -117,9 +117,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 信源编码
-        A1[无损压缩<br/>哈夫曼编码]
-        A2[有损压缩<br/>率失真理论]
-        A3[应用<br/>ZIP/JPEG/MP3]
+        A1["无损压缩<br/>哈夫曼编码"]
+        A2["有损压缩<br/>率失真理论"]
+        A3["应用<br/>ZIP/JPEG/MP3"]
     end    
     A1 & A2 & A3
     
@@ -160,8 +160,8 @@ C = max I(X;Y) = B log₂(1 + S/N)
 ```mermaid
 graph TB
     subgraph 交叉熵
-        A1[二分类<br/>H = -[ylogŷ + (1-y)log(1-ŷ)]]
-        A2[多分类<br/>H = -∑yᵢlogŷᵢ]
+        A1["二分类<br/>H = -[ylogŷ + (1-y)log(1-ŷ)]"]
+        A2["多分类<br/>H = -∑yᵢlogŷᵢ"]
     end    
     A1 & A2
     
@@ -194,9 +194,9 @@ KL散度应用：
 ```mermaid
 graph TB
     subgraph 信息瓶颈
-        A1[编码<br/>X→T]
-        A2[解码<br/>T→Y]
-        A3[目标<br/>最小化I(X;T),最大化I(T;Y)]
+        A1["编码<br/>X→T"]
+        A2["解码<br/>T→Y"]
+        A3["目标<br/>最小化I(X;T),最大化I(T;Y)"]
     end    
     A1 --> A2 --> A3
     

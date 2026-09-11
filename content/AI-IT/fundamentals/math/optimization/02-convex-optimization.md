@@ -24,9 +24,9 @@ description: 理解凸优化问题与求解方法
 ```mermaid
 graph TB
     subgraph 凸优化问题
-        A1[目标函数<br/>最小化凸函数]
-        A2[约束条件<br/>凸集约束]
-        A3[最优性<br/>局部最优=全局最优]
+        A1["目标函数<br/>最小化凸函数"]
+        A2["约束条件<br/>凸集约束"]
+        A3["最优性<br/>局部最优=全局最优"]
     end    
     A1 & A2 & A3
     
@@ -51,9 +51,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 线性规划
-        A1[标准形式<br/>min cᵀx, Ax≤b]
-        A2[单纯形法<br/>顶点搜索]
-        A3[内点法<br/>多项式时间]
+        A1["标准形式<br/>min cᵀx, Ax≤b"]
+        A2["单纯形法<br/>顶点搜索"]
+        A3["内点法<br/>多项式时间"]
     end    
     A1 --> A2 & A3
     
@@ -77,10 +77,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph KKT条件
-        A1[平稳性<br/>∇f + λ∇g = 0]
-        A2[原始可行<br/>g(x) ≤ 0]
-        A3[对偶可行<br/>λ ≥ 0]
-        A4[互补松弛<br/>λg(x) = 0]
+        A1["平稳性<br/>∇f + λ∇g = 0"]
+        A2["原始可行<br/>g(x) ≤ 0"]
+        A3["对偶可行<br/>λ ≥ 0"]
+        A4["互补松弛<br/>λg(x) = 0"]
     end    
     A1 & A2 & A3 & A4
     
@@ -96,10 +96,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph SVM凸优化
-        A1[目标<br/>最小化‖w‖²/2]
-        A2[约束<br/>yᵢ(wᵀxᵢ+b)≥1]
-        A3[对偶问题<br/>拉格朗日乘子]
-        A4[核技巧<br/>非线性扩展]
+        A1["目标<br/>最小化‖w‖²/2"]
+        A2["约束<br/>yᵢ(wᵀxᵢ+b)≥1"]
+        A3["对偶问题<br/>拉格朗日乘子"]
+        A4["核技巧<br/>非线性扩展"]
     end    
     A1 --> A2 --> A3 --> A4
     

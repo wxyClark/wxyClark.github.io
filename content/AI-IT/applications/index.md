@@ -26,19 +26,19 @@ description: 理解人工智能的实际应用场景
 ```mermaid
 graph TB
     subgraph 计算机视觉
-        CV1[图像识别<br/>物体检测]
-        CV2[视频分析<br/>行为识别]
-        CV3[图像生成<br/>风格迁移]
+        CV1["图像识别<br/>物体检测"]
+        CV2["视频分析<br/>行为识别"]
+        CV3["图像生成<br/>风格迁移"]
     end    
     subgraph 自然语言处理
-        NLP1[文本分类<br/>情感分析]
-        NLP2[机器翻译<br/>跨语言]
-        NLP3[问答系统<br/>对话系统]
+        NLP1["文本分类<br/>情感分析"]
+        NLP2["机器翻译<br/>跨语言"]
+        NLP3["问答系统<br/>对话系统"]
     end    
     subgraph 语音技术
-        ST1[语音识别<br/>ASR]
-        ST2[语音合成<br/>TTS]
-        ST3[声纹识别<br/>说话人]
+        ST1["语音识别<br/>ASR"]
+        ST2["语音合成<br/>TTS"]
+        ST3["声纹识别<br/>说话人"]
     end
     
     CV1 & CV2 & CV3 --> NLP1 & NLP2 & NLP3
@@ -67,9 +67,9 @@ graph TB
 
 ```mermaid
 flowchart LR
-    A[图像输入<br/>预处理] --> B[特征提取<br/>CNN]
-    B --> C[分类/检测<br/>输出]
-    C --> D[后处理<br/>优化]
+    A["图像输入<br/>预处理"] --> B["特征提取<br/>CNN"]
+    B --> C["分类/检测<br/>输出"]
+    C --> D["后处理<br/>优化"]
     
     style A fill:#fff3e0
     style B fill:#e3f2fd
@@ -96,14 +96,14 @@ flowchart LR
 ```mermaid
 graph TB
     subgraph 文本处理
-        A1[分词<br/>词边界]
-        A2[词性标注<br/>语法分析]
-        A3[命名实体<br/>实体识别]
+        A1["分词<br/>词边界"]
+        A2["词性标注<br/>语法分析"]
+        A3["命名实体<br/>实体识别"]
     end    
     subgraph 语义理解
-        B1[词向量<br/>语义表示]
-        B2[句法分析<br/>结构分析]
-        B3[语义角色<br/>意义理解]
+        B1["词向量<br/>语义表示"]
+        B2["句法分析<br/>结构分析"]
+        B3["语义角色<br/>意义理解"]
     end
     
     A1 & A2 & A3 --> B1 & B2 & B3
@@ -130,18 +130,18 @@ graph TB
 ```mermaid
 graph TB
     subgraph 数据层
-        D1[用户数据<br/>行为记录]
-        D2[物品数据<br/>特征信息]
-        D3[交互数据<br/>评分反馈]
+        D1["用户数据<br/>行为记录"]
+        D2["物品数据<br/>特征信息"]
+        D3["交互数据<br/>评分反馈"]
     end    
     subgraph 算法层
-        A1[召回<br/>候选集]
-        A2[排序<br/>打分]
-        A3[重排<br/>调整]
+        A1["召回<br/>候选集"]
+        A2["排序<br/>打分"]
+        A3["重排<br/>调整"]
     end    
     subgraph 应用层
-        APP1[推荐列表<br/>展示]
-        APP2[反馈收集<br/>优化]
+        APP1["推荐列表<br/>展示"]
+        APP2["反馈收集<br/>优化"]
     end
     
     D1 & D2 & D3 --> A1 & A2 & A3

@@ -25,19 +25,19 @@ description: 理解数据处理与分析的核心知识
 ```mermaid
 graph TB
     subgraph 数据存储
-        S1[关系数据库<br/>结构化数据]
-        S2[NoSQL数据库<br/>非结构化]
-        S3[数据仓库<br/>分析存储]
+        S1["关系数据库<br/>结构化数据"]
+        S2["NoSQL数据库<br/>非结构化"]
+        S3["数据仓库<br/>分析存储"]
     end    
     subgraph 数据处理
-        P1[批处理<br/>离线计算]
-        P2[流处理<br/>实时计算]
-        P3[图计算<br/>关系分析]
+        P1["批处理<br/>离线计算"]
+        P2["流处理<br/>实时计算"]
+        P3["图计算<br/>关系分析"]
     end    
     subgraph 数据分析
-        A1[描述性分析<br/>现状描述]
-        A2[诊断性分析<br/>原因分析]
-        A3[预测性分析<br/>未来预测]
+        A1["描述性分析<br/>现状描述"]
+        A2["诊断性分析<br/>原因分析"]
+        A3["预测性分析<br/>未来预测"]
     end
     
     S1 & S2 & S3 --> P1 & P2 & P3
@@ -90,14 +90,14 @@ DELETE FROM users WHERE name = '张三';
 ```mermaid
 graph TB
     subgraph 批处理
-        A1[MapReduce<br/>离线计算]
-        A2[Spark<br/>内存计算]
-        A3[Hive<br/>数据仓库]
+        A1["MapReduce<br/>离线计算"]
+        A2["Spark<br/>内存计算"]
+        A3["Hive<br/>数据仓库"]
     end    
     subgraph 流处理
-        B1[Flink<br/>实时流]
-        B2[Kafka<br/>消息队列]
-        B3[Storm<br/>实时计算]
+        B1["Flink<br/>实时流"]
+        B2["Kafka<br/>消息队列"]
+        B3["Storm<br/>实时计算"]
     end
     
     A1 & A2 & A3 --> B1 & B2 & B3

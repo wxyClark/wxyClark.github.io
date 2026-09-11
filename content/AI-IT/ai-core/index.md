@@ -25,19 +25,19 @@ description: 理解人工智能的核心理论与技术
 ```mermaid
 graph TB
     subgraph 理论基础
-        T1[机器学习<br/>从数据中学习]
-        T2[深度学习<br/>神经网络]
-        T3[强化学习<br/>试错学习]
+        T1["机器学习<br/>从数据中学习"]
+        T2["深度学习<br/>神经网络"]
+        T3["强化学习<br/>试错学习"]
     end    
     subgraph 核心技术
-        C1[自然语言处理<br/>语言理解]
-        C2[计算机视觉<br/>图像识别]
-        C3[知识表示<br/>知识推理]
+        C1["自然语言处理<br/>语言理解"]
+        C2["计算机视觉<br/>图像识别"]
+        C3["知识表示<br/>知识推理"]
     end    
     subgraph 应用领域
-        A1[智能系统<br/>决策支持]
-        A2[机器人<br/>感知行动]
-        A3[专家系统<br/>领域知识]
+        A1["智能系统<br/>决策支持"]
+        A2["机器人<br/>感知行动"]
+        A3["专家系统<br/>领域知识"]
     end
     
     T1 & T2 & T3 --> C1 & C2 & C3
@@ -66,16 +66,16 @@ graph TB
 ```mermaid
 graph TB
     subgraph 监督学习
-        SL1[线性回归<br/>连续预测]
-        SL2[逻辑回归<br/>分类问题]
-        SL3[支持向量机<br/>最大间隔]
-        SL4[决策树<br/>规则学习]
-        SL5[随机森林<br/>集成学习]
+        SL1["线性回归<br/>连续预测"]
+        SL2["逻辑回归<br/>分类问题"]
+        SL3["支持向量机<br/>最大间隔"]
+        SL4["决策树<br/>规则学习"]
+        SL5["随机森林<br/>集成学习"]
     end    
     subgraph 无监督学习
-        UL1[K-means<br/>聚类]
-        UL2[DBSCAN<br/>密度聚类]
-        UL3[PCA<br/>降维]
+        UL1["K-means<br/>聚类"]
+        UL2["DBSCAN<br/>密度聚类"]
+        UL3["PCA<br/>降维"]
     end    
     SL1 & SL2 & SL3 & SL4 & SL5 --> UL1 & UL2 & UL3
     
@@ -102,15 +102,15 @@ graph TB
 ```mermaid
 graph TB
     subgraph 网络结构
-        N1[输入层<br/>特征输入]
-        N2[隐藏层<br/>特征提取]
-        N3[输出层<br/>预测输出]
+        N1["输入层<br/>特征输入"]
+        N2["隐藏层<br/>特征提取"]
+        N3["输出层<br/>预测输出"]
     end    
     subgraph 激活函数
-        A1[Sigmoid<br/>0-1输出]
-        A2[ReLU<br/>负值归零]
-        A3[Tanh<br/>-1到1]
-        A4[Softmax<br/>概率分布]
+        A1["Sigmoid<br/>0-1输出"]
+        A2["ReLU<br/>负值归零"]
+        A3["Tanh<br/>-1到1"]
+        A4["Softmax<br/>概率分布"]
     end
     
     N1 --> N2 --> N3
@@ -160,14 +160,14 @@ graph TB
 ```mermaid
 graph TB
     subgraph 基于值函数
-        V1[Q-Learning<br/>离策略]
-        V2[SARSA<br/>在策略]
-        V3[DQN<br/>深度Q网络]
+        V1["Q-Learning<br/>离策略"]
+        V2["SARSA<br/>在策略"]
+        V3["DQN<br/>深度Q网络"]
     end    
     subgraph 基于策略
-        P1[策略梯度<br/>直接优化]
-        P2[PPO<br/>近端策略优化]
-        P3[TRPO<br/>信任区域]
+        P1["策略梯度<br/>直接优化"]
+        P2["PPO<br/>近端策略优化"]
+        P3["TRPO<br/>信任区域"]
     end
     
     V1 & V2 & V3 --> P1 & P2 & P3

@@ -36,12 +36,12 @@ description: 研究人创造的文化和思想——从故事到哲学
 
 ```mermaid
 graph TB
-    TOP[人文学科<br/>研究文化和思想] --> PHI[哲学<br/>问大问题]
-    TOP --> HIST[历史<br/>过去的故事]
-    TOP --> LIT[文学<br/>故事和诗歌]
-    TOP --> LING[语言<br/>话怎么说]
-    TOP --> ART[艺术<br/>美和创造]
-    TOP --> ETH[民族<br/>不同的人]
+    TOP["人文学科<br/>研究文化和思想"] --> PHI["哲学<br/>问大问题"]
+    TOP --> HIST["历史<br/>过去的故事"]
+    TOP --> LIT["文学<br/>故事和诗歌"]
+    TOP --> LING["语言<br/>话怎么说"]
+    TOP --> ART["艺术<br/>美和创造"]
+    TOP --> ETH["民族<br/>不同的人"]
 
     PHI --> QUESTION[问题]
     PHI --> THINK[思考]
@@ -87,10 +87,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 哲学
-        PH1[我是谁<br/>我是什么]
-        PH2[世界从哪来<br/>为什么有东西]
-        PH3[什么是好<br/>什么是对错]
-        PH4[什么是真<br/>什么是假]
+        PH1["我是谁<br/>我是什么"]
+        PH2["世界从哪来<br/>为什么有东西"]
+        PH3["什么是好<br/>什么是对错"]
+        PH4["什么是真<br/>什么是假"]
     end
     
     PH1 --> PH2 --> PH3 --> PH4
@@ -114,10 +114,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 历史
-        H1[古代<br/>很久以前]
-        H2[近代<br/>不太久以前]
-        H3[现代<br/>现在]
-        H4[规律<br/>为什么会这样]
+        H1["古代<br/>很久以前"]
+        H2["近代<br/>不太久以前"]
+        H3["现代<br/>现在"]
+        H4["规律<br/>为什么会这样"]
     end
     
     H1 --> H2 --> H3 --> H4
@@ -141,10 +141,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 文学
-        L1[故事<br/>小说、童话]
-        L2[诗歌<br/>诗、词]
-        L3[戏剧<br/>话剧、歌剧]
-        L4[散文<br/>随笔、游记]
+        L1["故事<br/>小说、童话"]
+        L2["诗歌<br/>诗、词"]
+        L3["戏剧<br/>话剧、歌剧"]
+        L4["散文<br/>随笔、游记"]
     end
     
     L1 --> L2 --> L3 --> L4
@@ -168,10 +168,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 语言
-        LI1[字<br/>怎么写]
-        LI2[词<br/>怎么组]
-        LI3[句<br/>怎么说]
-        LI4[沟通<br/>怎么交流]
+        LI1["字<br/>怎么写"]
+        LI2["词<br/>怎么组"]
+        LI3["句<br/>怎么说"]
+        LI4["沟通<br/>怎么交流"]
     end
     
     LI1 --> LI2 --> LI3 --> LI4
@@ -195,10 +195,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 艺术
-        A1[视觉艺术<br/>画画、雕塑]
-        A2[听觉艺术<br/>音乐、唱歌]
-        A3[表演艺术<br/>跳舞、演戏]
-        A4[综合艺术<br/>电影、游戏]
+        A1["视觉艺术<br/>画画、雕塑"]
+        A2["听觉艺术<br/>音乐、唱歌"]
+        A3["表演艺术<br/>跳舞、演戏"]
+        A4["综合艺术<br/>电影、游戏"]
     end
     
     A1 --> A2 --> A3 --> A4
@@ -222,10 +222,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 民族
-        ET1[文化<br/>习惯怎么来]
-        ET2[生活<br/>怎么过日子]
-        ET3[传统<br/>老规矩]
-        ET4[交流<br/>怎么相处]
+        ET1["文化<br/>习惯怎么来"]
+        ET2["生活<br/>怎么过日子"]
+        ET3["传统<br/>老规矩"]
+        ET4["交流<br/>怎么相处"]
     end
     
     ET1 --> ET2 --> ET3 --> ET4
@@ -246,11 +246,11 @@ graph TB
 
 ```mermaid
 graph LR
-    A[第1关<br/>语言] --> B[第2关<br/>文学]
-    B --> C[第3关<br/>历史]
-    C --> D[第4关<br/>哲学]
-    D --> E[第5关<br/>艺术]
-    E --> F[第6关<br/>民族]
+    A["第1关<br/>语言"] --> B["第2关<br/>文学"]
+    B --> C["第3关<br/>历史"]
+    C --> D["第4关<br/>哲学"]
+    D --> E["第5关<br/>艺术"]
+    E --> F["第6关<br/>民族"]
     
     style A fill:#f3e5f5
     style B fill:#fce4ec

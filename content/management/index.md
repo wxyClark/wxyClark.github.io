@@ -51,9 +51,9 @@ description: 怎么把事情做好、把人管好——从个人到团队
 ```mermaid
 graph TB
     subgraph 企业管理
-        B1[战略<br/>公司要去哪]
-        B2[运营<br/>怎么做事情]
-        B3[财务<br/>钱怎么管]
+        B1["战略<br/>公司要去哪"]
+        B2["运营<br/>怎么做事情"]
+        B3["财务<br/>钱怎么管"]
     end
     
     B1 --> B2 --> B3
@@ -76,9 +76,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 人力资源
-        H1[招人<br/>找合适的人]
-        H2[培训<br/>教他们做事]
-        H3[管理<br/>让他们努力]
+        H1["招人<br/>找合适的人"]
+        H2["培训<br/>教他们做事"]
+        H3["管理<br/>让他们努力"]
     end
     
     H1 --> H2 --> H3
@@ -101,9 +101,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 市场营销
-        M1[品牌<br/>让人记住]
-        M2[销售<br/>怎么卖]
-        M3[广告<br/>怎么宣传]
+        M1["品牌<br/>让人记住"]
+        M2["销售<br/>怎么卖"]
+        M3["广告<br/>怎么宣传"]
     end
     
     M1 --> M2 --> M3
@@ -126,9 +126,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 会计
-        A1[记账<br/>记下来]
-        A2[成本<br/>花了多少]
-        A3[税务<br/>交给国家多少]
+        A1["记账<br/>记下来"]
+        A2["成本<br/>花了多少"]
+        A3["税务<br/>交给国家多少"]
     end
     
     A1 --> A2 --> A3
@@ -151,9 +151,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 创业
-        E1[想法<br/>做什么]
-        E2[开始<br/>怎么做]
-        E3[成长<br/>怎么变大]
+        E1["想法<br/>做什么"]
+        E2["开始<br/>怎么做"]
+        E3["成长<br/>怎么变大"]
     end
     
     E1 --> E2 --> E3
@@ -176,9 +176,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 房产
-        R1[租房<br/>租别人的]
-        R2[买房<br/>买自己的]
-        R3[投资<br/>赚钱的]
+        R1["租房<br/>租别人的"]
+        R2["买房<br/>买自己的"]
+        R3["投资<br/>赚钱的"]
     end
     
     R1 --> R2 --> R3
@@ -198,10 +198,10 @@ graph TB
 
 ```mermaid
 graph LR
-    A[第1关<br/>学心理学] --> B[第2关<br/>学社会学]
-    B --> C[第3关<br/>学经济学]
-    C --> D[第4关<br/>选方向]
-    D --> E[第5关<br/>做项目]
+    A["第1关<br/>学心理学"] --> B["第2关<br/>学社会学"]
+    B --> C["第3关<br/>学经济学"]
+    C --> D["第4关<br/>选方向"]
+    D --> E["第5关<br/>做项目"]
     
     style A fill:#e8f5e9
     style B fill:#fce4ec

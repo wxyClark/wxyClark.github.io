@@ -130,17 +130,17 @@ volumes:
 
 ```mermaid
 flowchart TB
-    subgraph Pod["Pod<br/>最小部署单元"]
+    subgraph Pod["Pod 最小部署单元"]
         P1["Container 1"]
         P2["Container 2（sidecar）"]
     end
     
-    subgraph Deployment["Deployment<br/>管理Pod副本"]
+    subgraph Deployment["Deployment 管理Pod副本"]
         D1["ReplicaSet"]
         D1 -->|"3个"| P1 & P2
     end
     
-    subgraph Service["Service<br/>网络入口"]
+    subgraph Service["Service 网络入口"]
         S1["ClusterIP / NodePort"]
     end
     

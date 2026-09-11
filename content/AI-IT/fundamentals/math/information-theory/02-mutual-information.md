@@ -24,10 +24,10 @@ description: 理解互信息的概念与应用
 ```mermaid
 graph TB
     subgraph 互信息关系
-        A1[互信息<br/>I(X;Y)]
-        A2[联合熵<br/>H(X,Y)]
-        A3[边缘熵<br/>H(X), H(Y)]
-        A4[公式<br/>I(X;Y) = H(X) + H(Y) - H(X,Y)]
+        A1["互信息<br/>I(X;Y)"]
+        A2["联合熵<br/>H(X,Y)"]
+        A3["边缘熵<br/>H(X), H(Y)"]
+        A4["公式<br/>I(X;Y) = H(X) + H(Y) - H(X,Y)"]
     end    
     A1 --> A2 --> A3 --> A4
     
@@ -62,9 +62,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 特征选择
-        A1[计算互信息<br/>I(特征;目标)]
-        A2[排序特征<br/>互信息越大越好]
-        A3[选择特征<br/>选择Top-K]
+        A1["计算互信息<br/>I(特征;目标)"]
+        A2["排序特征<br/>互信息越大越好"]
+        A3["选择特征<br/>选择Top-K"]
     end    
     A1 --> A2 --> A3
     
@@ -83,9 +83,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 信道容量
-        A1[定义<br/>C = max I(X;Y)]
-        A2[意义<br/>最大传输速率]
-        A3[香农定理<br/>C = B log₂(1+S/N)]
+        A1["定义<br/>C = max I(X;Y)"]
+        A2["意义<br/>最大传输速率"]
+        A3["香农定理<br/>C = B log₂(1+S/N)"]
     end    
     A1 --> A2 --> A3
     

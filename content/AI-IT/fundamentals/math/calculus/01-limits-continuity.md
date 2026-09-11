@@ -24,9 +24,9 @@ description: 理解微积分的基础概念
 ```mermaid
 graph TB
     subgraph 极限运算法则
-        A1[和差法则<br/>lim[f±g] = limf ± limg]
-        A2[积商法则<br/>lim[f·g] = limf · limg]
-        A3[复合函数<br/>lim f(g(x)) = f(limg(x))]
+        A1["和差法则<br/>lim[f±g] = limf ± limg"]
+        A2["积商法则<br/>lim[f·g] = limf · limg"]
+        A3["复合函数<br/>lim f(g(x)) = f(limg(x))"]
     end    
     A1 & A2 & A3
     
@@ -50,10 +50,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 间断点类型
-        A1[可去间断<br/>极限存在≠函数值]
-        A2[跳跃间断<br/>左右极限不等]
-        A3[无穷间断<br/>极限为无穷]
-        A4[振荡间断<br/>极限不存在]
+        A1["可去间断<br/>极限存在≠函数值"]
+        A2["跳跃间断<br/>左右极限不等"]
+        A3["无穷间断<br/>极限为无穷"]
+        A4["振荡间断<br/>极限不存在"]
     end    
     A1 & A2 & A3 & A4
     

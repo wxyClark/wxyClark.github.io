@@ -24,10 +24,10 @@ description: 理解向量的概念、运算与应用
 ```mermaid
 graph TB
     subgraph 向量空间性质
-        A1[加法封闭<br/>u+v ∈ V]
-        A2[数乘封闭<br/>αv ∈ V]
-        A3[结合律<br/>(u+v)+w = u+(v+w)]
-        A4[交换律<br/>u+v = v+u]
+        A1["加法封闭<br/>u+v ∈ V"]
+        A2["数乘封闭<br/>αv ∈ V"]
+        A3["结合律<br/>(u+v)+w = u+(v+w)"]
+        A4["交换律<br/>u+v = v+u"]
     end    
     A1 & A2 & A3 & A4
     
@@ -51,14 +51,14 @@ graph TB
 ```mermaid
 graph TB
     subgraph 内积性质
-        A1[交换律<br/>u·v = v·u]
-        A2[分配律<br/>u·(v+w) = u·v + u·w]
-        A3[正定性<br/>v·v ≥ 0]
+        A1["交换律<br/>u·v = v·u"]
+        A2["分配律<br/>u·(v+w) = u·v + u·w"]
+        A3["正定性<br/>v·v ≥ 0"]
     end    
     subgraph 几何意义
-        B1[投影<br/>|v|cosθ]
-        B2[夹角<br/>cosθ = (u·v)/(|u||v|)]
-        B3[正交<br/>u·v = 0]
+        B1["投影<br/>|v|cosθ"]
+        B2["夹角<br/>cosθ = (u·v)/(|u||v|)"]
+        B3["正交<br/>u·v = 0"]
     end
     
     A1 & A2 & A3 --> B1 & B2 & B3
@@ -100,10 +100,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 向量类型
-        A1[行向量<br/>1×n矩阵]
-        A2[列向量<br/>n×1矩阵]
-        A3[单位向量<br/>‖v‖=1]
-        A4[正交向量<br/>u·v=0]
+        A1["行向量<br/>1×n矩阵"]
+        A2["列向量<br/>n×1矩阵"]
+        A3["单位向量<br/>‖v‖=1"]
+        A4["正交向量<br/>u·v=0"]
     end    
     A1 & A2 & A3 & A4
     
@@ -126,9 +126,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 投影矩阵
-        A1[公式<br/>P = u(uᵀu)⁻¹uᵀ]
-        A2[性质<br/>P² = P, Pᵀ = P]
-        A3[应用<br/>最小二乘]
+        A1["公式<br/>P = u(uᵀu)⁻¹uᵀ"]
+        A2["性质<br/>P² = P, Pᵀ = P"]
+        A3["应用<br/>最小二乘"]
     end    
     A1 & A2 & A3
     
@@ -144,9 +144,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 特征向量
-        A1[图像特征<br/>像素向量]
-        A2[文本特征<br/>词袋向量]
-        A3[音频特征<br/>MFCC向量]
+        A1["图像特征<br/>像素向量"]
+        A2["文本特征<br/>词袋向量"]
+        A3["音频特征<br/>MFCC向量"]
     end    
     A1 & A2 & A3
     

@@ -26,10 +26,10 @@ description: 理解矩阵的概念、运算与应用
 ```mermaid
 graph TB
     subgraph 特殊矩阵
-        A1[对称矩阵<br/>A = Aᵀ]
-        A2[正交矩阵<br/>AᵀA = I]
-        A3[正定矩阵<br/>xᵀAx > 0]
-        A4[稀疏矩阵<br/>大部分为0]
+        A1["对称矩阵<br/>A = Aᵀ"]
+        A2["正交矩阵<br/>AᵀA = I"]
+        A3["正定矩阵<br/>xᵀAx > 0"]
+        A4["稀疏矩阵<br/>大部分为0"]
     end    
     A1 & A2 & A3 & A4
     
@@ -53,9 +53,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 矩阵乘法
-        A1[维度要求<br/>A(m×k), B(k×n)]
-        A2[结果维度<br/>C(m×n)]
-        A3[计算规则<br/>行×列求和]
+        A1["维度要求<br/>A(m×k), B(k×n)"]
+        A2["结果维度<br/>C(m×n)"]
+        A3["计算规则<br/>行×列求和"]
     end    
     A1 & A2 & A3
     
@@ -101,10 +101,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 行列式性质
-        A1[交换行变号<br/>det(B)=-det(A)]
-        A2[行相加不变<br/>det(B)=det(A)]
-        A3[数乘行乘c<br/>det(B)=c·det(A)]
-        A4[可逆条件<br/>det(A)≠0]
+        A1["交换行变号<br/>det(B)=-det(A)"]
+        A2["行相加不变<br/>det(B)=det(A)"]
+        A3["数乘行乘c<br/>det(B)=c·det(A)"]
+        A4["可逆条件<br/>det(A)≠0"]
     end    
     A1 & A2 & A3 & A4
     
@@ -120,9 +120,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph LU分解
-        A1[分解形式<br/>A = LU]
-        A2[L：下三角<br/>单位对角]
-        A3[U：上三角<br/>高斯消元]
+        A1["分解形式<br/>A = LU"]
+        A2["L：下三角<br/>单位对角"]
+        A3["U：上三角<br/>高斯消元"]
     end    
     A1 --> A2 & A3
     
@@ -150,9 +150,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 参数表示
-        A1[线性回归<br/>w权重向量]
-        A2[神经网络<br/>W权重矩阵]
-        A3[注意力机制<br/>QKV矩阵]
+        A1["线性回归<br/>w权重向量"]
+        A2["神经网络<br/>W权重矩阵"]
+        A3["注意力机制<br/>QKV矩阵"]
     end    
     A1 & A2 & A3
     

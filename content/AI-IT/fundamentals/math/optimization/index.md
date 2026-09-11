@@ -24,19 +24,19 @@ description: 理解最优化算法的核心知识
 ```mermaid
 graph TB
     subgraph 优化基础
-        B1[优化问题<br/>目标函数]
-        B2[可行域<br/>约束条件]
-        B3[最优解<br/>极值点]
+        B1["优化问题<br/>目标函数"]
+        B2["可行域<br/>约束条件"]
+        B3["最优解<br/>极值点"]
     end    
     subgraph 优化方法
-        M1[无约束优化<br/>梯度下降]
-        M2[约束优化<br/>拉格朗日]
-        M3[凸优化<br/>全局最优]
+        M1["无约束优化<br/>梯度下降"]
+        M2["约束优化<br/>拉格朗日"]
+        M3["凸优化<br/>全局最优"]
     end    
     subgraph 机器学习
-        ML1[损失最小化<br/>经验风险]
-        ML2[正则化<br/>结构风险]
-        ML3[超参数调优<br/>网格搜索]
+        ML1["损失最小化<br/>经验风险"]
+        ML2["正则化<br/>结构风险"]
+        ML3["超参数调优<br/>网格搜索"]
     end
     
     B1 & B2 & B3 --> M1 & M2 & M3
@@ -64,13 +64,13 @@ graph TB
 ```mermaid
 graph TB
     subgraph 一阶条件
-        A1[驻点<br/>∇f(x)=0]
-        A2[鞍点<br/>梯度为零但非极值]
+        A1["驻点<br/>∇f(x)=0"]
+        A2["鞍点<br/>梯度为零但非极值"]
     end    
     subgraph 二阶条件
-        B1[极小值<br/>Hessian正定]
-        B2[极大值<br/>Hessian负定]
-        B3[鞍点<br/>Hessian不定]
+        B1["极小值<br/>Hessian正定"]
+        B2["极大值<br/>Hessian负定"]
+        B3["鞍点<br/>Hessian不定"]
     end
     
     A1 & A2 --> B1 & B2 & B3
@@ -103,8 +103,8 @@ graph TB
 
 ```mermaid
 flowchart LR
-    A[初始化<br/>x₀] --> B[计算梯度<br/>∇f(x)]
-    B --> C[更新参数<br/>x = x - α∇f]
+    A["初始化<br/>x₀"] --> B["计算梯度<br/>∇f(x)"]
+    B --> C["更新参数<br/>x = x - α∇f"]
     C --> D{收敛判断}
     D -->|否| B
     D -->|是| E[最优解]
@@ -129,10 +129,10 @@ flowchart LR
 ```mermaid
 graph TB
     subgraph 学习率调度
-        A1[固定学习率<br/>常数α]
-        A2[衰减学习率<br/>α/√t]
-        A3[余弦退火<br/>周期性变化]
-        A4[自适应学习率<br/>Adam/RMSProp]
+        A1["固定学习率<br/>常数α"]
+        A2["衰减学习率<br/>α/√t"]
+        A3["余弦退火<br/>周期性变化"]
+        A4["自适应学习率<br/>Adam/RMSProp"]
     end    
     A1 & A2 & A3 & A4
     
@@ -163,9 +163,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 对偶问题
-        A1[原始问题<br/>min f(x)]
-        A2[对偶问题<br/>max g(λ)]
-        A3[强对偶<br/>最优值相等]
+        A1["原始问题<br/>min f(x)"]
+        A2["对偶问题<br/>max g(λ)"]
+        A3["强对偶<br/>最优值相等"]
     end    
     A1 --> A2 --> A3
     
@@ -191,14 +191,14 @@ graph TB
 ```mermaid
 graph TB
     subgraph 正则化类型
-        A1[L1正则<br/>稀疏性]
-        A2[L2正则<br/>平滑性]
-        A3[Elastic Net<br/>组合]
+        A1["L1正则<br/>稀疏性"]
+        A2["L2正则<br/>平滑性"]
+        A3["Elastic Net<br/>组合"]
     end    
     subgraph 目标函数
-        B1[经验风险<br/>训练误差]
-        B2[正则项<br/>模型复杂度]
-        B3[结构风险<br/>泛化能力]
+        B1["经验风险<br/>训练误差"]
+        B2["正则项<br/>模型复杂度"]
+        B3["结构风险<br/>泛化能力"]
     end
     
     A1 & A2 & A3 --> B1 & B2 & B3

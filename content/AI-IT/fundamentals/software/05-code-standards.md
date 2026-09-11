@@ -19,19 +19,19 @@
 
 ```mermaid
 flowchart TB
-    subgraph 强制规范["🔴 强制规范<br/>工具自动检查"]
+    subgraph 强制规范["🔴 强制规范 工具自动检查"]
         F1["代码格式"]
         F2["命名规范"]
         F3["安全检查"]
     end
     
-    subgraph 建议规范["🟡 建议规范<br/>Code Review把关"]
+    subgraph 建议规范["🟡 建议规范 Code Review把关"]
         S1["注释规范"]
         S2["文档规范"]
         S3["目录结构"]
     end
     
-    subgraph 风格规范["🟢 风格规范<br/>团队共识"]
+    subgraph 风格规范["🟢 风格规范 团队共识"]
         G1["代码风格"]
         G2["沟通风格"]
     end

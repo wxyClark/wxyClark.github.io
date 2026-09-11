@@ -14,15 +14,15 @@
 
 ```mermaid
 graph TD
-    A[需求/PRD] --> B[AI 生成 规范文档 AGENTS.md + Skills]
+    A["需求/PRD"] --> B[AI 生成 规范文档 AGENTS.md + Skills]
     B --> C[AI 脚手架 初始化项目结构]
     C --> D[AI 生成 Demo 分层代码]
     D --> E[开发者评审 + 修正]
     E --> F[AI 按规范批量产出业务代码]
     F --> G[静态分析 + 单元测试 CI 拦截]
     G -->|失败| F
-    G -->|通过| H[合并/上线]
-    H --> I[运行日志/错误回流]
+    G -->|通过| H["合并/上线"]
+    H --> I["运行日志/错误回流"]
     I --> B
 
     style B fill:#e1f5ff
@@ -119,8 +119,8 @@ php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
 
 ```mermaid
 graph TD
-    R[Root Rules<br/>AGENTS.md 全局红线] --> P[Project Rules<br/>按模块的子约束]
-    P --> S[Skill<br/>可复用任务流程]
+    R["Root Rules<br/>AGENTS.md 全局红线"] --> P["Project Rules<br/>按模块的子约束"]
+    P --> S["Skill<br/>可复用任务流程"]
     R --> S
 
     subgraph 示例
@@ -369,10 +369,10 @@ app/
 
 ```mermaid
 graph TD
-    HTTP[Http 层<br/>Controller/Request/Resource/Middleware] --> DOM[Domain 层<br/>Service/Action/DTO]
-    DOM --> INF[Infrastructure 层<br/>Repository Eloquent 实现]
-    INF --> DB[(MySQL)]
-    DOM --> EVT[Events/Listeners 解耦副作用]
+    HTTP["Http 层<br/>Controller/Request/Resource/Middleware"] --> DOM["Domain 层<br/>Service/Action/DTO"]
+    DOM --> INF["Infrastructure 层<br/>Repository Eloquent 实现"]
+    INF --> DB["(MySQL)"]
+    DOM --> EVT["Events/Listeners 解耦副作用"]
     DOM --> Q[Queue Jobs 异步]
 
     style HTTP fill:#e1f5ff
@@ -500,8 +500,8 @@ abstract class BaseService
 graph LR
     A[业务异常 BusinessException] -->|预期错误 不写库| B[Handler 渲染 JSON]
     C[系统异常 Throwable] -->|写错误表| D[LogErrorRepository.create]
-    D --> E[(hszj_log_error)]
-    F[关键操作审计] -->|业务日志| G[(hszj_op_log)]
+    D --> E["(hszj_log_error)"]
+    F[关键操作审计] -->|业务日志| G["(hszj_op_log)"]
 ```
 
 ### 9.2 规范实现
@@ -670,8 +670,8 @@ public function infoWithDetails(
 
 ```mermaid
 graph TD
-    U[Unit 单元测试<br/>Service/Dto/Util 纯逻辑] --> F[Feature 功能测试<br/>HTTP 端点端到端]
-    F --> E[E2E 端到端<br/>关键业务流]
+    U["Unit 单元测试<br/>Service/Dto/Util 纯逻辑"] --> F["Feature 功能测试<br/>HTTP 端点端到端"]
+    F --> E["E2E 端到端<br/>关键业务流"]
     style U fill:#e8f5e9
     style F fill:#fff3e0
     style E fill:#e1f5ff
@@ -730,7 +730,7 @@ graph TD
     S5 --> S6[6. CI: pint+phpstan+test 拦截]
     S6 -->|失败| S5
     S6 -->|通过| S7[7. 合并]
-    S7 --> S8[8. 运行错误/日志回流分析]
+    S7 --> S8["8. 运行错误/日志回流分析"]
     S8 --> S1
 ```
 

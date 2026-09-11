@@ -143,8 +143,8 @@ class TaxCalculator {
 ```mermaid
 quadrantChart
     title 单体 vs 微服务决策
-    x-axis 团队规模:小 --> 团队规模:大
-    y-axis 变更频率:低 --> 变更频率:高
+    x-axis 团队规模小 --> 团队规模大
+    y-axis 变更频率低 --> 变更频率高
     quadrant-1 微服务方案
     quadrant-2 单体方案
     quadrant-3 空白

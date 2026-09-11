@@ -24,10 +24,10 @@ description: 理解KL散度的概念与应用
 ```mermaid
 graph TB
     subgraph KL散度性质
-        A1[非负性<br/>DKL(P‖Q) ≥ 0]
-        A2[非对称性<br/>DKL(P‖Q) ≠ DKL(Q‖P)]
-        A3[为0当且仅当<br/>P=Q几乎处处]
-        A4[不满足三角不等式<br/>不是距离]
+        A1["非负性<br/>DKL(P‖Q) ≥ 0"]
+        A2["非对称性<br/>DKL(P‖Q) ≠ DKL(Q‖P)"]
+        A3["为0当且仅当<br/>P=Q几乎处处"]
+        A4["不满足三角不等式<br/>不是距离"]
     end    
     A1 & A2 & A3 & A4
     
@@ -61,10 +61,10 @@ DKL(P‖Q) = p log(p/q) + (1-p) log((1-p)/(1-q))
 ```mermaid
 graph TB
     subgraph 散度关系
-        A1[KL散度<br/>DKL(P‖Q)]
-        A2[反向KL<br/>DKL(Q‖P)]
-        A3[JS散度<br/>JSD(P,Q)]
-        A4[Wasserstein距离<br/>W(P,Q)]
+        A1["KL散度<br/>DKL(P‖Q)"]
+        A2["反向KL<br/>DKL(Q‖P)"]
+        A3["JS散度<br/>JSD(P,Q)"]
+        A4["Wasserstein距离<br/>W(P,Q)"]
     end    
     A1 & A2 --> A3 --> A4
     
@@ -86,10 +86,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph VAE
-        A1[编码器<br/>q(z|x)]
-        A2[解码器<br/>p(x|z)]
-        A3[KL损失<br/>DKL(q(z|x)‖p(z))]
-        A4[重建损失<br/>-log p(x|z)]
+        A1["编码器<br/>q(z|x)"]
+        A2["解码器<br/>p(x|z)"]
+        A3["KL损失<br/>DKL(q(z|x)‖p(z))"]
+        A4["重建损失<br/>-log p(x|z)"]
     end    
     A1 --> A2
     A3 & A4 --> A5[总损失]

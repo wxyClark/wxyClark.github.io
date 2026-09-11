@@ -61,10 +61,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 谓词逻辑
-        A1[谓词<br/>P(x): x是人]
-        A2[函数<br/>f(x): x的年龄]
-        A3[量词<br/>∀xP(x): 所有人]
-        A4[嵌套<br/>∀x∃yR(x,y)]
+        A1["谓词<br/>P(x): x是人"]
+        A2["函数<br/>f(x): x的年龄"]
+        A3["量词<br/>∀xP(x): 所有人"]
+        A4["嵌套<br/>∀x∃yR(x,y)"]
     end    
     A1 & A2 & A3 & A4
     
@@ -90,9 +90,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 形式证明
-        A1[前提<br/>已知条件]
-        A2[推理规则<br/>逻辑推导]
-        A3[结论<br/>最终结果]
+        A1["前提<br/>已知条件"]
+        A2["推理规则<br/>逻辑推导"]
+        A3["结论<br/>最终结果"]
     end    
     A1 --> A2 --> A3
     
@@ -116,9 +116,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 自动推理
-        A1[归结原理<br/>反证法]
-        A2[前向链接<br/>从条件到结论]
-        A3[后向链接<br/>从目标到条件]
+        A1["归结原理<br/>反证法"]
+        A2["前向链接<br/>从条件到结论"]
+        A3["后向链接<br/>从目标到条件"]
     end    
     A1 & A2 & A3
     

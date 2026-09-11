@@ -51,7 +51,7 @@ graph TB
 flowchart TD
     subgraph 问题求解
         S1[状态空间搜索]
-        S2[启发式搜索 A*]
+        S2["启发式搜索 A*"]
         S3[约束满足]
     end
     
@@ -79,9 +79,9 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    ML1[监督学习<br/>有标签数据<br/>分类/回归] --> ML
-    ML2[无监督学习<br/>无标签数据<br/>聚类/降维] --> ML
-    ML3[强化学习<br/>奖励信号<br/>序列决策] --> ML
+    ML1["监督学习<br/>有标签数据<br/>分类/回归"] --> ML
+    ML2["无监督学习<br/>无标签数据<br/>聚类/降维"] --> ML
+    ML3["强化学习<br/>奖励信号<br/>序列决策"] --> ML
     
     style ML1 fill:#ffebee
     style ML2 fill:#e3f2fd
@@ -93,8 +93,8 @@ flowchart LR
 ```mermaid
 flowchart TD
     subgraph 回归
-        R1[线性回归<br/>y = wx + b]
-        R2[逻辑回归<br/>P = σ(wx+b)]
+        R1["线性回归<br/>y = wx + b"]
+        R2["逻辑回归<br/>P = σ(wx+b)"]
     end
     
     subgraph 分类
@@ -124,8 +124,8 @@ flowchart LR
     Hidden -.-> Output
     
     subgraph 训练过程
-        FWD[前向传播<br/>Z=W·X+B, A=σ(Z)]
-        BACK[反向传播<br/>梯度下降更新权重]
+        FWD["前向传播<br/>Z=W·X+B, A=σ(Z)"]
+        BACK["反向传播<br/>梯度下降更新权重"]
     end
     
     style Input fill:#ffebee
@@ -143,11 +143,11 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    MLP[多层感知机<br/>MLP] --> CNN[卷积神经网络<br/>图像处理]
-    CNN --> RNN[循环神经网络<br/>序列处理]
-    RNN --> LSTM[LSTM<br/>长短期记忆]
-    LSTM --> TRANSFORMER[Transformer<br/>自注意力机制]
-    TRANSFORMER --> GPT[GPT系列<br/>生成式预训练]
+    MLP["多层感知机<br/>MLP"] --> CNN["卷积神经网络<br/>图像处理"]
+    CNN --> RNN["循环神经网络<br/>序列处理"]
+    RNN --> LSTM["LSTM<br/>长短期记忆"]
+    LSTM --> TRANSFORMER["Transformer<br/>自注意力机制"]
+    TRANSFORMER --> GPT["GPT系列<br/>生成式预训练"]
     
     style MLP fill:#ffebee
     style CNN fill:#e3f2fd
@@ -160,15 +160,15 @@ flowchart LR
 ```mermaid
 flowchart TD
     subgraph 经典模型
-        L[LeNet<br/>手写数字]
-        A[AlexNet<br/>图像分类突破]
-        V[VGG<br/>深度网络]
-        R[ResNet<br/>残差连接]
+        L["LeNet<br/>手写数字"]
+        A["AlexNet<br/>图像分类突破"]
+        V["VGG<br/>深度网络"]
+        R["ResNet<br/>残差连接"]
     end
     
     subgraph 目标任务
         T1[图像分类]
-        T2[目标检测<br/>YOLO]
+        T2["目标检测<br/>YOLO"]
         T3[图像分割]
         T4[人脸识别]
     end
@@ -185,18 +185,18 @@ flowchart TD
 ```mermaid
 flowchart TD
     subgraph 词嵌入
-        W1[Word2Vec<br/>CBOW/Skip-gram]
-        W2[GloVe<br/>共现矩阵]
+        W1["Word2Vec<br/>CBOW/Skip-gram"]
+        W2["GloVe<br/>共现矩阵"]
     end
     
     subgraph 序列模型
-        S1[RNN/LSTM]
-        S2[Transformer<br/>Self-Attention]
+        S1["RNN/LSTM"]
+        S2["Transformer<br/>Self-Attention"]
     end
     
     subgraph 大语言模型
-        LLM1[GPT<br/>生成式]
-        LLM2[BERT<br/>理解式]
+        LLM1["GPT<br/>生成式"]
+        LLM2["BERT<br/>理解式"]
         LLM3[LLaMA等开源模型]
     end
     
@@ -218,7 +218,7 @@ flowchart LR
     
     subgraph Agent内部
         P1[策略 π]
-        P2[价值函数 V/Q]
+        P2["价值函数 V/Q"]
     end
     
     subgraph 核心算法
@@ -289,11 +289,11 @@ mindmap
 
 ```mermaid
 flowchart TD
-    A[数学基础<br/>线代/概率/微积分] --> B[编程基础<br/>Python]
-    B --> C[机器学习基础<br/>监督/无监督]
-    C --> D[深度学习<br/>神经网络]
-    D --> E[专业方向<br/>CV/NLP/RL]
-    E --> F[前沿研究<br/>大模型/AI安全]
+    A["数学基础<br/>线代/概率/微积分"] --> B["编程基础<br/>Python"]
+    B --> C["机器学习基础<br/>监督/无监督"]
+    C --> D["深度学习<br/>神经网络"]
+    D --> E["专业方向<br/>CV/NLP/RL"]
+    E --> F["前沿研究<br/>大模型/AI安全"]
     
     style A fill:#ffebee
     style C fill:#e3f2fd

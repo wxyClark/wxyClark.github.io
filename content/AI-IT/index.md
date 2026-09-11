@@ -21,11 +21,11 @@ description: 让机器变聪明的魔法世界
 
 ```mermaid
 graph TB
-    TOP[AI-IT<br/>让机器变聪明] --> CORE[AI核心知识<br/>电脑是怎么学会的]
-    TOP --> FUND[基础知识<br/>学电脑要先会什么]
-    TOP --> HARD[硬件基础<br/>电脑里面长什么样]
-    TOP --> APP[AI应用<br/>电脑能帮我们做什么]
-    TOP --> ETH[AI伦理<br/>用电脑要注意什么]
+    TOP["AI-IT<br/>让机器变聪明"] --> CORE["AI核心知识<br/>电脑是怎么学会的"]
+    TOP --> FUND["基础知识<br/>学电脑要先会什么"]
+    TOP --> HARD["硬件基础<br/>电脑里面长什么样"]
+    TOP --> APP["AI应用<br/>电脑能帮我们做什么"]
+    TOP --> ETH["AI伦理<br/>用电脑要注意什么"]
 
     CORE --> THEORY[理论基础]
     CORE --> PRACTICE[动手实践]
@@ -81,24 +81,24 @@ graph TB
 ```mermaid
 graph TB
     subgraph 理论基础
-        T1[什么是AI<br/>机器怎么变聪明]
-        T2[大语言模型<br/>ChatGPT的秘密]
-        T3[术语表<br/>AI的"黑话"]
+        T1["什么是AI<br/>机器怎么变聪明"]
+        T2["大语言模型<br/>ChatGPT的秘密"]
+        T3["术语表<br/>AI的'黑话'"]
     end
     
     subgraph 动手实践
-        P1[提示词工程<br/>怎么跟AI说话]
-        P2[AI应用场景<br/>AI能做什么]
-        P3[RAG系统<br/>让AI查资料]
-        P4[Agent智能体<br/>让AI自己干活]
-        P5[AI工作流<br/>让AI自动做事]
+        P1["提示词工程<br/>怎么跟AI说话"]
+        P2["AI应用场景<br/>AI能做什么"]
+        P3["RAG系统<br/>让AI查资料"]
+        P4["Agent智能体<br/>让AI自己干活"]
+        P5["AI工作流<br/>让AI自动做事"]
     end
     
     subgraph 工程应用
-        E1[AI赋能<br/>AI+各行各业]
-        E2[AI工程化<br/>把AI做成产品]
-        E3[AI辅助开发<br/>用AI写代码]
-        E4[AI办公<br/>用AI提高效率]
+        E1["AI赋能<br/>AI+各行各业"]
+        E2["AI工程化<br/>把AI做成产品"]
+        E3["AI辅助开发<br/>用AI写代码"]
+        E4["AI办公<br/>用AI提高效率"]
     end
     
     T1 --> P1 --> E1
@@ -129,26 +129,26 @@ graph TB
 ```mermaid
 graph TB
     subgraph 数学基础
-        M1[线性代数<br/>向量和矩阵]
-        M2[概率统计<br/>可能性和数据]
-        M3[微积分<br/>变化和累积]
-        M4[优化<br/>找最好的方法]
-        M5[离散数学<br/>图和逻辑]
-        M6[信息论<br/>信息怎么度量]
+        M1["线性代数<br/>向量和矩阵"]
+        M2["概率统计<br/>可能性和数据"]
+        M3["微积分<br/>变化和累积"]
+        M4["优化<br/>找最好的方法"]
+        M5["离散数学<br/>图和逻辑"]
+        M6["信息论<br/>信息怎么度量"]
     end
     
     subgraph 编程基础
-        C1[算法<br/>解决问题的步骤]
-        C2[PHP<br/>做网站]
-        C3[Go语言<br/>做服务器]
-        C4[Python<br/>做AI]
+        C1["算法<br/>解决问题的步骤"]
+        C2["PHP<br/>做网站"]
+        C3["Go语言<br/>做服务器"]
+        C4["Python<br/>做AI"]
     end
     
     subgraph 软件基础
-        S1[操作系统<br/>电脑的管家]
-        S2[开发流程<br/>怎么做软件]
-        S3[架构设计<br/>怎么搭架子]
-        S4[设计模式<br/>怎么写好代码]
+        S1["操作系统<br/>电脑的管家"]
+        S2["开发流程<br/>怎么做软件"]
+        S3["架构设计<br/>怎么搭架子"]
+        S4["设计模式<br/>怎么写好代码"]
     end
     
     M1 --> C1 --> S1
@@ -179,18 +179,18 @@ graph TB
 ```mermaid
 graph TB
     subgraph 大脑
-        CPU[CPU<br/>中央处理器<br/>电脑的大脑]
-        GPU[GPU<br/>显卡<br/>画画的高手]
+        CPU["CPU<br/>中央处理器<br/>电脑的大脑"]
+        GPU["GPU<br/>显卡<br/>画画的高手"]
     end
     
     subgraph 记忆
-        RAM[内存<br/>临时记忆]
-        SSD[硬盘<br/>永久记忆]
+        RAM["内存<br/>临时记忆"]
+        SSD["硬盘<br/>永久记忆"]
     end
     
     subgraph 特殊功能
-        AI[AI芯片<br/>专做AI的]
-        QUANTUM[量子计算<br/>超级快的]
+        AI["AI芯片<br/>专做AI的"]
+        QUANTUM["量子计算<br/>超级快的"]
     end
     
     CPU --> RAM --> SSD
@@ -220,24 +220,24 @@ graph TB
 ```mermaid
 graph TB
     subgraph 看图识物 CV
-        CV1[图像处理<br/>修图、美颜]
-        CV2[目标检测<br/>找东西]
-        CV3[图像生成<br/>AI画画]
-        CV4[视频分析<br/>看视频]
+        CV1["图像处理<br/>修图、美颜"]
+        CV2["目标检测<br/>找东西"]
+        CV3["图像生成<br/>AI画画"]
+        CV4["视频分析<br/>看视频"]
     end
     
     subgraph 听懂人话 NLP
-        NLP1[文本处理<br/>理解文字]
-        NLP2[语音识别<br/>听懂说话]
-        NLP3[机器翻译<br/>翻译语言]
-        NLP4[语言模型<br/>聊天机器人]
+        NLP1["文本处理<br/>理解文字"]
+        NLP2["语音识别<br/>听懂说话"]
+        NLP3["机器翻译<br/>翻译语言"]
+        NLP4["语言模型<br/>聊天机器人"]
     end
     
     subgraph 自己学习 ML
-        ML1[监督学习<br/>有老师教]
-        ML2[无监督学习<br/>自己发现]
-        ML3[强化学习<br/>试错学习]
-        ML4[深度学习<br/>学得很深]
+        ML1["监督学习<br/>有老师教"]
+        ML2["无监督学习<br/>自己发现"]
+        ML3["强化学习<br/>试错学习"]
+        ML4["深度学习<br/>学得很深"]
     end
     
     CV1 --> ML1 --> NLP1
@@ -265,18 +265,18 @@ graph TB
 ```mermaid
 graph TB
     subgraph 公平
-        F1[不要歧视<br/>对每个人都公平]
-        F2[不要偏见<br/>不要只喜欢一种人]
+        F1["不要歧视<br/>对每个人都公平"]
+        F2["不要偏见<br/>不要只喜欢一种人"]
     end
     
     subgraph 安全
-        S1[不要被骗<br/>识别假信息]
-        S2[不要作恶<br/>不用AI做坏事]
+        S1["不要被骗<br/>识别假信息"]
+        S2["不要作恶<br/>不用AI做坏事"]
     end
     
     subgraph 隐私
-        P1[保护秘密<br/>不泄露个人信息]
-        P2[尊重别人<br/>不偷看别人的东西]
+        P1["保护秘密<br/>不泄露个人信息"]
+        P2["尊重别人<br/>不偷看别人的东西"]
     end
     
     F1 --> S1 --> P1
@@ -300,10 +300,10 @@ graph TB
 
 ```mermaid
 graph LR
-    A[第1关<br/>认识AI] --> B[第2关<br/>学基础]
-    B --> C[第3关<br/>动手做]
-    C --> D[第4关<br/>做应用]
-    D --> E[第5关<br/>当专家]
+    A["第1关<br/>认识AI"] --> B["第2关<br/>学基础"]
+    B --> C["第3关<br/>动手做"]
+    C --> D["第4关<br/>做应用"]
+    D --> E["第5关<br/>当专家"]
     
     style A fill:#e3f2fd
     style B fill:#e8f5e9

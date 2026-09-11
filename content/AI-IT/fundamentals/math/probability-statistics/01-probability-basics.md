@@ -24,9 +24,9 @@ description: 理解概率的基本概念与运算法则
 ```mermaid
 graph TB
     subgraph 柯尔莫哥洛夫公理
-        A1[非负性<br/>P(A) ≥ 0]
-        A2[规范性<br/>P(Ω) = 1]
-        A3[可列可加性<br/>P(∪Aᵢ) = ∑P(Aᵢ)]
+        A1["非负性<br/>P(A) ≥ 0"]
+        A2["规范性<br/>P(Ω) = 1"]
+        A3["可列可加性<br/>P(∪Aᵢ) = ∑P(Aᵢ)"]
     end    
     A1 & A2 & A3
     
@@ -83,9 +83,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 条件概率性质
-        A1[非负性<br/>P(A|B) ≥ 0]
-        A2[规范性<br/>P(Ω|B) = 1]
-        A3[可列可加性<br/>P(∪Aᵢ|B) = ∑P(Aᵢ|B)]
+        A1["非负性<br/>P(A|B) ≥ 0"]
+        A2["规范性<br/>P(Ω|B) = 1"]
+        A3["可列可加性<br/>P(∪Aᵢ|B) = ∑P(Aᵢ|B)"]
     end    
     A1 & A2 & A3
     
@@ -108,10 +108,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 贝叶斯公式
-        A1[公式<br/>P(Bᵢ|A) = P(A|Bᵢ)P(Bᵢ)/P(A)]
-        A2[先验概率<br/>P(Bᵢ)：事件发生前]
-        A3[似然<br/>P(A|Bᵢ)：已知Bᵢ时A的概率]
-        A4[后验概率<br/>P(Bᵢ|A)：观察到A后Bᵢ的概率]
+        A1["公式<br/>P(Bᵢ|A) = P(A|Bᵢ)P(Bᵢ)/P(A)"]
+        A2["先验概率<br/>P(Bᵢ)：事件发生前"]
+        A3["似然<br/>P(A|Bᵢ)：已知Bᵢ时A的概率"]
+        A4["后验概率<br/>P(Bᵢ|A)：观察到A后Bᵢ的概率"]
     end    
     A1 --> A2 & A3 & A4
     
@@ -135,10 +135,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 朴素贝叶斯
-        A1[先验概率<br/>P(y)]
-        A2[条件概率<br/>P(x|y)]
-        A3[后验概率<br/>P(y|x) ∝ P(x|y)P(y)]
-        A4[分类决策<br/>ŷ = argmax P(y|x)]
+        A1["先验概率<br/>P(y)"]
+        A2["条件概率<br/>P(x|y)"]
+        A3["后验概率<br/>P(y|x) ∝ P(x|y)P(y)"]
+        A4["分类决策<br/>ŷ = argmax P(y|x)"]
     end    
     A1 & A2 --> A3 --> A4
     

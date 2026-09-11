@@ -24,10 +24,10 @@ description: 理解随机变量的分布与性质
 ```mermaid
 graph TB
     subgraph 分布函数
-        A1[定义<br/>F(x) = P(X ≤ x)]
-        A2[性质1<br/>单调不减]
-        A3[性质2<br/>F(-∞)=0, F(+∞)=1]
-        A4[性质3<br/>右连续]
+        A1["定义<br/>F(x) = P(X ≤ x)"]
+        A2["性质1<br/>单调不减"]
+        A3["性质2<br/>F(-∞)=0, F(+∞)=1"]
+        A4["性质3<br/>右连续"]
     end    
     A1 --> A2 & A3 & A4
     
@@ -53,10 +53,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 泊松分布
-        A1[定义<br/>P(X=k) = λᵏe⁻λ/k!]
-        A2[参数λ<br/>单位时间发生次数]
-        A3[性质<br/>E(X)=Var(X)=λ]
-        A4[近似<br/>n大p小→泊松]
+        A1["定义<br/>P(X=k) = λᵏe⁻λ/k!"]
+        A2["参数λ<br/>单位时间发生次数"]
+        A3["性质<br/>E(X)=Var(X)=λ"]
+        A4["近似<br/>n大p小→泊松"]
     end    
     A1 --> A2 & A3 & A4
     
@@ -79,11 +79,11 @@ graph TB
 ```mermaid
 graph TB
     subgraph 连续分布
-        A1[均匀分布<br/>U(a,b)]
-        A2[正态分布<br/>N(μ,σ²)]
-        A3[指数分布<br/>Exp(λ)]
-        A4[伽马分布<br/>Γ(α,β)]
-        A5[β分布<br/>Beta(a,b)]
+        A1["均匀分布<br/>U(a,b)"]
+        A2["正态分布<br/>N(μ,σ²)"]
+        A3["指数分布<br/>Exp(λ)"]
+        A4["伽马分布<br/>Γ(α,β)"]
+        A5["β分布<br/>Beta(a,b)"]
     end    
     A1 & A2 & A3 & A4 & A5
     
@@ -148,10 +148,10 @@ Var(aX+b) = a²Var(X)
 ```mermaid
 graph TB
     subgraph 分布假设
-        A1[朴素贝叶斯<br/>特征独立分布]
-        A2[线性回归<br/>误差正态分布]
-        A3[EM算法<br/>混合高斯分布]
-        A4[生成模型<br/>p(x,y)=p(x|y)p(y)]
+        A1["朴素贝叶斯<br/>特征独立分布"]
+        A2["线性回归<br/>误差正态分布"]
+        A3["EM算法<br/>混合高斯分布"]
+        A4["生成模型<br/>p(x,y)=p(x|y)p(y)"]
     end    
     A1 & A2 & A3 & A4
     

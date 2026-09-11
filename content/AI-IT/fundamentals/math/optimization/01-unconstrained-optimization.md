@@ -25,13 +25,13 @@ description: 理解梯度下降法及其变体
 ```mermaid
 graph TB
     subgraph 一阶条件
-        A1[驻点<br/>∇f(x)=0]
-        A2[鞍点<br/>梯度为零但非极值]
+        A1["驻点<br/>∇f(x)=0"]
+        A2["鞍点<br/>梯度为零但非极值"]
     end    
     subgraph 二阶条件
-        B1[极小值<br/>Hessian正定]
-        B2[极大值<br/>Hessian负定]
-        B3[鞍点<br/>Hessian不定]
+        B1["极小值<br/>Hessian正定"]
+        B2["极大值<br/>Hessian负定"]
+        B3["鞍点<br/>Hessian不定"]
     end
     
     A1 & A2 --> B1 & B2 & B3
@@ -48,8 +48,8 @@ graph TB
 
 ```mermaid
 flowchart LR
-    A[初始化<br/>x₀] --> B[计算梯度<br/>∇f(x)]
-    B --> C[更新参数<br/>x = x - α∇f]
+    A["初始化<br/>x₀"] --> B["计算梯度<br/>∇f(x)"]
+    B --> C["更新参数<br/>x = x - α∇f"]
     C --> D{收敛判断}
     D -->|否| B
     D -->|是| E[最优解]
@@ -79,9 +79,9 @@ flowchart LR
 ```mermaid
 graph TB
     subgraph 梯度下降变体
-        A1[批量梯度下降<br/>全数据集]
-        A2[随机梯度下降<br/>单样本]
-        A3[小批量梯度下降<br/>折中]
+        A1["批量梯度下降<br/>全数据集"]
+        A2["随机梯度下降<br/>单样本"]
+        A3["小批量梯度下降<br/>折中"]
     end    
     A1 & A2 & A3
     
@@ -111,10 +111,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph Adam
-        A1[一阶矩估计<br/>m = β₁m + (1-β₁)∇f]
-        A2[二阶矩估计<br/>v = β₂v + (1-β₂)(∇f)²]
-        A3[偏差修正<br/>m̂ = m/(1-β₁ᵗ)]
-        A4[参数更新<br/>x = x - α·m̂/(√v̂+ε)]
+        A1["一阶矩估计<br/>m = β₁m + (1-β₁)∇f"]
+        A2["二阶矩估计<br/>v = β₂v + (1-β₂)(∇f)²"]
+        A3["偏差修正<br/>m̂ = m/(1-β₁ᵗ)"]
+        A4["参数更新<br/>x = x - α·m̂/(√v̂+ε)"]
     end    
     A1 --> A2 --> A3 --> A4
     
@@ -137,9 +137,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 收敛速度
-        A1[线性收敛<br/>O(1/t)]
-        A2[次线性收敛<br/>O(1/√t)]
-        A3[超线性收敛<br/>指数收敛]
+        A1["线性收敛<br/>O(1/t)"]
+        A2["次线性收敛<br/>O(1/√t)"]
+        A3["超线性收敛<br/>指数收敛"]
     end    
     A1 & A2 & A3
     

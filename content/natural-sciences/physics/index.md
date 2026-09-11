@@ -22,11 +22,11 @@ description: 像物理学家一样思考——力、能量、光、声、电，�
 
 ```mermaid
 flowchart LR
-    S1[力学<br/>动起来]
-    S2[热学<br/>热起来]
-    S3[电学<br/>电起来]
-    S4[光学<br/>亮起来]
-    S5[声学<br/>响起来]
+    S1["力学<br/>动起来"]
+    S2["热学<br/>热起来"]
+    S3["电学<br/>电起来"]
+    S4["光学<br/>亮起来"]
+    S5["声学<br/>响起来"]
     
     S1 --> S2 --> S3 --> S4 --> S5
     
@@ -53,8 +53,8 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    L1[第一咒：惯性咒<br/>不推不拉，原地不动<br/>动着不停，直线匀速] --> L2[第二咒：F=ma<br/>推得越重，加速越慢<br/>力越大，加速越快] 
-    L2 --> L3[第三咒：作用反作用<br/>你推我，我也推你<br/>大小相等，方向相反]
+    L1["第一咒：惯性咒<br/>不推不拉，原地不动<br/>动着不停，直线匀速"] --> L2["第二咒：F=ma<br/>推得越重，加速越慢<br/>力越大，加速越快"] 
+    L2 --> L3["第三咒：作用反作用<br/>你推我，我也推你<br/>大小相等，方向相反"]
     
     style L1 fill:#fff3e0
     style L2 fill:#e3f2fd
@@ -70,8 +70,8 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    E1[动能<br/>动起来的能量<br/>½mv²] --> E2[势能<br/>存起来的能量<br/>mgh] 
-    E2 --> E3[内能<br/>分子运动的能量<br/>温度高低]
+    E1["动能<br/>动起来的能量<br/>½mv²"] --> E2["势能<br/>存起来的能量<br/>mgh"] 
+    E2 --> E3["内能<br/>分子运动的能量<br/>温度高低"]
     
     style E1 fill:#e3f2fd
     style E2 fill:#e8f5e9
@@ -89,8 +89,8 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    H1[固体<br/>分子手拉手<br/>只能原地震动] --> H2[液体<br/>分子手松了<br/>能挤来挤去] 
-    H2 --> H3[气体<br/>分子甩开手<br/>自由飞奔]
+    H1["固体<br/>分子手拉手<br/>只能原地震动"] --> H2["液体<br/>分子手松了<br/>能挤来挤去"] 
+    H2 --> H3["气体<br/>分子甩开手<br/>自由飞奔"]
     
     style H1 fill:#ffebee
     style H2 fill:#fff3e0
@@ -107,9 +107,9 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    T1[传导<br/>固体里传<br/>手摸热勺子] 
-    T2[对流<br/>液气里传<br/>热水循环/热气球] 
-    T3[辐射<br/>真空也能传<br/>太阳烤地球/烤火] 
+    T1["传导<br/>固体里传<br/>手摸热勺子"] 
+    T2["对流<br/>液气里传<br/>热水循环/热气球"] 
+    T3["辐射<br/>真空也能传<br/>太阳烤地球/烤火"] 
     
     style T1 fill:#e3f2fd
     style T2 fill:#e8f5e9
@@ -131,8 +131,8 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    C1[电源<br/>电池/发电机<br/>提供电压] --> C2[导线<br/>铜线<br/>搭桥] 
-    C2 --> C3[用电器<br/>灯泡/马达/手机<br/>干活] 
+    C1["电源<br/>电池/发电机<br/>提供电压"] --> C2["导线<br/>铜线<br/>搭桥"] 
+    C2 --> C3["用电器<br/>灯泡/马达/手机<br/>干活"] 
     C3 --> C1
     
     style C1 fill:#fff3e0
@@ -162,9 +162,9 @@ V = I × R
 
 ```mermaid
 flowchart TD
-    L1[直线传播<br/>激光笔/影子/日食] 
-    L2[反射<br/>镜子/水面/猫眼] 
-    L3[折射<br/>筷子插水弯/眼镜/棱镜] 
+    L1["直线传播<br/>激光笔/影子/日食"] 
+    L2["反射<br/>镜子/水面/猫眼"] 
+    L3["折射<br/>筷子插水弯/眼镜/棱镜"] 
     
     style L1 fill:#e3f2fd
     style L2 fill:#e8f5e9
@@ -176,8 +176,8 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    Sun[太阳光<br/>白光] --> Prism[三棱镜] 
-    Prism --> Rainbow[彩虹<br/>红橙黄绿青蓝紫]
+    Sun["太阳光<br/>白光"] --> Prism[三棱镜] 
+    Prism --> Rainbow["彩虹<br/>红橙黄绿青蓝紫"]
     
     style Sun fill:#fff3e0
     style Prism fill:#e3f2fd
@@ -195,9 +195,9 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    V1[声源震动<br/>声带/鼓面/琴弦] --> V2[介质传播<br/>空气/水/固体] 
-    V2 --> V3[耳朵接收<br/>耳膜/听小骨/蜗牛] 
-    V3 --> V4[大脑解码<br/>听懂了]
+    V1["声源震动<br/>声带/鼓面/琴弦"] --> V2["介质传播<br/>空气/水/固体"] 
+    V2 --> V3["耳朵接收<br/>耳膜/听小骨/蜗牛"] 
+    V3 --> V4["大脑解码<br/>听懂了"]
     
     style V1 fill:#e3f2fd
     style V2 fill:#e8f5e9
@@ -222,11 +222,11 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    P1[Lv1 观察家<br/>会看现象] --> P2[Lv2 实验家<br/>会做实验] 
-    P2 --> P3[Lv3 建模家<br/>会画受力图] 
-    P3 --> P4[Lv4 计算家<br/>会用公式] 
-    P4 --> P5[Lv5 预言家<br/>能预测结果] 
-    P5 --> P6[Boss 发明家<br/>造新玩意]
+    P1["Lv1 观察家<br/>会看现象"] --> P2["Lv2 实验家<br/>会做实验"] 
+    P2 --> P3["Lv3 建模家<br/>会画受力图"] 
+    P3 --> P4["Lv4 计算家<br/>会用公式"] 
+    P4 --> P5["Lv5 预言家<br/>能预测结果"] 
+    P5 --> P6["Boss 发明家<br/>造新玩意"]
     
     style P1 fill:#e3f2fd
     style P3 fill:#fce4ec

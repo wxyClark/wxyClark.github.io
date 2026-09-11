@@ -49,9 +49,9 @@ description: 用科学知识造出有用的东西——从房子到火箭
 ```mermaid
 graph TB
     subgraph 计算机
-        C1[硬件<br/>电脑里面的东西]
-        C2[软件<br/>电脑用的程序]
-        C3[网络<br/>电脑怎么连起来]
+        C1["硬件<br/>电脑里面的东西"]
+        C2["软件<br/>电脑用的程序"]
+        C3["网络<br/>电脑怎么连起来"]
     end
     
     C1 --> C2 --> C3
@@ -74,9 +74,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 机械
-        M1[零件<br/>最小的东西]
-        M2[机器<br/>组合起来]
-        M3[自动化<br/>自己动]
+        M1["零件<br/>最小的东西"]
+        M2["机器<br/>组合起来"]
+        M3["自动化<br/>自己动"]
     end
     
     M1 --> M2 --> M3
@@ -99,9 +99,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 电气
-        E1[电路<br/>电怎么走]
-        E2[电力<br/>电从哪来]
-        E3[控制<br/>怎么控制]
+        E1["电路<br/>电怎么走"]
+        E2["电力<br/>电从哪来"]
+        E3["控制<br/>怎么控制"]
     end
     
     E1 --> E2 --> E3
@@ -124,9 +124,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 化工
-        CH1[材料<br/>用什么做]
-        CH2[工艺<br/>怎么做]
-        CH3[产品<br/>做出什么]
+        CH1["材料<br/>用什么做"]
+        CH2["工艺<br/>怎么做"]
+        CH3["产品<br/>做出什么"]
     end
     
     CH1 --> CH2 --> CH3
@@ -149,9 +149,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 土木
-        T1[建筑<br/>房子]
-        T2[道路<br/>路]
-        T3[桥梁<br/>桥]
+        T1["建筑<br/>房子"]
+        T2["道路<br/>路"]
+        T3["桥梁<br/>桥"]
     end
     
     T1 --> T2 --> T3
@@ -171,10 +171,10 @@ graph TB
 
 ```mermaid
 graph LR
-    A[第1关<br/>学数学] --> B[第2关<br/>学物理]
-    B --> C[第3关<br/>学化学]
-    C --> D[第4关<br/>选专业]
-    D --> E[第5关<br/>做项目]
+    A["第1关<br/>学数学"] --> B["第2关<br/>学物理"]
+    B --> C["第3关<br/>学化学"]
+    C --> D["第4关<br/>选专业"]
+    D --> E["第5关<br/>做项目"]
     
     style A fill:#e3f2fd
     style B fill:#e8f5e9

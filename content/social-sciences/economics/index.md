@@ -23,8 +23,8 @@ description: 从稀缺性出发，理解资源配置的逻辑
 ```mermaid
 graph TB
     subgraph 基本假设
-        A1[资源稀缺性<br/>欲望无限性]
-        A2[理性人假设<br/>效用最大化]
+        A1["资源稀缺性<br/>欲望无限性"]
+        A2["理性人假设<br/>效用最大化"]
         A3[信息不完全]
     end
     
@@ -56,8 +56,8 @@ graph TB
 
 ```mermaid
 flowchart LR
-    D[需求定律<br/>价格↑ 需求量↓] --> E[市场均衡<br/>Qd = Qs]
-    S[供给定律<br/>价格↑ 供给量↑] --> E
+    D["需求定律<br/>价格↑ 需求量↓"] --> E["市场均衡<br/>Qd = Qs"]
+    S["供给定律<br/>价格↑ 供给量↑"] --> E
     
     style D fill:#fff3e0
     style S fill:#e3f2fd
@@ -70,12 +70,12 @@ flowchart LR
 flowchart TD
     subgraph 效用理论
         U1[总效用 TU]
-        U2[边际效用 MU<br/>MU = ΔTU/ΔQ]
+        U2["边际效用 MU<br/>MU = ΔTU/ΔQ"]
     end
     
     subgraph 消费者均衡
-        C1[预算约束<br/>P₁X₁ + P₂X₂ = I]
-        C2[均衡条件<br/>MU₁/P₁ = MU₂/P₂]
+        C1["预算约束<br/>P₁X₁ + P₂X₂ = I"]
+        C2["均衡条件<br/>MU₁/P₁ = MU₂/P₂"]
     end
     
     U1 & U2 --> C1 & C2
@@ -89,18 +89,18 @@ flowchart TD
 ```mermaid
 flowchart TD
     subgraph 生产函数
-        P1[Q = fL, K]
-        P2[边际产量 MP<br/>MP = ΔQ/ΔL]
+        P1["Q = fL, K"]
+        P2["边际产量 MP<br/>MP = ΔQ/ΔL"]
     end
     
     subgraph 成本理论
         C1[总成本 TC]
-        C2[边际成本 MC<br/>MC = ΔTC/ΔQ]
+        C2["边际成本 MC<br/>MC = ΔTC/ΔQ"]
         C3[平均成本 AC]
     end
     
     subgraph 利润最大化
-        H1[条件：MR = MC]
+        H1["条件：MR = MC"]
     end
     
     P1 & P2 --> C1 & C2 & C3
@@ -115,9 +115,9 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    M1[完全竞争<br/>无数买家卖家<br/>同质产品] --> M2[垄断竞争<br/>较多卖家<br/>产品有差异]
-    M2 --> M3[寡头垄断<br/>少数卖家<br/>相互依赖]
-    M3 --> M4[完全垄断<br/>唯一卖家<br/>无替代品]
+    M1["完全竞争<br/>无数买家卖家<br/>同质产品"] --> M2["垄断竞争<br/>较多卖家<br/>产品有差异"]
+    M2 --> M3["寡头垄断<br/>少数卖家<br/>相互依赖"]
+    M3 --> M4["完全垄断<br/>唯一卖家<br/>无替代品"]
     
     style M1 fill:#e8f5e9
     style M2 fill:#fff3e0
@@ -133,7 +133,7 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    G[GDP = C + I + G + X - M]
+    G["GDP = C + I + G + X - M"]
     
     subgraph 组成部分
         C[消费 Consumption]
@@ -223,10 +223,10 @@ mindmap
 
 ```mermaid
 flowchart LR
-    L1[恩格尔定律<br/>收入↑ 食品支出占比↓]
-    L2[奥肯法则<br/>失业↑ GDP增长↓]
-    L3[菲利普斯曲线<br/>失业与通胀负相关]
-    L4[比较优势<br/>各国专注优势产品]
+    L1["恩格尔定律<br/>收入↑ 食品支出占比↓"]
+    L2["奥肯法则<br/>失业↑ GDP增长↓"]
+    L3["菲利普斯曲线<br/>失业与通胀负相关"]
+    L4["比较优势<br/>各国专注优势产品"]
     
     style L1 fill:#ffebee
     style L2 fill:#fff3e0
@@ -240,9 +240,9 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    A[经济学原理<br/>供需基础] --> B[微观经济学<br/>消费者与生产者]
-    B --> C[宏观经济学<br/>GDP与政策]
-    C --> D[专业方向<br/>金融/财政/产业]
+    A["经济学原理<br/>供需基础"] --> B["微观经济学<br/>消费者与生产者"]
+    B --> C["宏观经济学<br/>GDP与政策"]
+    C --> D["专业方向<br/>金融/财政/产业"]
     
     style A fill:#ffebee
     style B fill:#e3f2fd

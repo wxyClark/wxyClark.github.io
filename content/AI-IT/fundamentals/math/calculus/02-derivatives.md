@@ -24,9 +24,9 @@ description: 理解导数的概念、运算法则与应用
 ```mermaid
 graph TB
     subgraph 导数性质
-        A1[可导→连续<br/>可导是更强条件]
-        A2[左导数=右导数<br/>导数存在]
-        A3[导函数<br/>f'(x)也是函数]
+        A1["可导→连续<br/>可导是更强条件"]
+        A2["左导数=右导数<br/>导数存在"]
+        A3["导函数<br/>f'(x)也是函数"]
     end    
     A1 & A2 & A3
     
@@ -51,9 +51,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 运算法则
-        A1[和差法则<br/>(u±v)' = u'±v']
-        A2[乘法法则<br/>(uv)' = u'v + uv']
-        A3[除法法则<br/>(u/v)' = (u'v-uv')/v²]
+        A1["和差法则<br/>(u±v)' = u'±v'"]
+        A2["乘法法则<br/>(uv)' = u'v + uv'"]
+        A3["除法法则<br/>(u/v)' = (u'v-uv')/v²"]
     end    
     A1 & A2 & A3
     
@@ -95,9 +95,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 微分应用
-        A1[近似计算<br/>Δy ≈ dy]
-        A2[误差估计<br/>Δy ≈ f'(x)Δx]
-        A3[牛顿法<br/>迭代求根]
+        A1["近似计算<br/>Δy ≈ dy"]
+        A2["误差估计<br/>Δy ≈ f'(x)Δx"]
+        A3["牛顿法<br/>迭代求根"]
     end    
     A1 & A2 & A3
     
@@ -113,10 +113,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 梯度
-        A1[梯度定义<br/>∇f = (∂f/∂x₁,...,∂f/∂xₙ)]
-        A2[方向导数<br/>∇f·u]
-        A3[最速上升<br/>梯度方向]
-        A4[最速下降<br/>负梯度方向]
+        A1["梯度定义<br/>∇f = (∂f/∂x₁,...,∂f/∂xₙ)"]
+        A2["方向导数<br/>∇f·u"]
+        A3["最速上升<br/>梯度方向"]
+        A4["最速下降<br/>负梯度方向"]
     end    
     A1 --> A2 --> A3 & A4
     

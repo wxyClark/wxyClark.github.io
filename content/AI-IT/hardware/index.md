@@ -26,19 +26,19 @@ description: 理解计算机硬件的核心知识
 ```mermaid
 graph TB
     subgraph 计算单元
-        C1[CPU<br/>中央处理器]
-        C2[GPU<br/>图形处理器]
-        C3[TPU<br/>张量处理器]
+        C1["CPU<br/>中央处理器"]
+        C2["GPU<br/>图形处理器"]
+        C3["TPU<br/>张量处理器"]
     end    
     subgraph 存储单元
-        M1[内存<br/>RAM]
-        M2[显存<br/>VRAM]
-        M3[硬盘<br/>SSD/HDD]
+        M1["内存<br/>RAM"]
+        M2["显存<br/>VRAM"]
+        M3["硬盘<br/>SSD/HDD"]
     end    
     subgraph 输入输出
-        IO1[输入设备<br/>键盘鼠标]
-        IO2[输出设备<br/>显示器]
-        IO3[网络设备<br/>网卡]
+        IO1["输入设备<br/>键盘鼠标"]
+        IO2["输出设备<br/>显示器"]
+        IO3["网络设备<br/>网卡"]
     end
     
     C1 & C2 & C3 --> M1 & M2 & M3
@@ -58,14 +58,14 @@ graph TB
 ```mermaid
 graph TB
     subgraph 核心组件
-        A1[控制器<br/>指令执行]
-        A2[运算器<br/>算术逻辑]
-        A3[寄存器<br/>数据暂存]
+        A1["控制器<br/>指令执行"]
+        A2["运算器<br/>算术逻辑"]
+        A3["寄存器<br/>数据暂存"]
     end    
     subgraph 缓存层次
-        B1[L1缓存<br/>最快最小]
-        B2[L2缓存<br/>中等速度]
-        B3[L3缓存<br/>较大容量]
+        B1["L1缓存<br/>最快最小"]
+        B2["L2缓存<br/>中等速度"]
+        B3["L3缓存<br/>较大容量"]
     end
     
     A1 & A2 & A3 --> B1 & B2 & B3
@@ -110,13 +110,13 @@ graph TB
 ```mermaid
 graph TB
     subgraph CUDA核心
-        A1[流处理器<br/>并行计算]
-        A2[张量核心<br/>矩阵运算]
-        A3[光追核心<br/>光线追踪]
+        A1["流处理器<br/>并行计算"]
+        A2["张量核心<br/>矩阵运算"]
+        A3["光追核心<br/>光线追踪"]
     end    
     subgraph 显存
-        B1[GDDR6<br/>高带宽]
-        B2[HBM<br/>高带宽内存]
+        B1["GDDR6<br/>高带宽"]
+        B2["HBM<br/>高带宽内存"]
     end
     
     A1 & A2 & A3 --> B1 & B2
@@ -142,12 +142,12 @@ graph TB
 ```mermaid
 graph TB
     subgraph 存储层次
-        A1[寄存器<br/>最快最贵]
-        A2[L1缓存<br/>很快很贵]
-        A3[L2缓存<br/>较快较贵]
-        A4[内存<br/>适中]
-        A5[SSD<br/>较慢较便宜]
-        A6[HDD<br/>最慢最便宜]
+        A1["寄存器<br/>最快最贵"]
+        A2["L1缓存<br/>很快很贵"]
+        A3["L2缓存<br/>较快较贵"]
+        A4["内存<br/>适中"]
+        A5["SSD<br/>较慢较便宜"]
+        A6["HDD<br/>最慢最便宜"]
     end
     
     A1 --> A2 --> A3 --> A4 --> A5 --> A6

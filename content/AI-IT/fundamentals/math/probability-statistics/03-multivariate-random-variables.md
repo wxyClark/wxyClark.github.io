@@ -24,10 +24,10 @@ description: 理解联合分布、边缘分布与条件分布
 ```mermaid
 graph TB
     subgraph 边缘分布
-        A1[定义<br/>从联合到边缘]
-        A2[离散型<br/>P(X=x) = ∑P(X=x,Y=y)]
-        A3[连续型<br/>f(x) = ∫f(x,y)dy]
-        A4[意义<br/>单变量分布]
+        A1["定义<br/>从联合到边缘"]
+        A2["离散型<br/>P(X=x) = ∑P(X=x,Y=y)"]
+        A3["连续型<br/>f(x) = ∫f(x,y)dy"]
+        A4["意义<br/>单变量分布"]
     end    
     A1 --> A2 & A3 & A4
     
@@ -70,9 +70,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 相关性度量
-        A1[协方差<br/>Cov(X,Y)]
-        A2[相关系数<br/>ρ = Cov(X,Y)/(σₓσᵧ)]
-        A3[相关≠独立<br/>独立→不相关]
+        A1["协方差<br/>Cov(X,Y)"]
+        A2["相关系数<br/>ρ = Cov(X,Y)/(σₓσᵧ)"]
+        A3["相关≠独立<br/>独立→不相关"]
     end    
     A1 --> A2 --> A3
     
@@ -103,10 +103,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 协方差矩阵
-        A1[对称性<br/>Σ = Σᵀ]
-        A2[半正定<br/>xᵀΣx ≥ 0]
-        A3[特征值≥0<br/>分解性质]
-        A4[线性变换<br/>Cov(AX) = AΣAᵀ]
+        A1["对称性<br/>Σ = Σᵀ"]
+        A2["半正定<br/>xᵀΣx ≥ 0"]
+        A3["特征值≥0<br/>分解性质"]
+        A4["线性变换<br/>Cov(AX) = AΣAᵀ"]
     end    
     A1 & A2 & A3 & A4
     
@@ -122,10 +122,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 多元正态
-        A1[定义<br/>X ~ N(μ, Σ)]
-        A2[参数<br/>均值向量μ、协方差矩阵Σ]
-        A3[性质<br/>边缘/条件仍正态]
-        A4[应用<br/>高斯过程、贝叶斯]
+        A1["定义<br/>X ~ N(μ, Σ)"]
+        A2["参数<br/>均值向量μ、协方差矩阵Σ"]
+        A3["性质<br/>边缘/条件仍正态"]
+        A4["应用<br/>高斯过程、贝叶斯"]
     end    
     A1 --> A2 & A3 & A4
     

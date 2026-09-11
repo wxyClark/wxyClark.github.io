@@ -25,10 +25,10 @@ description: 理解不定积分、定积分与应用
 ```mermaid
 graph TB
     subgraph 定积分
-        A1[黎曼和<br/>∑f(xᵢ)Δxᵢ]
-        A2[极限过程<br/>n→∞]
-        A3[积分值<br/>面积/体积]
-        A4[牛顿-莱布尼茨<br/>∫ₐᵇf(x)dx = F(b)-F(a)]
+        A1["黎曼和<br/>∑f(xᵢ)Δxᵢ"]
+        A2["极限过程<br/>n→∞"]
+        A3["积分值<br/>面积/体积"]
+        A4["牛顿-莱布尼茨<br/>∫ₐᵇf(x)dx = F(b)-F(a)"]
     end    
     A1 --> A2 --> A3 --> A4
     
@@ -54,9 +54,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 积分方法
-        A1[换元积分<br/>变量替换]
-        A2[分部积分<br/>∫u dv = uv - ∫v du]
-        A3[部分分式<br/>有理函数]
+        A1["换元积分<br/>变量替换"]
+        A2["分部积分<br/>∫u dv = uv - ∫v du"]
+        A3["部分分式<br/>有理函数"]
     end    
     A1 & A2 & A3
     
@@ -101,9 +101,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 物理应用
-        A1[功<br/>W = ∫F·ds]
-        A2[质心<br/>x̄ = ∫xdm/∫dm]
-        A3[转动惯量<br/>I = ∫r²dm]
+        A1["功<br/>W = ∫F·ds"]
+        A2["质心<br/>x̄ = ∫xdm/∫dm"]
+        A3["转动惯量<br/>I = ∫r²dm"]
     end    
     A1 & A2 & A3
     

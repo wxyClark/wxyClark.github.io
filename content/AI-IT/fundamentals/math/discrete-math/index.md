@@ -24,19 +24,19 @@ description: 理解离散结构与算法基础的数学知识
 ```mermaid
 graph TB
     subgraph 数理逻辑
-        L1[命题逻辑<br/>真值运算]
-        L2[谓词逻辑<br/>量词约束]
-        L3[推理规则<br/>证明方法]
+        L1["命题逻辑<br/>真值运算"]
+        L2["谓词逻辑<br/>量词约束"]
+        L3["推理规则<br/>证明方法"]
     end    
     subgraph 集合论
-        S1[集合<br/>元素集合]
-        S2[关系<br/>元素关联]
-        S3[函数<br/>映射关系]
+        S1["集合<br/>元素集合"]
+        S2["关系<br/>元素关联"]
+        S3["函数<br/>映射关系"]
     end    
     subgraph 图论
-        G1[图<br/>顶点边]
-        G2[树<br/>无环图]
-        G3[网络<br/>加权图]
+        G1["图<br/>顶点边"]
+        G2["树<br/>无环图"]
+        G3["网络<br/>加权图"]
     end
     
     L1 & L2 & L3 --> S1 & S2 & S3
@@ -66,13 +66,13 @@ graph TB
 ```mermaid
 graph TB
     subgraph 量词
-        A1[全称量词<br/>∀x P(x)]
-        A2[存在量词<br/>∃x P(x)]
+        A1["全称量词<br/>∀x P(x)"]
+        A2["存在量词<br/>∃x P(x)"]
     end    
     subgraph 应用
-        B1[数学证明<br/>形式化]
-        B2[知识表示<br/>AI推理]
-        B3[程序验证<br/>正确性]
+        B1["数学证明<br/>形式化"]
+        B2["知识表示<br/>AI推理"]
+        B3["程序验证<br/>正确性"]
     end
     
     A1 & A2 --> B1 & B2 & B3
@@ -107,9 +107,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 关系类型
-        A1[自反关系<br/>aRa]
-        A2[对称关系<br/>aRb→bRa]
-        A3[传递关系<br/>aRb,bRc→aRc]
+        A1["自反关系<br/>aRa"]
+        A2["对称关系<br/>aRb→bRa"]
+        A3["传递关系<br/>aRb,bRc→aRc"]
     end    
     subgraph 等价关系
         B1[自反]
@@ -148,10 +148,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 特殊图类型
-        A1[完全图<br/>所有顶点相连]
-        A2[二分图<br/>顶点分为两组]
-        A3[平面图<br/>可平面嵌入]
-        A4[树<br/>连通无环]
+        A1["完全图<br/>所有顶点相连"]
+        A2["二分图<br/>顶点分为两组"]
+        A3["平面图<br/>可平面嵌入"]
+        A4["树<br/>连通无环"]
     end    
     A1 & A2 & A3 & A4
     

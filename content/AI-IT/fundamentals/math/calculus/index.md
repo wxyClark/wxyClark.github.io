@@ -25,19 +25,19 @@ description: 理解极限、导数与积分的核心知识
 ```mermaid
 graph TB
     subgraph 极限理论
-        L1[数列极限<br/>收敛概念]
-        L2[函数极限<br/>连续性]
-        L3[无穷级数<br/>求和]
+        L1["数列极限<br/>收敛概念"]
+        L2["函数极限<br/>连续性"]
+        L3["无穷级数<br/>求和"]
     end    
     subgraph 微分学
-        D1[导数<br/>变化率]
-        D2[微分<br/>线性近似]
-        D3[偏导数<br/>多元函数]
+        D1["导数<br/>变化率"]
+        D2["微分<br/>线性近似"]
+        D3["偏导数<br/>多元函数"]
     end    
     subgraph 积分学
-        I1[不定积分<br/>原函数]
-        I2[定积分<br/>面积]
-        I3[多重积分<br/>体积]
+        I1["不定积分<br/>原函数"]
+        I2["定积分<br/>面积"]
+        I3["多重积分<br/>体积"]
     end
     
     L1 & L2 & L3 --> D1 & D2 & D3
@@ -64,9 +64,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 极限运算法则
-        A1[和差法则<br/>极限的和=和的极限]
-        A2[积商法则<br/>极限的积=积的极限]
-        A3[复合函数<br/>极限传递]
+        A1["和差法则<br/>极限的和=和的极限"]
+        A2["积商法则<br/>极限的积=积的极限"]
+        A3["复合函数<br/>极限传递"]
     end    
     A1 & A2 & A3
     
@@ -98,10 +98,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 基本法则
-        A1[常数法则<br/>(c)' = 0]
-        A2[幂法则<br/>(xⁿ)' = nxⁿ⁻¹]
-        A3[乘法法则<br/>(uv)' = u'v + uv']
-        A4[链式法则<br/>(f(g(x)))' = f'(g(x))g'(x)]
+        A1["常数法则<br/>(c)' = 0"]
+        A2["幂法则<br/>(xⁿ)' = nxⁿ⁻¹"]
+        A3["乘法法则<br/>(uv)' = u'v + uv'"]
+        A4["链式法则<br/>(f(g(x)))' = f'(g(x))g'(x)"]
     end    
     A1 & A2 & A3 & A4
     
@@ -153,9 +153,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 定积分定义
-        A1[黎曼和<br/>∑f(xᵢ)Δxᵢ]
-        A2[极限过程<br/>n→∞]
-        A3[积分值<br/>面积]
+        A1["黎曼和<br/>∑f(xᵢ)Δxᵢ"]
+        A2["极限过程<br/>n→∞"]
+        A3["积分值<br/>面积"]
     end    
     A1 --> A2 --> A3
     
@@ -177,9 +177,9 @@ graph TB
 
 ```mermaid
 flowchart LR
-    A[损失函数<br/>L(θ)] --> B[求导<br/>∇L(θ)]
-    B --> C[梯度下降<br/>更新参数]
-    C --> D[收敛<br/>最优解]
+    A["损失函数<br/>L(θ)"] --> B["求导<br/>∇L(θ)"]
+    B --> C["梯度下降<br/>更新参数"]
+    C --> D["收敛<br/>最优解"]
     
     style A fill:#fff3e0
     style B fill:#e3f2fd

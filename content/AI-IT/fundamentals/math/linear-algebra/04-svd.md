@@ -24,13 +24,13 @@ description: 理解SVD的原理、计算与应用
 ```mermaid
 graph TB
     subgraph SVD分解
-        A1[任意矩阵A<br/>m×n]
-        A2[U矩阵<br/>m×m 正交]
-        A3[Σ矩阵<br/>m×n 对角]
-        A4[V矩阵<br/>n×n 正交]
+        A1["任意矩阵A<br/>m×n"]
+        A2["U矩阵<br/>m×m 正交"]
+        A3["Σ矩阵<br/>m×n 对角"]
+        A4["V矩阵<br/>n×n 正交"]
     end    
     A1 --> A2 & A3 & A4
-    A2 & A3 & A4 --> A5[A = UΣVᵀ]
+    A2 & A3 & A4 --> A5["A = UΣVᵀ"]
     
     style A1 fill:#ffebee
     style A5 fill:#e3f2fd
@@ -44,11 +44,11 @@ graph TB
 
 ```mermaid
 flowchart LR
-    A[矩阵A] --> B[计算AᵀA<br/>得到n×n矩阵]
-    B --> C[特征值分解<br/>AᵀA = VΛVᵀ]
-    C --> D[奇异值<br/>σᵢ = √λᵢ]
-    D --> E[右奇异向量<br/>V的列]
-    E --> F[左奇异向量<br/>uᵢ = Avᵢ/σᵢ]
+    A[矩阵A] --> B["计算AᵀA<br/>得到n×n矩阵"]
+    B --> C["特征值分解<br/>AᵀA = VΛVᵀ"]
+    C --> D["奇异值<br/>σᵢ = √λᵢ"]
+    D --> E["右奇异向量<br/>V的列"]
+    E --> F["左奇异向量<br/>uᵢ = Avᵢ/σᵢ"]
     
     style A fill:#fff3e0
     style B fill:#e3f2fd
@@ -84,10 +84,10 @@ flowchart LR
 ```mermaid
 graph TB
     subgraph SVD揭示的性质
-        A1[秩<br/>非零奇异值个数]
-        A2[范数<br/>‖A‖ = σ₁]
-        A3[条件数<br/>κ(A) = σ₁/σᵣ]
-        A4[Frobenius范数<br/>‖A‖_F = √(∑σᵢ²)]
+        A1["秩<br/>非零奇异值个数"]
+        A2["范数<br/>‖A‖ = σ₁"]
+        A3["条件数<br/>κ(A) = σ₁/σᵣ"]
+        A4["Frobenius范数<br/>‖A‖_F = √(∑σᵢ²)"]
     end    
     A1 & A2 & A3 & A4
     
@@ -110,9 +110,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 截断SVD性质
-        A1[最优性<br/>Eckart-Young定理]
-        A2[误差控制<br/>由奇异值决定]
-        A3[能量保留<br/>∑σᵢ²(k)/∑σᵢ²(n)]
+        A1["最优性<br/>Eckart-Young定理"]
+        A2["误差控制<br/>由奇异值决定"]
+        A3["能量保留<br/>∑σᵢ²(k)/∑σᵢ²(n)"]
     end    
     A1 & A2 & A3
     
@@ -128,10 +128,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 矩阵分解推荐
-        A1[用户-物品矩阵<br/>R(m×n)]
-        A2[SVD分解<br/>R = UΣVᵀ]
-        A3[低秩近似<br/>R ≈ UₖΣₖVₖᵀ]
-        A4[预测评分<br/>R̂ = UₖΣₖVₖᵀ]
+        A1["用户-物品矩阵<br/>R(m×n)"]
+        A2["SVD分解<br/>R = UΣVᵀ"]
+        A3["低秩近似<br/>R ≈ UₖΣₖVₖᵀ"]
+        A4["预测评分<br/>R̂ = UₖΣₖVₖᵀ"]
     end    
     A1 --> A2 --> A3 --> A4
     
@@ -152,10 +152,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 图像SVD压缩
-        A1[图像矩阵<br/>灰度值]
-        A2[SVD分解<br/>UΣVᵀ]
-        A3[截断保留<br/>前k个奇异值]
-        A4[压缩图像<br/>重建]
+        A1["图像矩阵<br/>灰度值"]
+        A2["SVD分解<br/>UΣVᵀ"]
+        A3["截断保留<br/>前k个奇异值"]
+        A4["压缩图像<br/>重建"]
     end    
     A1 --> A2 --> A3 --> A4
     

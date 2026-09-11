@@ -24,17 +24,17 @@ description: 理解计算机网络的核心知识
 ```mermaid
 graph TB
     subgraph 网络层次
-        L1[物理层<br/>比特传输]
-        L2[数据链路层<br/>帧传输]
-        L3[网络层<br/>路由寻址]
-        L4[传输层<br/>端到端]
-        L5[应用层<br/>用户服务]
+        L1["物理层<br/>比特传输"]
+        L2["数据链路层<br/>帧传输"]
+        L3["网络层<br/>路由寻址"]
+        L4["传输层<br/>端到端"]
+        L5["应用层<br/>用户服务"]
     end    
     subgraph 网络设备
-        D1[网卡<br/>网络接口]
-        D2[交换机<br/>局域网]
-        D3[路由器<br/>广域网]
-        D4[防火墙<br/>安全防护]
+        D1["网卡<br/>网络接口"]
+        D2["交换机<br/>局域网"]
+        D3["路由器<br/>广域网"]
+        D4["防火墙<br/>安全防护"]
     end
     
     L1 --> L2 --> L3 --> L4 --> L5
@@ -53,19 +53,19 @@ graph TB
 ```mermaid
 graph TB
     subgraph 应用层
-        A1[HTTP<br/>Web协议]
-        A2[FTP<br/>文件传输]
-        A3[SMTP<br/>邮件传输]
-        A4[DNS<br/>域名解析]
+        A1["HTTP<br/>Web协议"]
+        A2["FTP<br/>文件传输"]
+        A3["SMTP<br/>邮件传输"]
+        A4["DNS<br/>域名解析"]
     end    
     subgraph 传输层
-        T1[TCP<br/>可靠传输]
-        T2[UDP<br/>快速传输]
+        T1["TCP<br/>可靠传输"]
+        T2["UDP<br/>快速传输"]
     end    
     subgraph 网络层
-        N1[IP<br/>路由寻址]
-        N2[ICMP<br/>控制消息]
-        N3[ARP<br/>地址解析]
+        N1["IP<br/>路由寻址"]
+        N2["ICMP<br/>控制消息"]
+        N3["ARP<br/>地址解析"]
     end
     
     A1 & A2 & A3 & A4 --> T1 & T2
@@ -102,9 +102,9 @@ graph TB
 
 ```mermaid
 graph LR
-    A[局域网<br/>办公室] --> B[城域网<br/>城市范围]
-    B --> C[广域网<br/>国家范围]
-    C --> D[互联网<br/>全球范围]
+    A["局域网<br/>办公室"] --> B["城域网<br/>城市范围"]
+    B --> C["广域网<br/>国家范围"]
+    C --> D["互联网<br/>全球范围"]
     
     style A fill:#fff3e0
     style B fill:#e3f2fd

@@ -143,19 +143,19 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    subgraph 初级["🌱 初级工程师<br/>0-2年"]
+    subgraph 初级["🌱 初级工程师 0-2年"]
         J1["执行给定任务"]
         J2["学习团队规范"]
         J3["在指导下独立工作"]
     end
     
-    subgraph 中级["🌿 中级工程师<br/>2-5年"]
+    subgraph 中级["🌿 中级工程师 2-5年"]
         S1["独立完成模块"]
         S2["Code Review"]
         S3["指导新人"]
     end
     
-    subgraph 高级["🌳 高级工程师<br/>5年+"]
+    subgraph 高级["🌳 高级工程师 5年+"]
         H1["架构设计"]
         H2["技术决策"]
         H3["跨团队协作"]

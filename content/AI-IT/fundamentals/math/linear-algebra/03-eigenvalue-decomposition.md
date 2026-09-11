@@ -24,11 +24,11 @@ description: 理解特征值、特征向量与矩阵分解
 ```mermaid
 graph TB
     subgraph 几何解释
-        A1[特征向量<br/>方向不变]
-        A2[特征值<br/>缩放因子]
-        A3[λ>1<br/>拉伸]
-        A4[0<λ<1<br/>压缩]
-        A5[λ<0<br/>反向]
+        A1["特征向量<br/>方向不变"]
+        A2["特征值<br/>缩放因子"]
+        A3["λ>1<br/>拉伸"]
+        A4["0<λ<1<br/>压缩"]
+        A5["λ<0<br/>反向"]
     end    
     A1 --> A2
     A2 --> A3 & A4 & A5
@@ -53,7 +53,7 @@ graph TB
 ```mermaid
 flowchart LR
     A[矩阵A] --> B[构造A-λI]
-    B --> C[计算det(A-λI)]
+    B --> C["计算det(A-λI)"]
     C --> D[求解特征方程]
     D --> E[得到特征值λ]
     E --> F[代入求特征向量v]
@@ -82,10 +82,10 @@ flowchart LR
 ```mermaid
 graph TB
     subgraph 对称矩阵分解
-        A1[对称矩阵A<br/>实对称]
-        A2[正交矩阵Q<br/>特征向量为列]
-        A3[对角矩阵Λ<br/>特征值为对角]
-        A4[分解形式<br/>A = QΛQᵀ]
+        A1["对称矩阵A<br/>实对称"]
+        A2["正交矩阵Q<br/>特征向量为列"]
+        A3["对角矩阵Λ<br/>特征值为对角"]
+        A4["分解形式<br/>A = QΛQᵀ"]
     end    
     A1 --> A2 & A3 --> A4
     
@@ -109,11 +109,11 @@ graph TB
 
 ```mermaid
 flowchart LR
-    A[数据矩阵X] --> B[中心化<br/>减去均值]
-    B --> C[协方差矩阵<br/>Cov = XᵀX/n]
-    C --> D[特征值分解<br/>Cov = QΛQᵀ]
-    D --> E[选择主成分<br/>前k个特征向量]
-    E --> F[降维数据<br/>Y = XQ_k]
+    A[数据矩阵X] --> B["中心化<br/>减去均值"]
+    B --> C["协方差矩阵<br/>Cov = XᵀX/n"]
+    C --> D["特征值分解<br/>Cov = QΛQᵀ"]
+    D --> E["选择主成分<br/>前k个特征向量"]
+    E --> F["降维数据<br/>Y = XQ_k"]
     
     style A fill:#fff3e0
     style B fill:#e3f2fd
@@ -137,9 +137,9 @@ flowchart LR
 ```mermaid
 graph TB
     subgraph 谱图卷积
-        A1[图拉普拉斯<br/>L = I - D⁻¹/²AD⁻¹/²]
-        A2[特征分解<br/>L = UΛUᵀ]
-        A3[谱域卷积<br/>gθ * x = Ugθ(Λ)Uᵀx]
+        A1["图拉普拉斯<br/>L = I - D⁻¹/²AD⁻¹/²"]
+        A2["特征分解<br/>L = UΛUᵀ"]
+        A3["谱域卷积<br/>gθ * x = Ugθ(Λ)Uᵀx"]
     end    
     A1 --> A2 --> A3
     

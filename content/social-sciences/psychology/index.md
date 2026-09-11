@@ -42,18 +42,18 @@ graph TB
 ```mermaid
 flowchart TD
     subgraph 感觉
-        S1[视觉<br/>光波→视网膜]
-        S2[听觉<br/>声波→耳蜗]
+        S1["视觉<br/>光波→视网膜"]
+        S2["听觉<br/>声波→耳蜗"]
         S3[触觉]
         S4[味觉]
         S5[嗅觉]
     end
     
     subgraph 知觉组织原则
-        P1[接近律<br/>相近归为一组]
-        P2[相似律<br/>相似归为一组]
-        P3[连续律<br/>连续归为一组]
-        P4[闭合律<br/>不完整被补全]
+        P1["接近律<br/>相近归为一组"]
+        P2["相似律<br/>相似归为一组"]
+        P3["连续律<br/>连续归为一组"]
+        P4["闭合律<br/>不完整被补全"]
     end
     
     S1 & S2 & S3 & S4 & S5 --> P1 & P2 & P3 & P4
@@ -67,15 +67,15 @@ flowchart TD
 ```mermaid
 flowchart LR
     subgraph 感觉记忆
-        SM[<1秒<br/>形象登记]
+        SM["<1秒<br/>形象登记"]
     end
     
     subgraph 短时记忆
-        SMem[<30秒<br/>7±2个组块]
+        SMem["<30秒<br/>7±2个组块"]
     end
     
     subgraph 长时记忆
-        LM[永久<br/>语义网络]
+        LM["永久<br/>语义网络"]
     end
     
     SM -->|注意| SMem
@@ -90,9 +90,9 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    T1[学习后1小时<br/>遗忘40%] --> T2[1天后<br/>遗忘66%]
-    T2 --> T3[6天后<br/>遗忘75%]
-    T3 --> T4[31天后<br/>遗忘79%]
+    T1["学习后1小时<br/>遗忘40%"] --> T2["1天后<br/>遗忘66%"]
+    T2 --> T3["6天后<br/>遗忘75%"]
+    T3 --> T4["31天后<br/>遗忘79%"]
     
     style T1 fill:#ffebee
     style T2 fill:#fff3e0
@@ -108,9 +108,9 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    S1[感知运动阶段<br/>0-2岁<br/>客体永久性] --> S2[前运算阶段<br/>2-7岁<br/>自我中心]
-    S2 --> S3[具体运算阶段<br/>7-11岁<br/>守恒、可逆]
-    S3 --> S4[形式运算阶段<br/>11岁+<br/>抽象推理]
+    S1["感知运动阶段<br/>0-2岁<br/>客体永久性"] --> S2["前运算阶段<br/>2-7岁<br/>自我中心"]
+    S2 --> S3["具体运算阶段<br/>7-11岁<br/>守恒、可逆"]
+    S3 --> S4["形式运算阶段<br/>11岁+<br/>抽象推理"]
     
     style S1 fill:#ffebee
     style S2 fill:#fff3e0
@@ -123,17 +123,17 @@ flowchart LR
 ```mermaid
 flowchart TD
     subgraph 儿童期
-        P1[信任vs不信任<br/>0-1岁]
-        P2[自主vs羞怯<br/>1-3岁]
-        P3[主动vs内疚<br/>3-6岁]
-        P4[勤奋vs自卑<br/>6-12岁]
+        P1["信任vs不信任<br/>0-1岁"]
+        P2["自主vs羞怯<br/>1-3岁"]
+        P3["主动vs内疚<br/>3-6岁"]
+        P4["勤奋vs自卑<br/>6-12岁"]
     end
     
     subgraph 成年期
-        A1[同一性vs角色混乱<br/>12-18岁]
-        A2[亲密vs孤独<br/>18-40岁]
-        A3[繁衍vs停滞<br/>40-65岁]
-        A4[完善vs绝望<br/>65岁+]
+        A1["同一性vs角色混乱<br/>12-18岁"]
+        A2["亲密vs孤独<br/>18-40岁"]
+        A3["繁衍vs停滞<br/>40-65岁"]
+        A4["完善vs绝望<br/>65岁+"]
     end
     
     P1 --> P2 --> P3 --> P4 --> A1 --> A2 --> A3 --> A4
@@ -152,13 +152,13 @@ flowchart TD
 ```mermaid
 flowchart TD
     subgraph 归因理论
-        A1[内部归因<br/>性格、能力]
-        A2[外部归因<br/>环境、运气]
+        A1["内部归因<br/>性格、能力"]
+        A2["外部归因<br/>环境、运气"]
     end
     
     subgraph 认知偏差
-        B1[基本归因错误<br/>高估内部因素]
-        B2[自利偏差<br/>成功归内、失败归外]
+        B1["基本归因错误<br/>高估内部因素"]
+        B2["自利偏差<br/>成功归内、失败归外"]
     end
     
     A1 & A2 --> B1 & B2
@@ -172,13 +172,13 @@ flowchart TD
 ```mermaid
 flowchart LR
     subgraph 从众
-        C1[信息性影响<br/>不确定时参考他人]
-        C2[规范性影响<br/>希望被接纳]
+        C1["信息性影响<br/>不确定时参考他人"]
+        C2["规范性影响<br/>希望被接纳"]
     end
     
     subgraph 服从
-        O1[米尔格拉姆实验<br/>权威导致服从]
-        O2[斯坦福监狱实验<br/>角色导致行为改变]
+        O1["米尔格拉姆实验<br/>权威导致服从"]
+        O2["斯坦福监狱实验<br/>角色导致行为改变"]
     end
     
     C1 & C2 --> 社会影响
@@ -193,14 +193,14 @@ flowchart LR
 ```mermaid
 flowchart TD
     subgraph 态度成分
-        T1[认知成分<br/>信念]
-        T2[情感成分<br/>情绪]
-        T3[行为成分<br/>倾向]
+        T1["认知成分<br/>信念"]
+        T2["情感成分<br/>情绪"]
+        T3["行为成分<br/>倾向"]
     end
     
     subgraph 认知失调
-        D1[认知不一致<br/>产生心理不适]
-        D2[改变态度或行为<br/>恢复一致]
+        D1["认知不一致<br/>产生心理不适"]
+        D2["改变态度或行为<br/>恢复一致"]
     end
     
     T1 & T2 & T3 --> D1 --> D2
@@ -217,9 +217,9 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    D1[焦虑障碍<br/>过度担忧、惊恐] --> D2[抑郁障碍<br/>持续低落]
-    D2 --> D3[人格障碍<br/>持久行为异常]
-    D3 --> D4[精神病性障碍<br/>幻觉、妄想]
+    D1["焦虑障碍<br/>过度担忧、惊恐"] --> D2["抑郁障碍<br/>持续低落"]
+    D2 --> D3["人格障碍<br/>持久行为异常"]
+    D3 --> D4["精神病性障碍<br/>幻觉、妄想"]
     
     style D1 fill:#fff3e0
     style D2 fill:#ffebee
@@ -232,7 +232,7 @@ flowchart LR
 ```mermaid
 flowchart TD
     subgraph 心理治疗
-        P1[认知行为疗法<br/>CBT]
+        P1["认知行为疗法<br/>CBT"]
         P2[精神分析]
         P3[人本主义]
     end
@@ -278,9 +278,9 @@ mindmap
 
 ```mermaid
 flowchart TD
-    A[基础心理学<br/>感觉知觉记忆] --> B[发展心理学<br/>认知发展]
-    B --> C[社会心理学<br/>人际互动]
-    C --> D[异常心理学<br/>心理障碍]
+    A["基础心理学<br/>感觉知觉记忆"] --> B["发展心理学<br/>认知发展"]
+    B --> C["社会心理学<br/>人际互动"]
+    C --> D["异常心理学<br/>心理障碍"]
     D --> E[心理学研究方法]
     
     style A fill:#ffebee

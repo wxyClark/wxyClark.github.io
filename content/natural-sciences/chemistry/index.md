@@ -22,8 +22,8 @@ description: 像化学家一样思考——原子积木搭世界，化学反应�
 
 ```mermaid
 flowchart TD
-    A1[原子<br/>最小积木<br/>100多种] --> A2[分子<br/>积木拼成的<br/>几千万种] 
-    A2 --> A3[物质<br/>分子堆成的<br/>看得见摸得着]
+    A1["原子<br/>最小积木<br/>100多种"] --> A2["分子<br/>积木拼成的<br/>几千万种"] 
+    A2 --> A3["物质<br/>分子堆成的<br/>看得见摸得着"]
     
     style A1 fill:#e3f2fd
     style A2 fill:#e8f5e9
@@ -44,7 +44,7 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    N[原子核<br/>质子+ + 中子0<br/>重、正电/中性] <-- 静电引力 --> E[电子云<br/>电子-<br/>轻、负电、高速转]
+    N["原子核<br/>质子+ + 中子0<br/>重、正电/中性"] <-- 静电引力 --> E["电子云<br/>电子-<br/>轻、负电、高速转"]
     
     style N fill:#ffebee
     style E fill:#e3f2fd
@@ -66,9 +66,9 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    B1[离子键<br/>电子转让<br/>变正负离子<br/>强、高熔点] 
-    B2[共价键<br/>电子共享<br/>手拉手<br/>方向性强] 
-    B3[金属键<br/>电子共享<br/>电子海<br/>导电导热] 
+    B1["离子键<br/>电子转让<br/>变正负离子<br/>强、高熔点"] 
+    B2["共价键<br/>电子共享<br/>手拉手<br/>方向性强"] 
+    B3["金属键<br/>电子共享<br/>电子海<br/>导电导热"] 
     
     style B1 fill:#e3f2fd
     style B2 fill:#e8f5e9
@@ -94,9 +94,9 @@ flowchart TD
 ### 反应 = 旧键断、新键连、原子重排
 
 ```mermaid
-flowflowchart LR
-    R1[反应物<br/>旧分子] --> R2[过渡态<br/>高能、不稳定<br/>原子挣脱重组] 
-    R2 --> R3[生成物<br/>新分子]
+flowchart LR
+    R1["反应物<br/>旧分子"] --> R2["过渡态<br/>高能、不稳定<br/>原子挣脱重组"] 
+    R2 --> R3["生成物<br/>新分子"]
     
     style R1 fill:#e3f2fd
     style R2 fill:#fff3e0
@@ -118,8 +118,8 @@ flowflowchart LR
 
 ```mermaid
 flowchart TD
-    E1[放热反应<br/>能量↓ 温度↑<br/>燃烧、中和、呼吸] 
-    E2[吸热反应<br/>能量↑ 温度↓<br/>光合作用、溶硝酸铵] 
+    E1["放热反应<br/>能量↓ 温度↑<br/>燃烧、中和、呼吸"] 
+    E2["吸热反应<br/>能量↑ 温度↓<br/>光合作用、溶硝酸铵"] 
     
     style E1 fill:#ffebee
     style E2 fill:#e3f2fd
@@ -136,10 +136,10 @@ flowchart TD
 ### 影响速度的四因素
 ```mermaid
 flowchart TD
-    F1[浓度↑<br/>撞击多] 
-    F2[温度↑<br/>动得快 撞得猛] 
-    F3[压强↑<br/>气体挤一块] 
-    F4[催化剂<br/>搭桥降门槛] 
+    F1["浓度↑<br/>撞击多"] 
+    F2["温度↑<br/>动得快 撞得猛"] 
+    F3["压强↑<br/>气体挤一块"] 
+    F4["催化剂<br/>搭桥降门槛"] 
     
     style F1 fill:#e3f2fd
     style F2 fill:#e8f5e9
@@ -175,8 +175,8 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    EC1[原电池<br/>化学能→电能<br/>干电池/燃料电池] 
-    EC2[电解池<br/>电能→化学能<br/>电镀/电解水/充电] 
+    EC1["原电池<br/>化学能→电能<br/>干电池/燃料电池"] 
+    EC2["电解池<br/>电能→化学能<br/>电镀/电解水/充电"] 
     
     style EC1 fill:#e3f2fd
     style EC2 fill:#e8f5e9
@@ -209,11 +209,11 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    C1[Lv1 认原子<br/>背前20元素] --> C2[Lv2 搭分子<br/>球棍模型] 
-    C2 --> C3[Lv3 写方程<br/>配平不翻车] 
-    C3 --> C4[Lv4 做实验<br/>现象记准] 
-    C4 --> C5[Lv5 算化学计量<br/>摩尔不晕] 
-    C5 --> C6[Boss 设合成<br/>造新分子] 
+    C1["Lv1 认原子<br/>背前20元素"] --> C2["Lv2 搭分子<br/>球棍模型"] 
+    C2 --> C3["Lv3 写方程<br/>配平不翻车"] 
+    C3 --> C4["Lv4 做实验<br/>现象记准"] 
+    C4 --> C5["Lv5 算化学计量<br/>摩尔不晕"] 
+    C5 --> C6["Boss 设合成<br/>造新分子"] 
     
     style C1 fill:#e3f2fd
     style C3 fill:#fce4ec

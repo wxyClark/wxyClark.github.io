@@ -26,19 +26,19 @@ description: 理解向量、矩阵与线性变换的核心知识
 ```mermaid
 graph TB
     subgraph 基础概念
-        V1[向量<br/>有向量]
-        V2[矩阵<br/>数表]
-        V3[张量<br/>高维数组]
+        V1["向量<br/>有向量"]
+        V2["矩阵<br/>数表"]
+        V3["张量<br/>高维数组"]
     end    
     subgraph 核心运算
-        O1[向量运算<br/>加法/数乘/内积]
-        O2[矩阵运算<br/>乘法/转置/逆]
-        O3[线性变换<br/>旋转/缩放/投影]
+        O1["向量运算<br/>加法/数乘/内积"]
+        O2["矩阵运算<br/>乘法/转置/逆"]
+        O3["线性变换<br/>旋转/缩放/投影"]
     end    
     subgraph 应用领域
-        A1[机器学习<br/>特征表示]
-        A2[计算机视觉<br/>图像处理]
-        A3[推荐系统<br/>矩阵分解]
+        A1["机器学习<br/>特征表示"]
+        A2["计算机视觉<br/>图像处理"]
+        A3["推荐系统<br/>矩阵分解"]
     end
     
     V1 & V2 & V3 --> O1 & O2 & O3
@@ -66,14 +66,14 @@ graph TB
 ```mermaid
 graph TB
     subgraph 基本运算
-        A1[向量加法<br/>对应元素相加]
-        A2[数乘<br/>标量乘向量]
-        A3[内积<br/>对应元素乘积和]
+        A1["向量加法<br/>对应元素相加"]
+        A2["数乘<br/>标量乘向量"]
+        A3["内积<br/>对应元素乘积和"]
     end    
     subgraph 几何意义
-        B1[加法<br/>平行四边形法则]
-        B2[内积<br/>投影长度]
-        B3[外积<br/>面积/方向]
+        B1["加法<br/>平行四边形法则"]
+        B2["内积<br/>投影长度"]
+        B3["外积<br/>面积/方向"]
     end
     
     A1 & A2 & A3 --> B1 & B2 & B3
@@ -115,15 +115,15 @@ graph TB
 ```mermaid
 graph TB
     subgraph 基本运算
-        A1[矩阵加法<br/>对应元素相加]
-        A2[矩阵乘法<br/>行×列求和]
-        A3[转置<br/>行列互换]
-        A4[逆矩阵<br/>AA⁻¹=I]
+        A1["矩阵加法<br/>对应元素相加"]
+        A2["矩阵乘法<br/>行×列求和"]
+        A3["转置<br/>行列互换"]
+        A4["逆矩阵<br/>AA⁻¹=I"]
     end    
     subgraph 特殊运算
-        B1[行列式<br/>面积/体积]
-        B2[迹<br/>对角线和]
-        B3[秩<br/>独立行数]
+        B1["行列式<br/>面积/体积"]
+        B2["迹<br/>对角线和"]
+        B3["秩<br/>独立行数"]
     end
     
     A1 & A2 & A3 & A4 --> B1 & B2 & B3
@@ -153,11 +153,11 @@ graph TB
 ```mermaid
 graph TB
     subgraph SVD分解
-        A[矩阵A] --> B[U矩阵<br/>正交]
-        A --> C[Σ矩阵<br/>奇异值]
-        A --> D[V矩阵<br/>正交]
+        A[矩阵A] --> B["U矩阵<br/>正交"]
+        A --> C["Σ矩阵<br/>奇异值"]
+        A --> D["V矩阵<br/>正交"]
     end    
-    B & C & D --> E[A = UΣVᵀ]
+    B & C & D --> E["A = UΣVᵀ"]
     
     style A fill:#ffebee
     style E fill:#e3f2fd
@@ -186,14 +186,14 @@ graph TB
 ```mermaid
 graph TB
     subgraph 二维变换
-        A1[旋转<br/>角度θ]
-        A2[缩放<br/>因子s]
-        A3[反射<br/>轴对称]
-        A4[剪切<br/>平行移动]
+        A1["旋转<br/>角度θ"]
+        A2["缩放<br/>因子s"]
+        A3["反射<br/>轴对称"]
+        A4["剪切<br/>平行移动"]
     end    
     subgraph 矩阵表示
-        B1[旋转矩阵<br/>[cosθ, -sinθ; sinθ, cosθ]]
-        B2[缩放矩阵<br/>[s, 0; 0, s]]
+        B1["旋转矩阵<br/>[cosθ, -sinθ; sinθ, cosθ]"]
+        B2["缩放矩阵<br/>[s, 0; 0, s]"]
     end
     
     A1 & A2 & A3 & A4 --> B1 & B2
@@ -210,10 +210,10 @@ graph TB
 
 ```mermaid
 flowchart LR
-    A[数据矩阵<br/>X] --> B[中心化<br/>去均值]
-    B --> C[协方差矩阵<br/>Cov]
-    C --> D[特征值分解<br/>EVD]
-    D --> E[选择主成分<br/>降维]
+    A["数据矩阵<br/>X"] --> B["中心化<br/>去均值"]
+    B --> C["协方差矩阵<br/>Cov"]
+    C --> D["特征值分解<br/>EVD"]
+    D --> E["选择主成分<br/>降维"]
     
     style A fill:#fff3e0
     style B fill:#e3f2fd

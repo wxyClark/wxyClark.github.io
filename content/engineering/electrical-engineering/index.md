@@ -14,19 +14,19 @@ description: 理解电气系统与电力电子的核心知识
 ```mermaid
 graph TB
     subgraph 电路理论
-        C1[电路分析<br/>基本定律]
-        C2[交流电路<br/>相量分析]
-        C3[暂态电路<br/>动态响应]
+        C1["电路分析<br/>基本定律"]
+        C2["交流电路<br/>相量分析"]
+        C3["暂态电路<br/>动态响应"]
     end    
     subgraph 电力系统
-        P1[发电<br/>电能生产]
-        P2[输电<br/>电能传输]
-        P3[配电<br/>电能分配]
+        P1["发电<br/>电能生产"]
+        P2["输电<br/>电能传输"]
+        P3["配电<br/>电能分配"]
     end    
     subgraph 电力电子
-        E1[功率器件<br/>开关控制]
-        E2[变换电路<br/>AC-DC-AC]
-        E3[电机驱动<br/>变频调速]
+        E1["功率器件<br/>开关控制"]
+        E2["变换电路<br/>AC-DC-AC"]
+        E3["电机驱动<br/>变频调速"]
     end
     
     C1 & C2 & C3 --> P1 & P2 & P3
@@ -55,10 +55,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 分析方法
-        A1[节点电压法<br/>节点方程]
-        A2[网孔电流法<br/>网孔方程]
-        A3[戴维南定理<br/>等效简化]
-        A4[诺顿定理<br/>电流源等效]
+        A1["节点电压法<br/>节点方程"]
+        A2["网孔电流法<br/>网孔方程"]
+        A3["戴维南定理<br/>等效简化"]
+        A4["诺顿定理<br/>电流源等效"]
     end
     
     A1 & A2 & A3 & A4
@@ -82,10 +82,10 @@ graph TB
 
 ```mermaid
 graph LR
-    A[发电<br/>水电/火电/风电] --> B[升压<br/>高压输电]
-    B --> C[输电<br/>远距离传输]
-    C --> D[降压<br/>配电电压]
-    D --> E[配电<br/>用户端]
+    A["发电<br/>水电/火电/风电"] --> B["升压<br/>高压输电"]
+    B --> C["输电<br/>远距离传输"]
+    C --> D["降压<br/>配电电压"]
+    D --> E["配电<br/>用户端"]
     
     style A fill:#fff3e0
     style B fill:#e3f2fd
@@ -130,15 +130,15 @@ graph LR
 
 ```mermaid
 graph TB
-    subgraph AC-DC<br/>整流
-        A1[不可控整流<br/>二极管]
-        A2[可控整流<br/>晶闸管]
+    subgraph "AC-DC 整流"
+        A1["不可控整流<br/>二极管"]
+        A2["可控整流<br/>晶闸管"]
     end    
-    subgraph DC-AC<br/>逆变
-        B1[电压型逆变<br/>PWM控制]
-        B2[电流型逆变<br/>电网同步]
+    subgraph "DC-AC 逆变"
+        B1["电压型逆变<br/>PWM控制"]
+        B2["电流型逆变<br/>电网同步"]
     end    
-    subgraph DC-DC<br/>斩波
+    subgraph "DC-DC 斩波"
         C1[Buck降压]
         C2[Boost升压]
         C3[Buck-Boost升降压]

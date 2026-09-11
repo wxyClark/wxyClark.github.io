@@ -14,23 +14,23 @@ description: 五子棋系统学习指南 — 8个主题，从入门到精通
 ```mermaid
 graph TB
     subgraph 入门阶段
-        I1[01-beginner-guide<br/>规则禁手]
-        I2[02-basic-techniques<br/>攻防手法]
+        I1["01-beginner-guide<br/>规则禁手"]
+        I2["02-basic-techniques<br/>攻防手法"]
     end
     
     subgraph 基础阶段
-        B1[03-opening-patterns<br/>26种开局]
-        B2[05-forbidden-rules<br/>三三/四四/长连]
+        B1["03-opening-patterns<br/>26种开局"]
+        B2["05-forbidden-rules<br/>三三/四四/长连"]
     end
     
     subgraph 进阶阶段
-        A1[04-midgame-tactics<br/>VCF/VCT]
-        A2[06-practical-experience<br/>经验总结]
+        A1["04-midgame-tactics<br/>VCF/VCT"]
+        A2["06-practical-experience<br/>经验总结"]
     end
     
     subgraph 高级阶段
-        H1[07-thinking-methods<br/>计算判断]
-        H2[08-learning-methods<br/>科学规划]
+        H1["07-thinking-methods<br/>计算判断"]
+        H2["08-learning-methods<br/>科学规划"]
     end
     
     I1 & I2 --> B1 & B2
@@ -89,27 +89,27 @@ flowchart LR
 ```mermaid
 graph TB
     subgraph 基本功
-        B1[识别棋形<br/>活三/冲四]
-        B2[计算能力<br/>3-5步]
-        B3[禁手意识<br/>避免判负]
+        B1["识别棋形<br/>活三/冲四"]
+        B2["计算能力<br/>3-5步"]
+        B3["禁手意识<br/>避免判负"]
     end
     
     subgraph 进攻技术
-        T1[四三胜<br/>核心胜法]
-        T2[VCF<br/>连续冲四]
-        T3[VCT<br/>连续做杀]
+        T1["四三胜<br/>核心胜法"]
+        T2["VCF<br/>连续冲四"]
+        T3["VCT<br/>连续做杀"]
     end
     
     subgraph 防守技术
-        D1[活三防守<br/>堵哪端]
-        D2[冲四防守<br/>必须挡]
-        D3[反杀机会<br/>攻中带防]
+        D1["活三防守<br/>堵哪端"]
+        D2["冲四防守<br/>必须挡"]
+        D3["反杀机会<br/>攻中带防"]
     end
     
     subgraph 高级思维
-        H1[禁手陷阱<br/>诱导对方]
-        H2[一子双杀<br/>同时两威胁]
-        H3[全局判断<br/>优劣评估]
+        H1["禁手陷阱<br/>诱导对方"]
+        H2["一子双杀<br/>同时两威胁"]
+        H3["全局判断<br/>优劣评估"]
     end
     
     B1 & B2 & B3 --> T1 & T2 & T3
@@ -129,7 +129,7 @@ graph TB
 ```mermaid
 xychart
     title "五子棋学习进度"
-    x-axis [入门, 基础, 进阶, 提高, 精通]
+    x-axis ["入门","基础","进阶","提高","精通"]
     y-axis "掌握程度" 0 --> 100
     bar [15, 40, 65, 85, 95]
     line [10, 30, 55, 75, 90]

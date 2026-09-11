@@ -21,12 +21,12 @@ description: 研究人和人之间是怎么相处的——从个人到社会
 
 ```mermaid
 graph TB
-    TOP[社会科学<br/>研究人和人] --> ECON[经济学<br/>钱是怎么回事]
-    TOP --> PSY[心理学<br/>人在想什么]
-    TOP --> SOC[社会学<br/>社会是怎么运转的]
-    TOP --> POL[政治学<br/>谁说了算]
-    TOP --> LAW[法学<br/>规矩怎么定]
-    TOP --> EDU[教育学<br/>怎么学得快]
+    TOP["社会科学<br/>研究人和人"] --> ECON["经济学<br/>钱是怎么回事"]
+    TOP --> PSY["心理学<br/>人在想什么"]
+    TOP --> SOC["社会学<br/>社会是怎么运转的"]
+    TOP --> POL["政治学<br/>谁说了算"]
+    TOP --> LAW["法学<br/>规矩怎么定"]
+    TOP --> EDU["教育学<br/>怎么学得快"]
 
     ECON --> MONEY[钱]
     ECON --> TRADE[交易]
@@ -85,10 +85,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 经济学
-        E1[需求<br/>想要什么]
-        E2[供给<br/>有什么]
-        E3[价格<br/>值多少]
-        E4[市场<br/>在哪买]
+        E1["需求<br/>想要什么"]
+        E2["供给<br/>有什么"]
+        E3["价格<br/>值多少"]
+        E4["市场<br/>在哪买"]
     end
     
     E1 --> E2 --> E3 --> E4
@@ -112,10 +112,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 心理学
-        P1[想法<br/>在想什么]
-        P2[感受<br/>开心/难过]
-        P3[行为<br/>为什么这样做]
-        P4[成长<br/>怎么变成熟]
+        P1["想法<br/>在想什么"]
+        P2["感受<br/>开心/难过"]
+        P3["行为<br/>为什么这样做"]
+        P4["成长<br/>怎么变成熟"]
     end
     
     P1 --> P2 --> P3 --> P4
@@ -139,10 +139,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 社会学
-        S1[群体<br/>人怎么组织]
-        S2[制度<br/>规矩怎么定]
-        S3[变化<br/>社会怎么变]
-        S4[文化<br/>习惯怎么来]
+        S1["群体<br/>人怎么组织"]
+        S2["制度<br/>规矩怎么定"]
+        S3["变化<br/>社会怎么变"]
+        S4["文化<br/>习惯怎么来"]
     end
     
     S1 --> S2 --> S3 --> S4
@@ -166,10 +166,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 政治学
-        PO1[权力<br/>谁说了算]
-        PO2[规则<br/>怎么定规矩]
-        PO3[治理<br/>怎么管好]
-        PO4[参与<br/>怎么参与]
+        PO1["权力<br/>谁说了算"]
+        PO2["规则<br/>怎么定规矩"]
+        PO3["治理<br/>怎么管好"]
+        PO4["参与<br/>怎么参与"]
     end
     
     PO1 --> PO2 --> PO3 --> PO4
@@ -193,10 +193,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 法学
-        L1[公平<br/>对每个人都好]
-        L2[权利<br/>你能做什么]
-        L3[义务<br/>你应该做什么]
-        L4[惩罚<br/>做错了怎么办]
+        L1["公平<br/>对每个人都好"]
+        L2["权利<br/>你能做什么"]
+        L3["义务<br/>你应该做什么"]
+        L4["惩罚<br/>做错了怎么办"]
     end
     
     L1 --> L2 --> L3 --> L4
@@ -220,10 +220,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 教育学
-        ED1[学习<br/>怎么学]
-        ED2[教学<br/>怎么教]
-        ED3[成长<br/>怎么变聪明]
-        ED4[方法<br/>用什么方法]
+        ED1["学习<br/>怎么学"]
+        ED2["教学<br/>怎么教"]
+        ED3["成长<br/>怎么变聪明"]
+        ED4["方法<br/>用什么方法"]
     end
     
     ED1 --> ED2 --> ED3 --> ED4
@@ -244,11 +244,11 @@ graph TB
 
 ```mermaid
 graph LR
-    A[第1关<br/>心理学] --> B[第2关<br/>经济学]
-    B --> C[第3关<br/>社会学]
-    C --> D[第4关<br/>政治学]
-    D --> E[第5关<br/>法学]
-    E --> F[第6关<br/>教育学]
+    A["第1关<br/>心理学"] --> B["第2关<br/>经济学"]
+    B --> C["第3关<br/>社会学"]
+    C --> D["第4关<br/>政治学"]
+    D --> E["第5关<br/>法学"]
+    E --> F["第6关<br/>教育学"]
     
     style A fill:#e8f5e9
     style B fill:#e3f2fd

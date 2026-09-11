@@ -25,9 +25,9 @@ description: 理解图的基本概念与算法
 ```mermaid
 graph TB
     subgraph 图的表示
-        A1[邻接矩阵<br/>A[i,j]=1若相邻]
-        A2[邻接表<br/>每个顶点的邻居]
-        A3[边列表<br/>所有边的集合]
+        A1["邻接矩阵<br/>A[i,j] = 1 若相邻"]
+        A2["邻接表<br/>每个顶点的邻居"]
+        A3["边列表<br/>所有边的集合"]
     end    
     A1 & A2 & A3
     
@@ -52,10 +52,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 树性质
-        A1[连通<br/>任意两点可达]
-        A2[无环<br/>无回路]
-        A3[唯一路径<br/>两点间唯一]
-        A4[边数<br/>|E|=|V|-1]
+        A1["连通<br/>任意两点可达"]
+        A2["无环<br/>无回路"]
+        A3["唯一路径<br/>两点间唯一"]
+        A4["边数<br/>|E|=|V|-1"]
     end    
     A1 & A2 & A3 & A4
     
@@ -80,10 +80,10 @@ graph TB
 ```mermaid
 graph TB
     subgraph 连通性
-        A1[连通图<br/>任意两点可达]
-        A2[强连通<br/>有向图双向可达]
-        A3[弱连通<br/>忽略方向连通]
-        A4[连通分量<br/>最大连通子图]
+        A1["连通图<br/>任意两点可达"]
+        A2["强连通<br/>有向图双向可达"]
+        A3["弱连通<br/>忽略方向连通"]
+        A4["连通分量<br/>最大连通子图"]
     end    
     A1 & A2 & A3 & A4
     
@@ -114,8 +114,8 @@ graph TB
 ```mermaid
 graph TB
     subgraph 最小生成树
-        A1[Kruskal<br/>边排序+并查集]
-        A2[Prim<br/>顶点扩展]
+        A1["Kruskal<br/>边排序+并查集"]
+        A2["Prim<br/>顶点扩展"]
     end    
     A1 & A2
     
@@ -131,9 +131,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 图神经网络
-        A1[图卷积<br/>邻居聚合]
-        A2[图注意力<br/>注意力加权]
-        A3[图池化<br/>层次化]
+        A1["图卷积<br/>邻居聚合"]
+        A2["图注意力<br/>注意力加权"]
+        A3["图池化<br/>层次化"]
     end    
     A1 & A2 & A3
     

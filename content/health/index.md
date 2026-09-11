@@ -21,12 +21,12 @@ description: 让人不生病、生病了怎么治——从身体到心理
 
 ```mermaid
 graph TB
-    TOP[健康科学<br/>让人健康] --> BASIC[基础医学<br/>身体里面长什么样]
-    TOP --> CLINIC[临床医学<br/>生病了怎么看]
-    TOP --> PUBLIC[公共卫生<br/>怎么让大家都健康]
-    TOP --> NURSE[护理<br/>怎么照顾病人]
-    TOP --> PHARMA[药学<br/>药是怎么做的]
-    TOP --> REHAB[康复<br/>受伤了怎么恢复]
+    TOP["健康科学<br/>让人健康"] --> BASIC["基础医学<br/>身体里面长什么样"]
+    TOP --> CLINIC["临床医学<br/>生病了怎么看"]
+    TOP --> PUBLIC["公共卫生<br/>怎么让大家都健康"]
+    TOP --> NURSE["护理<br/>怎么照顾病人"]
+    TOP --> PHARMA["药学<br/>药是怎么做的"]
+    TOP --> REHAB["康复<br/>受伤了怎么恢复"]
 
     BASIC --> BODY[身体结构]
     BASIC --> DISEASE[疾病原理]
@@ -94,9 +94,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 基础医学
-        B1[身体<br/>由什么组成]
-        B2[器官<br/>怎么工作]
-        B3[疾病<br/>为什么会生病]
+        B1["身体<br/>由什么组成"]
+        B2["器官<br/>怎么工作"]
+        B3["疾病<br/>为什么会生病"]
     end
     
     B1 --> B2 --> B3
@@ -119,9 +119,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 临床医学
-        C1[诊断<br/>得了什么病]
-        C2[治疗<br/>怎么治]
-        C3[手术<br/>开刀]
+        C1["诊断<br/>得了什么病"]
+        C2["治疗<br/>怎么治"]
+        C3["手术<br/>开刀"]
     end
     
     C1 --> C2 --> C3
@@ -144,9 +144,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 公共卫生
-        P1[预防<br/>不生病]
-        P2[促进<br/>更健康]
-        P3[服务<br/>怎么帮]
+        P1["预防<br/>不生病"]
+        P2["促进<br/>更健康"]
+        P3["服务<br/>怎么帮"]
     end
     
     P1 --> P2 --> P3
@@ -169,9 +169,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 护理
-        N1[照顾<br/>照顾病人]
-        N2[计划<br/>怎么照顾]
-        N3[技能<br/>用什么方法]
+        N1["照顾<br/>照顾病人"]
+        N2["计划<br/>怎么照顾"]
+        N3["技能<br/>用什么方法"]
     end
     
     N1 --> N2 --> N3
@@ -194,9 +194,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 药学
-        PH1[药物<br/>什么药]
-        PH2[效果<br/>治什么]
-        PH3[安全<br/>能不能吃]
+        PH1["药物<br/>什么药"]
+        PH2["效果<br/>治什么"]
+        PH3["安全<br/>能不能吃"]
     end
     
     PH1 --> PH2 --> PH3
@@ -219,9 +219,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 康复
-        R1[评估<br/>伤得怎么样]
-        R2[物理<br/>怎么恢复]
-        R3[生活<br/>怎么适应]
+        R1["评估<br/>伤得怎么样"]
+        R2["物理<br/>怎么恢复"]
+        R3["生活<br/>怎么适应"]
     end
     
     R1 --> R2 --> R3
@@ -241,11 +241,11 @@ graph TB
 
 ```mermaid
 graph LR
-    A[第1关<br/>基础医学] --> B[第2关<br/>临床医学]
-    B --> C[第3关<br/>公共卫生]
-    C --> D[第4关<br/>护理]
-    D --> E[第5关<br/>药学]
-    E --> F[第6关<br/>康复]
+    A["第1关<br/>基础医学"] --> B["第2关<br/>临床医学"]
+    B --> C["第3关<br/>公共卫生"]
+    C --> D["第4关<br/>护理"]
+    D --> E["第5关<br/>药学"]
+    E --> F["第6关<br/>康复"]
     
     style A fill:#e3f2fd
     style B fill:#e8f5e9

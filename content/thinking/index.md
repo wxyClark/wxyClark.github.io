@@ -21,13 +21,13 @@ description: 让脑子更好使、想问题更清楚——认知、心理学、�
 
 ```mermaid
 graph TB
-    TOP[思维科学<br/>让脑子更好使] --> COG[认知心理学<br/>大脑怎么思考]
-    TOP --> LRN[学习认知<br/>怎么学得快]
-    TOP --> PSY[心理学<br/>想法和感受]
-    TOP --> SOC[社会学<br/>人群怎么想]
-    TOP --> POL[政治理论<br/>国家怎么想]
-    TOP --> PHI[哲学<br/>怎么想得深]
-    TOP --> CUL[文化研究<br/>文化怎么影响思考]
+    TOP["思维科学<br/>让脑子更好使"] --> COG["认知心理学<br/>大脑怎么思考"]
+    TOP --> LRN["学习认知<br/>怎么学得快"]
+    TOP --> PSY["心理学<br/>想法和感受"]
+    TOP --> SOC["社会学<br/>人群怎么想"]
+    TOP --> POL["政治理论<br/>国家怎么想"]
+    TOP --> PHI["哲学<br/>怎么想得深"]
+    TOP --> CUL["文化研究<br/>文化怎么影响思考"]
 
     style TOP fill:#fff3e0
     style COG fill:#e3f2fd

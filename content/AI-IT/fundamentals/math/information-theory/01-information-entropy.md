@@ -23,10 +23,10 @@ description: 理解信息熵的概念与性质
 ```mermaid
 graph TB
     subgraph 熵性质
-        A1[非负性<br/>H(X) ≥ 0]
-        A2[确定性<br/>P=1时H=0]
-        A3[最大熵<br/>均匀分布最大]
-        A4[可加性<br/>独立变量熵可加]
+        A1["非负性<br/>H(X) ≥ 0"]
+        A2["确定性<br/>P=1时H=0"]
+        A3["最大熵<br/>均匀分布最大"]
+        A4["可加性<br/>独立变量熵可加"]
     end    
     A1 & A2 & A3 & A4
     
@@ -48,9 +48,9 @@ graph TB
 ```mermaid
 graph TB
     subgraph 最大熵原理
-        A1[约束<br/>已知部分信息]
-        A2[目标<br/>选择最大熵分布]
-        A3[结果<br/>最不确定分布]
+        A1["约束<br/>已知部分信息"]
+        A2["目标<br/>选择最大熵分布"]
+        A3["结果<br/>最不确定分布"]
     end    
     A1 --> A2 --> A3
     
@@ -78,8 +78,8 @@ graph TB
 ```mermaid
 graph TB
     subgraph 交叉熵
-        A1[二分类<br/>H = -[ylogŷ + (1-y)log(1-ŷ)]]
-        A2[多分类<br/>H = -∑yᵢlogŷᵢ]
+        A1["二分类<br/>H = -[ylogŷ + (1-y)log(1-ŷ)]"]
+        A2["多分类<br/>H = -∑yᵢlogŷᵢ"]
     end    
     A1 & A2
     

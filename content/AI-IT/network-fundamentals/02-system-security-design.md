@@ -61,7 +61,7 @@ User::where('id', $userId)->first();
 
 ```mermaid
 flowchart LR
-    A["攻击者"] -->|"注入<script>| B["漏洞网站"]
+    A["攻击者"] -->|"注入<script>"| B["漏洞网站"]
     B --> C["受害者浏览器"]
     C --> D["Cookie被窃取"]
     

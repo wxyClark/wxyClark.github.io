@@ -117,8 +117,8 @@ D - 持久性：提交后永久保存
 ```mermaid
 quadrantChart
     title 事务隔离级别对比
-    x-axis 并发性能:高 --> 并发性能:低
-    y-axis 数据一致性:弱 --> 数据一致性:强
+    x-axis 并发性能高 --> 并发性能低
+    y-axis 数据一致性弱 --> 数据一致性强
     quadrant-1 串行化
     quadrant-2 可重复读
     quadrant-3 读已提交

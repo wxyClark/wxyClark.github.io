@@ -14,10 +14,10 @@ description: 疾病诊断、治疗与临床决策的核心知识体系
 ```mermaid
 graph TB
     subgraph 诊断学
-        D1[病史采集<br/>核心技能]
-        D2[体格检查<br/>核心技能]
-        D3[辅助检查<br/>实验室/影像]
-        D4[临床思维<br/>诊断推理]
+        D1["病史采集<br/>核心技能"]
+        D2["体格检查<br/>核心技能"]
+        D3["辅助检查<br/>实验室/影像"]
+        D4["临床思维<br/>诊断推理"]
     end
     subgraph 内科学
         I1[心血管系统]
@@ -47,7 +47,7 @@ graph TB
     end
     subgraph 临床核心能力
         C1[临床决策]
-        C2[手术/操作技能]
+        C2["手术/操作技能"]
         C3[医患沟通]
         C4[循证医学]
         C5[多学科协作]
@@ -77,12 +77,12 @@ graph TB
 
 ```mermaid
 flowchart TB
-    A[病史采集] --> B[主诉<br/>最突出症状]
-    A --> C[现病史<br/>症状演变全过程]
-    A --> D[既往史<br/>疾病/手术/输血/药物/过敏]
-    A --> E[个人史<br/>出生/职业/婚姻/习惯]
-    A --> F[家族史<br/>遗传/共同环境]
-    A --> G[系统回顾<br/>各系统症状筛查]
+    A[病史采集] --> B["主诉<br/>最突出症状"]
+    A --> C["现病史<br/>症状演变全过程"]
+    A --> D["既往史<br/>疾病/手术/输血/药物/过敏"]
+    A --> E["个人史<br/>出生/职业/婚姻/习惯"]
+    A --> F["家族史<br/>遗传/共同环境"]
+    A --> G["系统回顾<br/>各系统症状筛查"]
     
     style A fill:#ffebee
     style B fill:#fff3e0
@@ -167,10 +167,10 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    A[Ask<br/>提出临床问题] --> B[Acquire<br/>检索最佳证据]
-    B --> C[Appraise<br/>批判性评价]
-    C --> D[Apply<br/>应用于患者]
-    D --> E[Assess<br/>评价效果]
+    A["Ask<br/>提出临床问题"] --> B["Acquire<br/>检索最佳证据"]
+    B --> C["Appraise<br/>批判性评价"]
+    C --> D["Apply<br/>应用于患者"]
+    D --> E["Assess<br/>评价效果"]
     E --> A
     
     style A fill:#e3f2fd
@@ -229,7 +229,7 @@ graph LR
     A[诊断学基础] --> B[内科学系统]
     B --> C[外科学系统]
     C --> D[专科医学]
-    D --> E[临床决策/循证]
+    D --> E["临床决策/循证"]
     E --> F[亚专业深造]
     
     style A fill:#ffebee
