@@ -22,6 +22,8 @@ jobs:
         with:
           submodules: 'true'
           fetch-depth: 0 # Fetch all history
+      - name: Lint content
+        run: node scripts/lint-content.mjs
       - name: Copy documents and configurations
         run: |
           cp -v quartz.config.ts quartz.layout.ts quartz

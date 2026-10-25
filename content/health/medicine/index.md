@@ -26,6 +26,6 @@ description: 研究人体健康与疾病防治的知识体系
 | 主题 | 链接 |
 |------|------|
 | 健康科学概览 | [健康科学](../index.md) |
-| 康复医学 | [康复医学](../rehabilitation-medicine/index.md) |
+| 康复医学 | [康复医学](../rehabilitation/index.md) |
 | 药学 | [药学](../pharmacy/index.md) |
 | 心理健康 | [心理健康](../mental-health/index.md) |

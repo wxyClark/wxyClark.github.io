@@ -16,7 +16,7 @@ description: 理解投资原理与理财实战方法
 | 资产配置实战 | 资产类别、配置策略、再平衡 | [进入](01-asset-allocation-practice.md) |
 | 投资策略详解 | 价值投资、成长投资、指数投资 | [进入](02-investment-strategies.md) |
 | 投资案例复盘 | 成功案例、失败教训、经验总结 | [进入](03-investment-case-studies.md) |
-| 投资基础 | 基本概念、风险收益、工具介绍 | [进入](01-investment.md) |
+| 投资基础 | 基本概念、风险收益、工具介绍 | [进入](00-investment.md) |
 
 ---
 

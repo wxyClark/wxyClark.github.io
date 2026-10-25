@@ -1,3 +1,8 @@
+---
+title: "Quartz & Obsidian 文档模板参考"
+description: "知识库 · Quartz & Obsidian 文档模板参考主题笔记"
+---
+
 # Quartz & Obsidian 文档模板参考
 
 ## 模板说明

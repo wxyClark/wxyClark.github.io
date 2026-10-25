@@ -1,3 +1,8 @@
+---
+title: "资产配置实战 — 构建稳健的投资组合"
+description: "不要把所有鸡蛋放在一个篮子里，但也不要放在太多篮子里"
+---
+
 # 资产配置实战 — 构建稳健的投资组合
 
 > 不要把所有鸡蛋放在一个篮子里，但也不要放在太多篮子里
@@ -48,34 +53,34 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-    subgraph 1["10% 短期消费"]
+    subgraph S1["10% 短期消费"]
         A1["3-6个月生活费"]
         A2["货币基金/活期"]
     end
     
-    subgraph 2["20% 保障保险"]
+    subgraph S2["20% 保障保险"]
         B1["意外险"]
         B2["重疾险"]
         B3["医疗险"]
     end
     
-    subgraph 3["30% 高风险投资"]
+    subgraph S3["30% 高风险投资"]
         C1["股票"]
         C2["股票基金"]
     end
     
-    subgraph 4["40% 稳健投资"]
+    subgraph S4["40% 稳健投资"]
         D1["债券"]
         D2["债券基金"]
         D3["养老金"]
     end
     
-    1 --- 2 --- 3 --- 4
+    S1 --- S2 --- S3 --- S4
     
-    style 1 fill:#e3f2fd
-    style 2 fill:#fff3e0
-    style 3 fill:#ffebee
-    style 4 fill:#e8f5e9
+    style S1 fill:#e3f2fd
+    style S2 fill:#fff3e0
+    style S3 fill:#ffebee
+    style S4 fill:#e8f5e9
 ```
 
 ### 2.2 案例：100万资产配置

@@ -9,270 +9,50 @@ description: 让人不生病、生病了怎么治——从身体到心理
 
 ---
 
-## 🎯 一句话理解健康科学
+## 📚 内容导航
 
-**健康科学就是研究"怎么不生病、生病了怎么治"的学问！**
-
-为什么人会生病？为什么会痛？怎么才能健康？健康科学就是回答这些问题的！
-
----
-
-## 🏗️ 健康科学的"积木塔"
-
-```mermaid
-graph TB
-    TOP["健康科学<br/>让人健康"] --> BASIC["基础医学<br/>身体里面长什么样"]
-    TOP --> CLINIC["临床医学<br/>生病了怎么看"]
-    TOP --> PUBLIC["公共卫生<br/>怎么让大家都健康"]
-    TOP --> NURSE["护理<br/>怎么照顾病人"]
-    TOP --> PHARMA["药学<br/>药是怎么做的"]
-    TOP --> REHAB["康复<br/>受伤了怎么恢复"]
-
-    BASIC --> BODY[身体结构]
-    BASIC --> DISEASE[疾病原理]
-    BASIC --> TEST[检查方法]
-
-    CLINIC --> DIAG[诊断]
-    CLINIC --> TREAT[治疗]
-    CLINIC --> SURGERY[手术]
-
-    PUBLIC --> PREVENT[预防]
-    PUBLIC --> PROMOTE[促进]
-    PUBLIC --> SERVICE[服务]
-
-    NURSE --> CARE[照顾]
-    NURSE --> PLAN[计划]
-    NURSE --> SKILL[技能]
-
-    PHARMA --> DRUG[药物]
-    PHARMA --> EFFECT[效果]
-    PHARMA --> SAFE[安全]
-
-    REHAB --> ASSESS[评估]
-    REHAB --> PHYSICAL[物理]
-    REHAB --> DAILY[生活]
-
-    style TOP fill:#fff3e0
-    style BASIC fill:#e3f2fd
-    style CLINIC fill:#e8f5e9
-    style PUBLIC fill:#fce4ec
-    style NURSE fill:#f3e5f5
-    style PHARMA fill:#e0f7fa
-    style REHAB fill:#f1f8e9
-```
-
----
-
-## 🗂️ 内容导航
-
-| 领域 | 说明 | 链接 |
+| 名称 | 说明 | 链接 |
 |------|------|------|
-| 🔬 基础医学 | 身体结构与疾病原理 | [进入](basic-medicine/index.md) |
-| 🏥 临床医学 | 诊断、治疗与手术 | [进入](clinical-medicine/index.md) |
-| 💊 药学 | 药物研发与应用 | [进入](pharmacy/index.md) |
-| 👩‍⚕️ 护理 | 照顾病人与护理技能 | [进入](nursing/index.md) |
-| 🌍 公共卫生 | 预防疾病、促进健康 | [进入](public-health/index.md) |
-| 🏃 康复 | 受伤后的功能恢复 | [进入](rehabilitation/index.md) |
-| 🩺 康复医学 | 功能障碍的评定与治疗 | [进入](rehabilitation-medicine/index.md) |
-| ⚕️ 医学 | 健康与疾病的知识体系 | [进入](medicine/index.md) |
-| 🏡 家庭健康 | 全家人的日常健康照护 | [进入](family-health/index.md) |
-| 🩸 慢性病管理 | 慢病长期健康管理 | [进入](chronic-disease/index.md) |
-| 🧠 心理健康 | 情绪、压力与内心健康 | [进入](mental-health/index.md) |
-| 🥗 营养学 | 科学的吃法 | [进入](nutrition/index.md) |
-| 🏥 健康医疗 | 健康管理与就医指南 | [进入](healthcare/index.md) |
-| 🏡 生活指南 | 衣食住行、亲子教育 | [进入](life/index.md) |
-| 🏃‍♂️ 体育科学 | 运动与棋类学习 | [进入](sports-science/index.md) |
+| 基础医学 | 从医学视角理解人体结构、系统与常见化验指标 | [进入](basic-medicine/index.md) |
+| 慢性病管理 | 高血压、糖尿病、慢阻肺等慢性病的长期健康管理 | [进入](chronic-disease/index.md) |
+| 临床医学 | 疾病诊断、治疗与临床决策的核心知识体系 | [进入](clinical-medicine/index.md) |
+| 家庭健康 | 守护全家人的日常健康 | [进入](family-health/index.md) |
+| 健康医疗 | 理解健康管理与医疗指南 | [进入](healthcare/index.md) |
+| Life | 生活指南：衣食住行、亲子教育、时间管理 | [进入](life/index.md) |
+| 医学 | 研究人体健康与疾病防治的知识体系 | [进入](medicine/index.md) |
+| 心理健康 | 认识情绪、压力与心理困扰，守护内心的健康 | [进入](mental-health/index.md) |
+| 护理学 | 护理程序、安全用药、压疮与跌倒预防的入门导航 | [进入](nursing/index.md) |
+| 营养学 | 用科学的吃法支撑健康的身体 | [进入](nutrition/index.md) |
+| 药学 | 药代动力学、相互作用与合理用药的入门导航 | [进入](pharmacy/index.md) |
+| 公共卫生 | 三级预防、传染病控制与群体健康管理的入门导航 | [进入](public-health/index.md) |
+| 康复医学 | 理解康复治疗的核心知识与技术 | [进入](rehabilitation/index.md) |
+| 体育科学 | 体育科学相关资源导航 | [进入](sports-science/index.md) |
 
 ---
 
-## 📚 每个积木块详解
+## 🎯 按问题找答案
 
-### 🔬 基础医学（身体里面长什么样）
-
-**用小学生的话说**：基础医学就是研究"身体里面长什么样"的学问！
-
-```mermaid
-graph TB
-    subgraph 基础医学
-        B1["身体<br/>由什么组成"]
-        B2["器官<br/>怎么工作"]
-        B3["疾病<br/>为什么会生病"]
-    end
-    
-    B1 --> B2 --> B3
-    
-    style B1 fill:#e3f2fd
-```
-
-| 积木块 | 小学生版解释 | 生活中的例子 |
-|--------|--------------|--------------|
-| 身体 | 由什么组成 | 头、手、脚 |
-| 器官 | 怎么工作 | 心脏跳、肺呼吸 |
-| 疾病 | 为什么会生病 | 感冒、发烧 |
+| 你的情况 | 先看 |
+|----------|------|
+| 想看懂体检报告里的指标 | [基础医学](basic-medicine/index.md) |
+| 家人住院，想配合治疗 | [临床医学](clinical-medicine/index.md) / [护理学](nursing/index.md) |
+| 三高、糖尿病要长期管 | [慢性病管理](chronic-disease/index.md) |
+| 吃药担心相冲、剂量 | [药学](pharmacy/index.md) |
+| 术后/中风后想恢复功能 | [康复医学](rehabilitation/index.md) |
+| 情绪、失眠、压力 | [心理健康](mental-health/index.md) |
+| 怎么吃、怎么练 | [营养学](nutrition/index.md) / [体育科学](sports-science/index.md) |
+| 想理解传染病与疫苗 | [公共卫生](public-health/index.md) |
+| 全家日常健康 | [家庭健康](family-health/index.md) / [Life](life/index.md) |
 
 ---
 
-### 🏥 临床医学（生病了怎么看）
+## 🔗 相关链接
 
-**用小学生的话说**：临床医学就是研究"生病了怎么看、怎么治"的学问！
-
-```mermaid
-graph TB
-    subgraph 临床医学
-        C1["诊断<br/>得了什么病"]
-        C2["治疗<br/>怎么治"]
-        C3["手术<br/>开刀"]
-    end
-    
-    C1 --> C2 --> C3
-    
-    style C1 fill:#e8f5e9
-```
-
-| 积木块 | 小学生版解释 | 生活中的例子 |
-|--------|--------------|--------------|
-| 诊断 | 得了什么病 | 医生看、做检查 |
-| 治疗 | 怎么治 | 吃药、打针 |
-| 手术 | 开刀 | 切除阑尾 |
-
----
-
-### 🌍 公共卫生（怎么让大家都健康）
-
-**用小学生的话说**：公共卫生就是研究"怎么让大家都健康"的学问！
-
-```mermaid
-graph TB
-    subgraph 公共卫生
-        P1["预防<br/>不生病"]
-        P2["促进<br/>更健康"]
-        P3["服务<br/>怎么帮"]
-    end
-    
-    P1 --> P2 --> P3
-    
-    style P1 fill:#fce4ec
-```
-
-| 积木块 | 小学生版解释 | 生活中的例子 |
-|--------|--------------|--------------|
-| 预防 | 不生病 | 打疫苗、洗手 |
-| 促进 | 更健康 | 多运动、吃蔬菜 |
-| 服务 | 怎么帮 | 医院、社区卫生 |
-
----
-
-### 👩‍⚕️ 护理（怎么照顾病人）
-
-**用小学生的话说**：护理就是研究"怎么照顾病人"的学问！
-
-```mermaid
-graph TB
-    subgraph 护理
-        N1["照顾<br/>照顾病人"]
-        N2["计划<br/>怎么照顾"]
-        N3["技能<br/>用什么方法"]
-    end
-    
-    N1 --> N2 --> N3
-    
-    style N1 fill:#f3e5f5
-```
-
-| 积木块 | 小学生版解释 | 生活中的例子 |
-|--------|--------------|--------------|
-| 照顾 | 照顾病人 | 端水、喂药 |
-| 计划 | 怎么照顾 | 安排吃药时间 |
-| 技能 | 用什么方法 | 量体温、包扎 |
-
----
-
-### 💊 药学（药是怎么做的）
-
-**用小学生的话说**：药学就是研究"药是怎么做出来的"的学问！
-
-```mermaid
-graph TB
-    subgraph 药学
-        PH1["药物<br/>什么药"]
-        PH2["效果<br/>治什么"]
-        PH3["安全<br/>能不能吃"]
-    end
-    
-    PH1 --> PH2 --> PH3
-    
-    style PH1 fill:#e0f7fa
-```
-
-| 积木块 | 小学生版解释 | 生活中的例子 |
-|--------|--------------|--------------|
-| 药物 | 什么药 | 感冒药、退烧药 |
-| 效果 | 治什么 | 治感冒、退烧 |
-| 安全 | 能不能吃 | 不能乱吃药 |
-
----
-
-### 🏃 康复（受伤了怎么恢复）
-
-**用小学生的话说**：康复就是研究"受伤了怎么恢复"的学问！
-
-```mermaid
-graph TB
-    subgraph 康复
-        R1["评估<br/>伤得怎么样"]
-        R2["物理<br/>怎么恢复"]
-        R3["生活<br/>怎么适应"]
-    end
-    
-    R1 --> R2 --> R3
-    
-    style R1 fill:#f1f8e9
-```
-
-| 积木块 | 小学生版解释 | 生活中的例子 |
-|--------|--------------|--------------|
-| 评估 | 伤得怎么样 | 医生检查 |
-| 物理 | 怎么恢复 | 按摩、运动 |
-| 生活 | 怎么适应 | 学会用拐杖 |
-
----
-
-## 🎮 健康科学闯关游戏
-
-```mermaid
-graph LR
-    A["第1关<br/>基础医学"] --> B["第2关<br/>临床医学"]
-    B --> C["第3关<br/>公共卫生"]
-    C --> D["第4关<br/>护理"]
-    D --> E["第5关<br/>药学"]
-    E --> F["第6关<br/>康复"]
-    
-    style A fill:#e3f2fd
-    style B fill:#e8f5e9
-    style C fill:#fce4ec
-    style D fill:#f3e5f5
-    style E fill:#e0f7fa
-    style F fill:#f1f8e9
-```
-
-**闯关秘籍**：
-1. **第1关**：学基础医学（了解身体）
-2. **第2关**：学临床医学（了解治病）
-3. **第3关**：学公共卫生（了解预防）
-4. **第4关**：学护理（了解照顾）
-5. **第5关**：学药学（了解药物）
-6. **第6关**：学康复（了解恢复）
-
----
-
-## 💡 给小学生的话
-
-> 健康是最重要的！
-> 
-> 多运动、吃蔬菜、勤洗手！
-> 
-> 你也可以成为医生或护士！
-
----
-
-**每个医学家都曾经是初学者！**
+| 主题 | 链接 |
+|------|------|
+| 上一级 | [打开](../index.md) |
+| AI-IT知识体系 | [打开](../ai-it/index.md) |
+| 工程技术 | [打开](../engineering/index.md) |
+| 人文学科 | [打开](../humanities/index.md) |
+| 管理学 | [打开](../management/index.md) |
+| 自然科学 | [打开](../natural-sciences/index.md) |

@@ -8,13 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "知识体系",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
-    locale: "en-US",
-    baseUrl: "sosiristseng.github.io/template-quartz",
+    locale: "zh-CN",
+    baseUrl: "wxyClark.github.io",
     ignorePatterns: ["private", "_templates", ".obsidian", "demo"],
     defaultDateType: "modified",
     theme: {
@@ -55,9 +55,8 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        // you can add 'git' here for last modified from Git
-        // if you do rely on git for dates, ensure defaultDateType is 'modified'
-        priority: ["frontmatter", "filesystem"],
+        // 优先使用 git 历史时间；CI 已 fetch-depth: 0
+        priority: ["frontmatter", "git", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
