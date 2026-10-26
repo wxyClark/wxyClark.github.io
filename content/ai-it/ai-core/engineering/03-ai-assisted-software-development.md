@@ -360,5 +360,7 @@ graph TB
 
 ## 延伸阅读
 
+- [软件工程全生命周期](../../fundamentals/software/00-software-engineering-overview.md) — AI 在需求到监控八道关卡中的准确定位
+
 - [09 AI开发实战案例](./05-ai-development-case-studies.md) — Python实战与代码分析
 - [11 AI工具链与平台推荐](./07-ai-tools-platforms.md) — 查看推荐开发工具

@@ -234,4 +234,5 @@ public function getHotProduct(int $id): Product
 ---
 
 ## 延伸阅读
-- [08 性能优化方法论](../fundamentals/software/06-performance-optimization.md) — 缓存优化深入
+- [性能优化](../fundamentals/software/13-performance-optimization.md) — 缓存优化深入
+- [后端开发](../fundamentals/software/06-backend-engineering.md) — 缓存与数据库的一致性策略

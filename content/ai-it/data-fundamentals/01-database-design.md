@@ -231,4 +231,4 @@ EXPLAIN SELECT * FROM orders WHERE user_id = 123;
 ---
 
 ## 延伸阅读
-- [08 性能优化方法论](../fundamentals/software/06-performance-optimization.md) — 数据库性能优化深入
+- [性能优化](../fundamentals/software/13-performance-optimization.md) — 数据库性能优化深入

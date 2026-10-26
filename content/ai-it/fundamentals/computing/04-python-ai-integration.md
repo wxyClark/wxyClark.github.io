@@ -224,5 +224,5 @@ async def analyze(request: dict):
 ---
 
 ## 延伸阅读
-- [16 Go语言与高并发](./03-go-concurrency.md) — Go与Python对比
-- [18 系统安全设计](../../network-fundamentals/02-system-security-design.md) — AI系统的安全考虑
+- [Go 语言与高并发](./03-go-concurrency.md) — Go与Python对比
+- [系统安全设计](../../network-fundamentals/03-system-security-design.md) — AI系统的安全考虑
