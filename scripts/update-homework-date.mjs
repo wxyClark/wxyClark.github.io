@@ -20,16 +20,18 @@ const weekdays = {
 const dateStr = `${parts.year}年${Number(parts.month)}月${Number(parts.day)}日 ${weekdays[parts.weekday]}`;
 
 const lines = text.split("\n");
-const hi = lines.findIndex((l) => /^#\s*今日作业/.test(l));
+// 恰好 H1「# 今日作业」（避免误匹配 ## 或带后缀的标题）
+const hi = lines.findIndex((l) => /^#\s+今日作业\s*$/.test(l));
 if (hi === -1) {
-  console.error(`WARN: 未找到「# 今日作业」标题（${file}）`);
-  process.exit(0);
+  console.error(`ERROR: 未找到「# 今日作业」标题（${file}）——请检查 homework.md 结构`);
+  process.exit(1);
 }
+// 标题下方第一个非空行即日期行，覆写为今日日期（若该行不是日期格式则报警，避免误砸）
 let di = hi + 1;
 while (di < lines.length && lines[di].trim() === "") di++;
-if (di >= lines.length) {
-  console.error(`WARN: 标题后未找到日期行（${file}）`);
-  process.exit(0);
+if (di >= lines.length || !/^[0-9]{4}年/.test(lines[di].trim())) {
+  console.error(`ERROR: 「# 今日作业」标题后未找到日期行（${file}）`);
+  process.exit(1);
 }
 lines[di] = dateStr;
 fs.writeFileSync(file, lines.join("\n"));
