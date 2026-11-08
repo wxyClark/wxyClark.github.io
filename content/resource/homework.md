@@ -10,7 +10,7 @@
 2. 待修改文本
 3. 待修改文本
 
-![几何示例](images/mandala.png)
+![几何示例](/resource/images/mandala.png)
 
 ## 英语作业
 1. 待修改文本
