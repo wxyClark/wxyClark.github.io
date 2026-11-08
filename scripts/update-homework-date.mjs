@@ -1,4 +1,4 @@
-// 构建期把「今日日期 + 星期」注入 content/resource/homework.md 的 # 近日作业（...）标题
+// 构建期把「今日日期 + 星期」写入 content/resource/homework.md 的 # 今日作业 标题下方的日期行
 // 按 Asia/Shanghai 时区取日期，保证定时任务在北京午夜后运行也显示正确当天
 import fs from "node:fs";
 import path from "node:path";
@@ -17,13 +17,20 @@ const weekdays = {
   Sunday: "星期日", Monday: "星期一", Tuesday: "星期二", Wednesday: "星期三",
   Thursday: "星期四", Friday: "星期五", Saturday: "星期六",
 };
-const dateStr = `${parts.year}年${Number(parts.month)}月${Number(parts.day)}日，${weekdays[parts.weekday]}`;
+const dateStr = `${parts.year}年${Number(parts.month)}月${Number(parts.day)}日 星期${weekdays[parts.weekday]}`;
 
-const before = text;
-text = text.replace(/^(#\s*近日作业（)[^）]*）/m, (_m, p1) => `${p1}${dateStr}）`);
-if (text === before) {
-  console.error(`WARN: 未找到近日作业标题（${file}）`);
+const lines = text.split("\n");
+const hi = lines.findIndex((l) => /^#\s*今日作业/.test(l));
+if (hi === -1) {
+  console.error(`WARN: 未找到「# 今日作业」标题（${file}）`);
   process.exit(0);
 }
-fs.writeFileSync(file, text);
+let di = hi + 1;
+while (di < lines.length && lines[di].trim() === "") di++;
+if (di >= lines.length) {
+  console.error(`WARN: 标题后未找到日期行（${file}）`);
+  process.exit(0);
+}
+lines[di] = dateStr;
+fs.writeFileSync(file, lines.join("\n"));
 console.log(`homework date updated to: ${dateStr}`);
