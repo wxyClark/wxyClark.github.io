@@ -17,7 +17,7 @@ const weekdays = {
   Sunday: "星期日", Monday: "星期一", Tuesday: "星期二", Wednesday: "星期三",
   Thursday: "星期四", Friday: "星期五", Saturday: "星期六",
 };
-const dateStr = `${parts.year}年${Number(parts.month)}月${Number(parts.day)}日 星期${weekdays[parts.weekday]}`;
+const dateStr = `${parts.year}年${Number(parts.month)}月${Number(parts.day)}日 ${weekdays[parts.weekday]}`;
 
 const lines = text.split("\n");
 const hi = lines.findIndex((l) => /^#\s*今日作业/.test(l));
