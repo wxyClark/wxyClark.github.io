@@ -12,6 +12,8 @@ on:
     branches:
       - main
   workflow_dispatch:
+  schedule:
+    - cron: '30 16 * * *'   # 每天 16:30 UTC = 北京 00:30，自动重建使日期刷新
 
 jobs:
   build:
@@ -24,6 +26,8 @@ jobs:
           fetch-depth: 0 # Fetch all history
       - name: Lint content
         run: node scripts/lint-content.mjs
+      - name: Update homework date
+        run: node scripts/update-homework-date.mjs
       - name: Copy documents and configurations
         run: |
           cp -v quartz.config.ts quartz.layout.ts quartz
