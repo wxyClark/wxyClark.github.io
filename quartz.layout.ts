@@ -13,12 +13,16 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
+// 隐藏布局的页面：只显主体内容（不显左右边栏/面包屑）
+const HIDE_LAYOUT_SLUGS = new Set(["resource/homework"]);
+const isHiddenLayout = (page) => HIDE_LAYOUT_SLUGS.has(page.fileData.slug ?? "");
+
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index" && page.fileData.slug !== "resource/homework",
+      condition: (page) => page.fileData.slug !== "index" && !isHiddenLayout(page),
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
@@ -27,11 +31,11 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.ConditionalRender({
       component: Component.PageTitle(),
-      condition: (page) => page.fileData.slug !== "resource/homework",
+      condition: (page) => !isHiddenLayout(page),
     }),
     Component.ConditionalRender({
       component: Component.MobileOnly(Component.Spacer()),
-      condition: (page) => page.fileData.slug !== "resource/homework",
+      condition: (page) => !isHiddenLayout(page),
     }),
     Component.ConditionalRender({
       component: Component.Flex({
@@ -44,25 +48,25 @@ export const defaultContentPageLayout: PageLayout = {
           { Component: Component.ReaderMode() },
         ],
       }),
-      condition: (page) => page.fileData.slug !== "resource/homework",
+      condition: (page) => !isHiddenLayout(page),
     }),
     Component.ConditionalRender({
       component: Component.Explorer(),
-      condition: (page) => page.fileData.slug !== "resource/homework",
+      condition: (page) => !isHiddenLayout(page),
     }),
   ],
   right: [
     Component.ConditionalRender({
       component: Component.Graph(),
-      condition: (page) => page.fileData.slug !== "resource/homework",
+      condition: (page) => !isHiddenLayout(page),
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
-      condition: (page) => page.fileData.slug !== "resource/homework",
+      condition: (page) => !isHiddenLayout(page),
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),
-      condition: (page) => page.fileData.slug !== "resource/homework",
+      condition: (page) => !isHiddenLayout(page),
     }),
   ],
 }
