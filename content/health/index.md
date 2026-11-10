@@ -18,6 +18,7 @@ description: 让人不生病、生病了怎么治——从身体到心理
 | 临床医学 | 疾病诊断、治疗与临床决策的核心知识体系 | [进入](clinical-medicine/index.md) |
 | 家庭健康 | 守护全家人的日常健康 | [进入](family-health/index.md) |
 | 健康医疗 | 理解健康管理与医疗指南 | [进入](healthcare/index.md) |
+| 健康管理师（三级） | 考三级 + 直接上手：考试 9 模块 + 行业实操 2 模块 | [进入](health-manager/index.md) |
 | Life | 生活指南：衣食住行、亲子教育、时间管理 | [进入](life/index.md) |
 | 医学 | 研究人体健康与疾病防治的知识体系 | [进入](medicine/index.md) |
 | 心理健康 | 认识情绪、压力与心理困扰，守护内心的健康 | [进入](mental-health/index.md) |
