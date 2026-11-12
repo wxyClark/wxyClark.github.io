@@ -19,6 +19,7 @@ description: 从风险因素到体检报告解读的完整评估链路，考试�
 | [02-physical-measurements.md](02-physical-measurements.md) | BMI、腰围、血压测量规范 | 必背数字 |
 | [03-psychological-tools.md](03-psychological-tools.md) | SAS/SDS/PHQ-9/GAD-7 分界值 | 量表类题必考 |
 | [04-medical-report.md](04-medical-report.md) | 常见异常指标速查 + 读报告流程 | 业务高频 |
+| [05-assessment-workflow.md](05-assessment-workflow.md) | 评估链路总览、风险因素四象限、易混淆点 | 框架 |
 
 **按场景找答案：**
 
@@ -28,34 +29,13 @@ description: 从风险因素到体检报告解读的完整评估链路，考试�
 | 血压怎么量才算数 | [02 测量规范](02-physical-measurements.md) |
 | 量表多少分算异常 | [03 量表](03-psychological-tools.md) |
 | 体检报告箭头怎么解读 | [04 报告](04-medical-report.md) |
+| 评估流程怎么串起来 | [05 链路](05-assessment-workflow.md) |
 
 **本模块官方权重：** 技能卷「信息采集」20%（含体格测量）+「健康风险评估与分析」10% —— 技能卷第一大块。
 
 ---
 
-## 二、评估链路总览
-
-```mermaid
-flowchart TB
-    A["健康评估"] --> B["1 问<br/>风险因素"]
-    A --> C["2 量<br/>体格 + 指标"]
-    A --> D["3 测<br/>心理量表"]
-    A --> E["4 读<br/>体检报告"]
-    B & C & D & E --> F["5 出<br/>风险评估结论"]
-
-    style A fill:#e3f2fd
-    style B fill:#fff3e0
-    style C fill:#e8f5e9
-    style D fill:#f3e5f5
-    style E fill:#e3f2fd
-    style F fill:#ffebee
-```
-
-**健康管理全流程定位：** 评估是「评估→干预→随访→结局」的第一步（详见 [05 疾病管理](../05-disease-management/index.md)），评估结论决定干预方向。
-
----
-
-## 三、核心知识点提炼（本模块必背）
+## 二、核心知识点提炼（本模块必背）
 
 | 要点 | 数字/口径 |
 |------|-----------|
@@ -70,44 +50,7 @@ flowchart TB
 
 ---
 
-## 四、核心流程（速览）
-
-### 4.1 风险因素四象限
-
-```mermaid
-flowchart LR
-    A["风险因素"] --> B["行为因素"]
-    A --> C["生理因素"]
-    A --> D["环境因素"]
-    A --> E["遗传因素"]
-
-    B --> B1["吸烟<br/>饮酒<br/>运动不足<br/>饮食"]
-    C --> C1["血压<br/>血糖<br/>BMI"]
-    D --> D1["污染<br/>职业暴露<br/>噪音"]
-    E --> E1["家族史<br/>遗传倾向"]
-
-    style A fill:#e3f2fd
-    style B fill:#fff3e0
-    style C fill:#e8f5e9
-    style D fill:#f3e5f5
-    style E fill:#ffebee
-```
-
-> 可干预性排序：**行为因素可干预性最强**（吸烟、运动、饮食是干预抓手），遗传因素只能识别不能改。
-
-## 五、易混淆点 / 常见坑
-
-| 误区 | 正确做法 |
-|------|----------|
-| 量表分数高 = 患抑郁症 | 量表是筛查工具，确诊须精神科评估 |
-| 自己量一次血压就能下结论 | 须规范测量（坐位安静 5min）+ 非同日多次 |
-| BMI 正常就不用管 | 中心性肥胖（腰围）可独立于 BMI 存在 |
-| 风险因素只问行为 | 遗传（家族史）+ 环境（职业暴露）同等重要 |
-| 读报告只看箭头 | 须结合既往值变化趋势 + 靶器官影响 |
-
----
-
-## 六、一页速查
+## 三、一页速查
 
 | 问题 | 答案 |
 |------|------|
@@ -121,20 +64,16 @@ flowchart LR
 
 ---
 
-## 七、相关链接
+## 四、相关链接
 
 | 主题 | 链接 |
 |------|------|
-| 风险因素详解 | [01 风险因素](01-risk-factors.md) |
-| 体格测量规范 | [02 测量](02-physical-measurements.md) |
-| 心理量表详解 | [03 量表](03-psychological-tools.md) |
-| 体检报告解读 | [04 报告](04-medical-report.md) |
 | 疾病管理 | [05 疾病管理](../05-disease-management/index.md) |
 | 行业实操 | [10 行业实操](../10-industry-practice/index.md) |
 
 ---
 
-## 八、推荐阅读
+## 五、推荐阅读
 
 - 《健康管理师》（三级）健康评估章节 — 人民卫生出版社
 - 《医学心理学》（院校教材）— 人民卫生出版社
