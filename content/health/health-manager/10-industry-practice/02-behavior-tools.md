@@ -11,7 +11,7 @@ description: 打卡系统设计、可穿戴设备数据解读、依从性管理�
 
 ## 一、模块定位
 
-习惯指导业务的"怎么做"。**业务必备**，理论见 [08 心理行为](../08-psychology-education.md)。
+习惯指导业务的"怎么做"。**业务必备**，理论见 [08 心理行为](../08-psychology-education/index.md)。
 
 ---
 
@@ -64,7 +64,7 @@ flowchart TB
 | 问 | 内容 |
 |----|------|
 | 做到没 | 本周目标完成率 |
-| 卡在哪 | 阻碍（知识/动机/能力/环境，对应 [08 OARS](../08-psychology-education.md)） |
+| 卡在哪 | 阻碍（知识/动机/能力/环境，对应 [08 OARS](../08-psychology-education/index.md)） |
 | 下一步 | 下周微调整 |
 | 进步 | 至少 1 条正反馈 |
 
@@ -113,7 +113,7 @@ flowchart LR
 
 | 动作 | 内容 |
 |------|------|
-| 动机性访谈应用 | 每 2-4 周 1 次 OARS，识别障碍类型（知识/动机/能力/环境，见 [08](../08-psychology-education.md)） |
+| 动机性访谈应用 | 每 2-4 周 1 次 OARS，识别障碍类型（知识/动机/能力/环境，见 [08](../08-psychology-education/index.md)） |
 | SMART 设定 | 每次随访更新周目标 |
 | 正强化 | 达成 1 项 = 明确肯定（非"你本该做到"） |
 | 中断处理 | 打卡中断 ≠ 失败，重启成本 < 重新开始 |
@@ -150,5 +150,5 @@ flowchart LR
 | 主题 | 链接 |
 |------|------|
 | 行业实操总览 | [10 总览](index.md) |
-| 心理行为理论 | [08 心理行为](../08-psychology-education.md) |
+| 心理行为理论 | [08 心理行为](../08-psychology-education/index.md) |
 | 疾病管理随访 | [05 全流程](../05-disease-management/index.md) |

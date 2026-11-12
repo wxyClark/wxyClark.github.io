@@ -72,21 +72,21 @@ flowchart TB
 
 | 模块 | 权重 | 对应文件 |
 |------|------|----------|
-| 医学基础知识 | 16% | [02 基础医学](02-basic-medicine/index.md) + [03 疾病基础](03-disease-basics.md) |
-| 流行病与卫生统计 | 12% | [09 健康信息](09-health-info.md) |
-| 健康教育 | 7% | [08 心理与行为](08-psychology-education.md) |
+| 医学基础知识 | 16% | [02 基础医学](../02-basic-medicine/index.md) + [03 疾病基础](../03-disease-basics/index.md) |
+| 流行病与卫生统计 | 12% | [09 健康信息](../09-health-info/index.md) |
+| 健康教育 | 7% | [08 心理与行为](../08-psychology-education/index.md) |
 | 健康保险 | 2% | 业务了解（不进 01~09） |
-| 职业道德 | 5% | [01 伦理法规](01-ethics-legal.md) |
+| 职业道德 | 5% | [01 伦理法规](../01-ethics-legal/index.md) |
 
 **技能卷考纲权重（固定权重表）：**
 
 | 技能项 | 权重 | 对应文件 |
 |--------|------|----------|
-| 信息采集（含体格测量） | 20% | [04 测量](04-health-assessment/index.md) |
-| 健康风险评估与分析 | 10% | [04 风险因素](04-health-assessment/index.md) |
-| 健康教育 | 5% | [08 心理与行为](08-psychology-education.md) |
-| 干预方案实施 | 10% | [05 疾病管理](05-disease-management/index.md) |
-| 随访管理 | 10% | [05 全流程](05-disease-management/index.md) |
+| 信息采集（含体格测量） | 20% | [04 测量](../04-health-assessment/index.md) |
+| 健康风险评估与分析 | 10% | [04 风险因素](../04-health-assessment/index.md) |
+| 健康教育 | 5% | [08 心理与行为](../08-psychology-education/index.md) |
+| 干预方案实施 | 10% | [05 疾病管理](../05-disease-management/index.md) |
+| 随访管理 | 10% | [05 全流程](../05-disease-management/index.md) |
 
 **考纲 9 大模块（对应 01~09 文件）：**
 
@@ -142,8 +142,8 @@ flowchart LR
 | 先学什么 | 理论卷 02/03 医学知识 → 04 评估/风险 → 05 管理；技能卷 04 测量 + 08 教育 |
 | 题型 | 理论卷全客观（单选/多选/判断）；技能卷综合分析题（简答/论述/案例） |
 | 健康管理师能做 | 评估、建议、随访、健康教育、转诊提醒 |
-| 健康管理师不能做 | 诊断、开处方、治疗决策（详见 [11 边界](11-boundaries/index.md)） |
-| 学完能干什么 | 体检机构、健管公司、社区、保险、养老——见 [10 行业实操](10-industry-practice/index.md) |
+| 健康管理师不能做 | 诊断、开处方、治疗决策（详见 [11 边界](../11-boundaries/index.md)） |
+| 学完能干什么 | 体检机构、健管公司、社区、保险、养老——见 [10 行业实操](../10-industry-practice/index.md) |
 
 ---
 

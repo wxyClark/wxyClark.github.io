@@ -105,8 +105,8 @@ flowchart TB
 
 | 主题 | 链接 |
 |------|------|
-| 知识体系全景 | [00 全景](../00-overview.md) |
-| 营养理论 | [06 营养](../06-nutrition.md) |
-| 行为理论 | [08 心理行为](../08-psychology-education.md) |
+| 知识体系全景 | [00 全景](../00-overview/index.md) |
+| 营养理论 | [06 营养](../06-nutrition/index.md) |
+| 行为理论 | [08 心理行为](../08-psychology-education/index.md) |
 | 疾病管理 | [05 疾病管理](../05-disease-management/index.md) |
 | 边界合规 | [11 边界](../11-boundaries/index.md) |

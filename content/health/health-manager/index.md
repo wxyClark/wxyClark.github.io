@@ -13,7 +13,7 @@ description: 考过三级 + 直接上手：9 大考试模块 + 2 个行业实操
 
 | 问题 | 答案在哪 |
 |------|----------|
-| 三级考什么、怎么考 | [知识体系全景](00-overview.md) |
+| 三级考什么、怎么考 | [知识体系全景](00-overview/index.md) |
 | 考纲 9 大模块各讲什么 | 下方「模块导航」 |
 | 考证之外行业怎么做（营养建议/习惯指导/陪诊） | [行业实操](10-industry-practice/index.md) / [边界与合规](11-boundaries/index.md) |
 
@@ -25,15 +25,15 @@ description: 考过三级 + 直接上手：9 大考试模块 + 2 个行业实操
 
 | 文件 | 模块 | 权重 | 一句话 |
 |------|------|------|--------|
-| [01-ethics-legal.md](01-ethics-legal.md) | 职业道德与法规 | ★ | 职业伦理 + 卫生法规基础，考点散、篇幅短 |
+| [01-ethics-legal/](01-ethics-legal/index.md) | 职业道德与法规 | ★ | 职业伦理 + 卫生法规基础，考点散、篇幅短 |
 | [02-basic-medicine/](02-basic-medicine/index.md) | 基础医学 | ★★ | 解剖/生理/药理高频考点：五大系统 + 常用药物速查 |
-| [03-disease-basics.md](03-disease-basics.md) | 疾病基础 | ★★ | 心脑血管、肿瘤、三高、感染、内分泌五大类：定义→高危因素→三级预防落点 |
+| [03-disease-basics/](03-disease-basics/index.md) | 疾病基础 | ★★ | 心脑血管、肿瘤、三高、感染、内分泌五大类：定义→高危因素→三级预防落点 |
 | [04-health-assessment/](04-health-assessment/index.md) | 健康评估 | ★★★ | 风险因素识别、体格测量规范、量表分界值、报告解读 |
 | [05-disease-management/](05-disease-management/index.md) | 疾病管理 | ★★★ | 慢病全流程 + 高血压/糖尿病管理路径与目标值 |
-| [06-nutrition.md](06-nutrition.md) | 营养与食品安全 | ★★★ | 膳食指南要点、食物交换份法、特殊人群膳食、食品安全合规 |
-| [07-exercise.md](07-exercise.md) | 运动健身指导 | ★★ | 运动处方五要素 FITT、强度判定（心率法/RPE）、禁忌 |
-| [08-psychology-education.md](08-psychology-education.md) | 心理与行为干预 + 健康教育 | ★★★ | 动机性访谈、5A 戒烟、SMART、健康教育程序 |
-| [09-health-info.md](09-health-info.md) | 健康信息与服务 | ★ | 健康档案规范、流行病指标、数据与个人信息保护 |
+| [06-nutrition/](06-nutrition/index.md) | 营养与食品安全 | ★★★ | 膳食指南要点、食物交换份法、特殊人群膳食、食品安全合规 |
+| [07-exercise/](07-exercise/index.md) | 运动健身指导 | ★★ | 运动处方五要素 FITT、强度判定（心率法/RPE）、禁忌 |
+| [08-psychology-education/](08-psychology-education/index.md) | 心理与行为干预 + 健康教育 | ★★★ | 动机性访谈、5A 戒烟、SMART、健康教育程序 |
+| [09-health-info/](09-health-info/index.md) | 健康信息与服务 | ★ | 健康档案规范、流行病指标、数据与个人信息保护 |
 | [10-industry-practice/](10-industry-practice/index.md) | 行业实操（延伸） | 业务必备 | 食谱编制实操、行为干预工具、陪诊流程、急救资质 |
 | [11-boundaries/](11-boundaries/index.md) | 边界与合规（延伸） | 业务必备 | 医疗行为红线、个保法健康信息条款、食品宣传合规 |
 
@@ -61,12 +61,12 @@ description: 考过三级 + 直接上手：9 大考试模块 + 2 个行业实操
 
 | 你的场景 | 先看 | 再看 |
 |----------|------|------|
-| 给客户做营养建议 | [06 营养](06-nutrition.md) | [10 食谱实操](10-industry-practice/index.md) |
-| 给慢病患者做随访 | [05 疾病管理](05-disease-management/index.md) | [03 疾病基础](03-disease-basics.md) |
+| 给客户做营养建议 | [06 营养](06-nutrition/index.md) | [10 食谱实操](10-industry-practice/index.md) |
+| 给慢病患者做随访 | [05 疾病管理](05-disease-management/index.md) | [03 疾病基础](03-disease-basics/index.md) |
 | 帮客户解读体检报告 | [04 健康评估](04-health-assessment/index.md) | [02 基础医学](02-basic-medicine/index.md) |
-| 做戒烟/生活习惯干预 | [08 心理与行为](08-psychology-education.md) | [10 行为工具](10-industry-practice/index.md) |
+| 做戒烟/生活习惯干预 | [08 心理与行为](08-psychology-education/index.md) | [10 行为工具](10-industry-practice/index.md) |
 | 做陪诊服务 | [10 行业实操](10-industry-practice/index.md) | [11 边界合规](11-boundaries/index.md) |
-| 备考（不知道从哪开始） | [00 全景](00-overview.md) | 按「学习优先级」顺序 |
+| 备考（不知道从哪开始） | [00 全景](00-overview/index.md) | 按「学习优先级」顺序 |
 
 ---
 

@@ -161,5 +161,5 @@ flowchart TB
 | 主题 | 链接 |
 |------|------|
 | 基础医学总览 | [02 基础医学](index.md) |
-| 疾病基础（03） | [03 疾病基础](../03-disease-basics.md) |
+| 疾病基础（03） | [03 疾病基础](../03-disease-basics/index.md) |
 | 健康评估（04） | [04 健康评估](../04-health-assessment/index.md) |

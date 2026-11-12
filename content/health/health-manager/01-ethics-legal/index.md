@@ -121,9 +121,9 @@ flowchart TB
 
 | 主题 | 链接 |
 |------|------|
-| 模块总览 | [知识体系全景](00-overview.md) |
-| 边界与合规（行业版） | [11 边界与合规](11-boundaries/index.md) |
-| 健康信息（模块 09） | [09 健康信息与服务](09-health-info.md) |
+| 模块总览 | [知识体系全景](../00-overview/index.md) |
+| 边界与合规（行业版） | [11 边界与合规](../11-boundaries/index.md) |
+| 健康信息（模块 09） | [09 健康信息与服务](../09-health-info/index.md) |
 
 ---
 

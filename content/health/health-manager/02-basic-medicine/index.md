@@ -100,7 +100,7 @@ flowchart LR
 | 混淆对 | 区分要点 |
 |--------|----------|
 | 心绞痛 vs 心梗 | 时间 3-5min vs >30min；硝酸有效 vs 无效 |
-| 发病率 vs 患病率 | 新发病例 vs 现存活病例（见 [09 健康信息](../09-health-info.md)） |
+| 发病率 vs 患病率 | 新发病例 vs 现存活病例（见 [09 健康信息](../09-health-info/index.md)） |
 | 首过效应 vs 生物利用度 | 口服经肝被代谢减少 → 舌下含服（硝酸甘油） |
 | 低钾 vs 高钾 | 低钾多因呕吐/利尿剂；高钾警惕透析患者 + ACEI |
 | TSH 升高 | 不能直接说甲亢——结合 T4：T4 低 = 甲减（代偿），T4 高 = TSH 分泌瘤（少见） |
@@ -127,11 +127,11 @@ flowchart LR
 
 | 主题 | 链接 |
 |------|------|
-| 知识体系全景 | [00 全景](../00-overview.md) |
+| 知识体系全景 | [00 全景](../00-overview/index.md) |
 | 解剖考点 | [01 解剖](01-anatomy.md) |
 | 生理考点 | [02 生理](02-physiology.md) |
 | 药理速记 | [03 药理](03-pathology-pharmacology.md) |
-| 疾病基础（03） | [03 疾病基础](../03-disease-basics.md) |
+| 疾病基础（03） | [03 疾病基础](../03-disease-basics/index.md) |
 | 健康评估（04） | [04 健康评估](../04-health-assessment/index.md) |
 | 疾病管理（05） | [05 疾病管理](../05-disease-management/index.md) |
 

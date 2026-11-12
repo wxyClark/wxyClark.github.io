@@ -108,6 +108,6 @@ flowchart TB
 | 主题 | 链接 |
 |------|------|
 | 边界总览 | [11 总览](index.md) |
-| 伦理法规考点 | [01 伦理法规](../01-ethics-legal.md) |
+| 伦理法规考点 | [01 伦理法规](../01-ethics-legal/index.md) |
 | 个保合规 | [02 个保](02-data-privacy.md) |
 | 健康医疗（外部） | [健康医疗](../../healthcare/index.md) |

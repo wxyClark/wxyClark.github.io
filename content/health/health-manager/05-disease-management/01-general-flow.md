@@ -120,7 +120,7 @@ flowchart TB
     style F fill:#ffebee
 ```
 
-> 依从性干预方法（动机性访谈 OARS、SMART、打卡工具）详见 [08 心理行为](../08-psychology-education.md) 与 [10 行为工具](../10-industry-practice/index.md)。
+> 依从性干预方法（动机性访谈 OARS、SMART、打卡工具）详见 [08 心理行为](../08-psychology-education/index.md) 与 [10 行为工具](../10-industry-practice/index.md)。
 
 ---
 
@@ -157,4 +157,4 @@ flowchart TB
 | 05 总览 | [05 总览](index.md) |
 | 高血压管理 | [02 高血压](02-hypertension.md) |
 | 糖尿病管理 | [03 糖尿病](03-diabetes.md) |
-| 行为干预方法 | [08 心理行为](../08-psychology-education.md) |
+| 行为干预方法 | [08 心理行为](../08-psychology-education/index.md) |

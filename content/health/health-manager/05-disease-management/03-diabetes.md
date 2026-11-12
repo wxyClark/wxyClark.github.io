@@ -93,7 +93,7 @@ flowchart TB
     style F fill:#ffebee
 ```
 
-### 4.1 饮食管理要点（详细见 [06 营养](../06-nutrition.md)）
+### 4.1 饮食管理要点（详细见 [06 营养](../06-nutrition/index.md)）
 
 | 要点 | 内容 |
 |------|------|
@@ -103,7 +103,7 @@ flowchart TB
 | 低 GI 优先 | 全谷物、豆类、蔬菜（见 10 行业实操食谱） |
 | 限糖 | 含糖饮料控制 <25g 游离糖/日（成人） |
 
-### 4.2 运动管理要点（详细见 [07 运动](../07-exercise.md)）
+### 4.2 运动管理要点（详细见 [07 运动](../07-exercise/index.md)）
 
 | 项 | 内容 |
 |----|------|
@@ -196,6 +196,6 @@ flowchart TB
 |------|------|
 | 05 总览 | [05 总览](index.md) |
 | 全流程 | [01 全流程](01-general-flow.md) |
-| 营养干预 | [06 营养](../06-nutrition.md) |
-| 运动干预 | [07 运动](../07-exercise.md) |
+| 营养干预 | [06 营养](../06-nutrition/index.md) |
+| 运动干预 | [07 运动](../07-exercise/index.md) |
 | 食谱实操 | [10 行业实操](../10-industry-practice/index.md) |

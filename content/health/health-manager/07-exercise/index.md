@@ -11,7 +11,7 @@ description: 运动处方五要素 FITT、强度判定（心率法/RPE）、不�
 
 ## 一、模块定位
 
-解决「运动建议怎么给」。**优先级 ★★**：考纲模块；慢病干预三抓手之一（与 06 营养、08 行为并列，落地在 [05 疾病管理](05-disease-management/index.md)）。
+解决「运动建议怎么给」。**优先级 ★★**：考纲模块；慢病干预三抓手之一（与 06 营养、08 行为并列，落地在 [05 疾病管理](../05-disease-management/index.md)）。
 
 ---
 
@@ -59,7 +59,7 @@ flowchart LR
 
 **例子（成人 50 岁）：** 最大心率 ≈ 170 次/min；靶心率 = 170 × 60-80% = 102-136 次/min。
 
-> 服用 β 阻滞剂（如美托洛尔）者靶心率不准，以 RPE 为准（见 [02 药理](02-basic-medicine/index.md)）。
+> 服用 β 阻滞剂（如美托洛尔）者靶心率不准，以 RPE 为准（见 [02 药理](../02-basic-medicine/index.md)）。
 
 ---
 
@@ -145,10 +145,10 @@ flowchart TB
 
 | 主题 | 链接 |
 |------|------|
-| 知识体系全景 | [00 全景](00-overview.md) |
-| 疾病管理 | [05 疾病管理](05-disease-management/index.md) |
-| 营养 | [06 营养](06-nutrition.md) |
-| 行业实操（运动工具） | [10 行业实操](10-industry-practice/index.md) |
+| 知识体系全景 | [00 全景](../00-overview/index.md) |
+| 疾病管理 | [05 疾病管理](../05-disease-management/index.md) |
+| 营养 | [06 营养](../06-nutrition/index.md) |
+| 行业实操（运动工具） | [10 行业实操](../10-industry-practice/index.md) |
 
 ---
 

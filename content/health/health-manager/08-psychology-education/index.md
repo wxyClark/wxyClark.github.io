@@ -213,10 +213,10 @@ flowchart TB
 
 | 主题 | 链接 |
 |------|------|
-| 知识体系全景 | [00 全景](00-overview.md) |
-| 疾病管理（应用） | [05 疾病管理](05-disease-management/index.md) |
-| 行业实操（工具落地） | [10 行业实操](10-industry-practice/index.md) |
-| 营养行为（06） | [06 营养](06-nutrition.md) |
+| 知识体系全景 | [00 全景](../00-overview/index.md) |
+| 疾病管理（应用） | [05 疾病管理](../05-disease-management/index.md) |
+| 行业实操（工具落地） | [10 行业实操](../10-industry-practice/index.md) |
+| 营养行为（06） | [06 营养](../06-nutrition/index.md) |
 
 ---
 

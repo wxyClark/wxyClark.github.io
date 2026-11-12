@@ -72,7 +72,7 @@ flowchart TB
     style G fill:#ffebee
 ```
 
-**关键合规点：** 建档前须取得客户书面授权（见 [11 个保](11-boundaries/index.md)）；档案编码不可使用姓名作唯一标识（防泄露）。
+**关键合规点：** 建档前须取得客户书面授权（见 [11 个保](../11-boundaries/index.md)）；档案编码不可使用姓名作唯一标识（防泄露）。
 
 ---
 
@@ -140,7 +140,7 @@ flowchart TB
 | 数据分析（匿名化） | 脱敏后可用于统计，不可用于个人 |
 | 委托第三方处理 | 合同约定 + 持续监督 |
 
-> 详细业务场景合规见 [11 边界与合规](11-boundaries/index.md)。
+> 详细业务场景合规见 [11 边界与合规](../11-boundaries/index.md)。
 
 ---
 
@@ -185,10 +185,10 @@ flowchart TB
 
 | 主题 | 链接 |
 |------|------|
-| 知识体系全景 | [00 全景](00-overview.md) |
-| 健康评估 | [04 评估](04-health-assessment/index.md) |
-| 疾病管理 | [05 管理](05-disease-management/index.md) |
-| 边界合规 | [11 边界](11-boundaries/index.md) |
+| 知识体系全景 | [00 全景](../00-overview/index.md) |
+| 健康评估 | [04 评估](../04-health-assessment/index.md) |
+| 疾病管理 | [05 管理](../05-disease-management/index.md) |
+| 边界合规 | [11 边界](../11-boundaries/index.md) |
 
 ---
 
